@@ -1,0 +1,2339 @@
+11:17:37  INFO     === BikeWale scraper — snapshot date: 2026-06-08 ===
+11:17:37  INFO     Already completed: 1539 combos
+11:17:49  INFO     === Brand: hero (masking=hero) ===
+11:17:50  INFO       Cities API: 415 cities for hero
+11:17:50  INFO       415 cities to scrape
+11:17:50  INFO     === Brand: honda (masking=honda) ===
+11:17:52  INFO       Cities API: 504 cities for honda
+11:17:52  INFO       504 cities to scrape
+11:17:52  INFO       [showroom] honda / patan
+11:18:04  INFO       [service] honda / pathalgaon
+11:18:10  INFO       [showroom] honda / pathalgaon
+11:18:12  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_pathalgaon_showroom_a1.html
+11:18:15  INFO       [service] honda / pathanamthitta
+11:18:21  INFO       [showroom] honda / pathanamthitta
+11:18:27  INFO       [service] honda / patiala
+11:18:32  INFO       [showroom] honda / patiala
+11:18:38  INFO       [service] honda / patna
+11:18:43  INFO       [showroom] honda / patna
+11:18:48  INFO       [service] honda / paurigarhwal
+11:18:53  INFO       [showroom] honda / paurigarhwal
+11:18:59  INFO       [service] honda / perambalur
+11:19:04  INFO       [showroom] honda / perambalur
+11:19:10  INFO       [service] honda / phagwara
+11:19:15  INFO       [showroom] honda / phagwara
+11:19:20  INFO       [service] honda / pilibhit
+11:19:26  INFO       [showroom] honda / pilibhit
+11:19:32  INFO       [service] honda / pithoragarh
+11:19:37  INFO       [showroom] honda / pithoragarh
+11:19:39  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_pithoragarh_showroom_a1.html
+11:19:43  INFO       [service] honda / porbandar
+11:19:49  INFO       [showroom] honda / porbandar
+11:19:55  INFO       [service] honda / prakasam
+11:20:01  INFO       [showroom] honda / prakasam
+11:20:07  INFO       [service] honda / pratapgarh-rajasthan
+11:20:12  INFO       [showroom] honda / pratapgarh-rajasthan
+11:20:18  INFO       [service] honda / pratapgarh-uttarpradesh
+11:20:23  INFO       [showroom] honda / pratapgarh-uttarpradesh
+11:20:29  INFO       [service] honda / pudukkottai
+11:20:34  INFO       [showroom] honda / pudukkottai
+11:20:40  INFO       [service] honda / pune
+11:20:45  INFO       [showroom] honda / pune
+11:20:51  INFO       [service] honda / puri
+11:20:55  INFO       [showroom] honda / puri
+11:21:01  INFO       [service] honda / raebareli
+11:21:06  INFO       [showroom] honda / raebareli
+11:21:11  INFO       [service] honda / raichur
+11:21:17  INFO       [showroom] honda / raichur
+11:21:23  INFO       [service] honda / raigad
+11:21:28  INFO       [showroom] honda / raigad
+11:21:31  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_raigad_showroom_a1.html
+11:21:35  INFO       [service] honda / raigarh
+11:21:40  INFO       [showroom] honda / raigarh
+11:21:45  INFO       [service] honda / raipur
+11:21:50  INFO       [showroom] honda / raipur
+11:21:57  INFO       [service] honda / raisen
+11:22:02  INFO       [showroom] honda / raisen
+11:22:07  INFO       [service] honda / rajgarh
+11:22:12  INFO       [showroom] honda / rajgarh
+11:22:15  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_rajgarh_showroom_a1.html
+11:22:18  INFO       [service] honda / rajkot
+11:22:23  INFO       [showroom] honda / rajkot
+11:22:29  INFO       [service] honda / rajnandgaon
+11:22:35  INFO       [showroom] honda / rajnandgaon
+11:22:41  INFO       [service] honda / rajouri
+11:22:47  INFO       [showroom] honda / rajouri
+11:22:49  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_rajouri_showroom_a1.html
+11:22:52  INFO       [service] honda / rajsamand
+11:22:57  INFO       [showroom] honda / rajsamand
+11:23:03  INFO       [service] honda / ramanagara
+11:23:08  INFO       [showroom] honda / ramanagara
+11:23:15  INFO       [service] honda / ramanathapuram
+11:23:20  INFO       [showroom] honda / ramanathapuram
+11:23:26  INFO       [service] honda / ramgarh
+11:23:32  INFO       [showroom] honda / ramgarh
+11:23:37  INFO       [service] honda / rampur-himachalpradesh
+11:23:43  INFO       [showroom] honda / rampur-himachalpradesh
+11:23:46  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_rampur-himachalpradesh_showroom_a1.html
+11:23:49  INFO       [service] honda / rampur-uttarpradesh
+11:23:55  INFO       [showroom] honda / rampur-uttarpradesh
+11:24:01  INFO       [service] honda / ranchi
+11:24:07  INFO       [showroom] honda / ranchi
+11:24:12  INFO       [service] honda / rangareddy
+11:24:18  INFO       [showroom] honda / rangareddy
+11:24:25  INFO       [service] honda / ratlam
+11:24:30  INFO       [showroom] honda / ratlam
+11:24:36  INFO       [service] honda / ratnagiri
+11:24:41  INFO       [showroom] honda / ratnagiri
+11:24:47  INFO       [service] honda / rayagada
+11:24:53  INFO       [showroom] honda / rayagada
+11:24:58  INFO       [service] honda / rewa
+11:25:04  INFO       [showroom] honda / rewa
+11:25:10  INFO       [service] honda / rewari
+11:25:15  INFO       [showroom] honda / rewari
+11:25:21  INFO       [service] honda / rohtak
+11:25:27  INFO       [showroom] honda / rohtak
+11:25:37  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/rohtak/ — Page.goto: net::ERR_NETWORK_CHANGED at https://www.bikewale.com/dealer-showrooms/honda/rohtak/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rohtak/", waiting until "networkidle"
+
+11:25:37  INFO       Retrying in 6s ...
+11:25:43  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/rohtak/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rohtak/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rohtak/", waiting until "networkidle"
+
+11:25:43  INFO       Retrying in 12s ...
+11:25:55  WARNING    Error attempt 3/3: https://www.bikewale.com/dealer-showrooms/honda/rohtak/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rohtak/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rohtak/", waiting until "networkidle"
+
+11:25:58  INFO       [service] honda / rohtas
+11:25:58  WARNING    Error attempt 1/3: https://www.bikewale.com/service-centers/honda/rohtas/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rohtas/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rohtas/", waiting until "networkidle"
+
+11:25:58  INFO       Retrying in 6s ...
+11:26:04  WARNING    Error attempt 2/3: https://www.bikewale.com/service-centers/honda/rohtas/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rohtas/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rohtas/", waiting until "networkidle"
+
+11:26:04  INFO       Retrying in 12s ...
+11:26:16  WARNING    Error attempt 3/3: https://www.bikewale.com/service-centers/honda/rohtas/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rohtas/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rohtas/", waiting until "networkidle"
+
+11:26:19  INFO       [showroom] honda / rohtas
+11:26:19  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/rohtas/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rohtas/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rohtas/", waiting until "networkidle"
+
+11:26:19  INFO       Retrying in 6s ...
+11:26:25  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/rohtas/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rohtas/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rohtas/", waiting until "networkidle"
+
+11:26:25  INFO       Retrying in 12s ...
+11:26:37  WARNING    Error attempt 3/3: https://www.bikewale.com/dealer-showrooms/honda/rohtas/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rohtas/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rohtas/", waiting until "networkidle"
+
+11:26:40  INFO       [service] honda / ropar
+11:26:40  WARNING    Error attempt 1/3: https://www.bikewale.com/service-centers/honda/ropar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/ropar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/ropar/", waiting until "networkidle"
+
+11:26:40  INFO       Retrying in 6s ...
+11:26:46  WARNING    Error attempt 2/3: https://www.bikewale.com/service-centers/honda/ropar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/ropar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/ropar/", waiting until "networkidle"
+
+11:26:46  INFO       Retrying in 12s ...
+11:26:58  WARNING    Error attempt 3/3: https://www.bikewale.com/service-centers/honda/ropar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/ropar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/ropar/", waiting until "networkidle"
+
+11:27:02  INFO       [showroom] honda / ropar
+11:27:02  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/ropar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/ropar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/ropar/", waiting until "networkidle"
+
+11:27:02  INFO       Retrying in 6s ...
+11:27:08  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/ropar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/ropar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/ropar/", waiting until "networkidle"
+
+11:27:08  INFO       Retrying in 12s ...
+11:27:20  WARNING    Error attempt 3/3: https://www.bikewale.com/dealer-showrooms/honda/ropar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/ropar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/ropar/", waiting until "networkidle"
+
+11:27:22  INFO       [service] honda / rudraprayag
+11:27:22  WARNING    Error attempt 1/3: https://www.bikewale.com/service-centers/honda/rudraprayag/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rudraprayag/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rudraprayag/", waiting until "networkidle"
+
+11:27:22  INFO       Retrying in 6s ...
+11:27:29  WARNING    Error attempt 2/3: https://www.bikewale.com/service-centers/honda/rudraprayag/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rudraprayag/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rudraprayag/", waiting until "networkidle"
+
+11:27:29  INFO       Retrying in 12s ...
+11:27:41  WARNING    Error attempt 3/3: https://www.bikewale.com/service-centers/honda/rudraprayag/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rudraprayag/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rudraprayag/", waiting until "networkidle"
+
+11:27:43  INFO       [showroom] honda / rudraprayag
+11:27:43  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/", waiting until "networkidle"
+
+11:27:43  INFO       Retrying in 6s ...
+11:27:49  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/", waiting until "networkidle"
+
+11:27:49  INFO       Retrying in 12s ...
+11:28:01  WARNING    Error attempt 3/3: https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rudraprayag/", waiting until "networkidle"
+
+11:28:05  INFO       [service] honda / rupnagar
+11:28:05  WARNING    Error attempt 1/3: https://www.bikewale.com/service-centers/honda/rupnagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rupnagar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rupnagar/", waiting until "networkidle"
+
+11:28:05  INFO       Retrying in 6s ...
+11:28:11  WARNING    Error attempt 2/3: https://www.bikewale.com/service-centers/honda/rupnagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rupnagar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rupnagar/", waiting until "networkidle"
+
+11:28:11  INFO       Retrying in 12s ...
+11:28:23  WARNING    Error attempt 3/3: https://www.bikewale.com/service-centers/honda/rupnagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/rupnagar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/rupnagar/", waiting until "networkidle"
+
+11:28:27  INFO       [showroom] honda / rupnagar
+11:28:27  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/rupnagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rupnagar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rupnagar/", waiting until "networkidle"
+
+11:28:27  INFO       Retrying in 6s ...
+11:28:33  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/rupnagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rupnagar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rupnagar/", waiting until "networkidle"
+
+11:28:33  INFO       Retrying in 12s ...
+11:28:45  WARNING    Error attempt 3/3: https://www.bikewale.com/dealer-showrooms/honda/rupnagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/rupnagar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/rupnagar/", waiting until "networkidle"
+
+11:28:48  INFO       [service] honda / sabarkantha
+11:28:48  WARNING    Error attempt 1/3: https://www.bikewale.com/service-centers/honda/sabarkantha/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/sabarkantha/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/sabarkantha/", waiting until "networkidle"
+
+11:28:48  INFO       Retrying in 6s ...
+11:28:54  WARNING    Error attempt 2/3: https://www.bikewale.com/service-centers/honda/sabarkantha/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/sabarkantha/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/sabarkantha/", waiting until "networkidle"
+
+11:28:54  INFO       Retrying in 12s ...
+11:29:06  WARNING    Error attempt 3/3: https://www.bikewale.com/service-centers/honda/sabarkantha/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/sabarkantha/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/sabarkantha/", waiting until "networkidle"
+
+11:29:08  INFO       [showroom] honda / sabarkantha
+11:29:08  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/", waiting until "networkidle"
+
+11:29:08  INFO       Retrying in 6s ...
+11:29:14  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/", waiting until "networkidle"
+
+11:29:14  INFO       Retrying in 12s ...
+11:29:26  WARNING    Error attempt 3/3: https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/sabarkantha/", waiting until "networkidle"
+
+11:29:30  INFO       [service] honda / sagar
+11:29:30  WARNING    Error attempt 1/3: https://www.bikewale.com/service-centers/honda/sagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/sagar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/sagar/", waiting until "networkidle"
+
+11:29:30  INFO       Retrying in 6s ...
+11:29:36  WARNING    Error attempt 2/3: https://www.bikewale.com/service-centers/honda/sagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/sagar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/sagar/", waiting until "networkidle"
+
+11:29:36  INFO       Retrying in 12s ...
+11:29:48  WARNING    Error attempt 3/3: https://www.bikewale.com/service-centers/honda/sagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/sagar/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/sagar/", waiting until "networkidle"
+
+11:29:51  INFO       [showroom] honda / sagar
+11:29:51  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/sagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/sagar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/sagar/", waiting until "networkidle"
+
+11:29:51  INFO       Retrying in 6s ...
+11:29:57  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/sagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/sagar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/sagar/", waiting until "networkidle"
+
+11:29:57  INFO       Retrying in 12s ...
+11:30:09  WARNING    Error attempt 3/3: https://www.bikewale.com/dealer-showrooms/honda/sagar/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/sagar/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/sagar/", waiting until "networkidle"
+
+11:30:13  INFO       [service] honda / saharanpur
+11:30:13  WARNING    Error attempt 1/3: https://www.bikewale.com/service-centers/honda/saharanpur/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/saharanpur/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/saharanpur/", waiting until "networkidle"
+
+11:30:13  INFO       Retrying in 6s ...
+11:30:19  WARNING    Error attempt 2/3: https://www.bikewale.com/service-centers/honda/saharanpur/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/saharanpur/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/saharanpur/", waiting until "networkidle"
+
+11:30:19  INFO       Retrying in 12s ...
+11:30:31  WARNING    Error attempt 3/3: https://www.bikewale.com/service-centers/honda/saharanpur/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/service-centers/honda/saharanpur/
+Call log:
+  - navigating to "https://www.bikewale.com/service-centers/honda/saharanpur/", waiting until "networkidle"
+
+11:30:35  INFO       [showroom] honda / saharanpur
+11:30:35  WARNING    Error attempt 1/3: https://www.bikewale.com/dealer-showrooms/honda/saharanpur/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/saharanpur/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/saharanpur/", waiting until "networkidle"
+
+11:30:35  INFO       Retrying in 6s ...
+11:30:41  WARNING    Error attempt 2/3: https://www.bikewale.com/dealer-showrooms/honda/saharanpur/ — Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bikewale.com/dealer-showrooms/honda/saharanpur/
+Call log:
+  - navigating to "https://www.bikewale.com/dealer-showrooms/honda/saharanpur/", waiting until "networkidle"
+
+11:30:41  INFO       Retrying in 12s ...
+11:31:05  INFO       [service] honda / saharsa
+11:31:12  INFO       [showroom] honda / saharsa
+11:31:18  INFO       [service] honda / sahibganj
+11:31:24  INFO       [showroom] honda / sahibganj
+11:31:30  INFO       [service] honda / salem
+11:31:35  INFO       [showroom] honda / salem
+11:31:41  INFO       [service] honda / samastipur
+11:31:46  INFO       [showroom] honda / samastipur
+11:31:52  INFO       [service] honda / sambalpur
+11:31:58  INFO       [showroom] honda / sambalpur
+11:32:04  INFO       [service] honda / sangamner
+11:32:08  INFO       [showroom] honda / sangamner
+11:32:15  INFO       [service] honda / sangli
+11:32:20  INFO       [showroom] honda / sangli
+11:32:27  INFO       [service] honda / sangrur
+11:32:31  INFO       [showroom] honda / sangrur
+11:32:37  INFO       [service] honda / santkabirnagar
+11:32:42  INFO       [showroom] honda / santkabirnagar
+11:32:44  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_santkabirnagar_showroom_a1.html
+11:32:48  INFO       [service] honda / santravidasnagar
+11:32:53  INFO       [showroom] honda / santravidasnagar
+11:32:55  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_santravidasnagar_showroom_a1.html
+11:32:59  INFO       [service] honda / saran
+11:33:06  INFO       [showroom] honda / saran
+11:33:09  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_saran_showroom_a1.html
+11:33:13  INFO       [service] honda / satara
+11:33:18  INFO       [showroom] honda / satara
+11:33:24  INFO       [service] honda / satna
+11:33:29  INFO       [showroom] honda / satna
+11:33:35  INFO       [service] honda / sawaimadhopur
+11:33:40  INFO       [showroom] honda / sawaimadhopur
+11:33:45  INFO       [service] honda / sehore
+17:07:59  INFO     === BikeWale scraper — snapshot date: 2026-06-08 ===
+17:07:59  INFO     Already completed: 1663 combos
+17:08:04  INFO     === Brand: hero (masking=hero) ===
+17:08:05  INFO       Cities API: 415 cities for hero
+17:08:05  INFO       415 cities to scrape
+17:08:05  INFO     === Brand: honda (masking=honda) ===
+17:08:05  INFO       Cities API: 504 cities for honda
+17:08:05  INFO       504 cities to scrape
+17:08:05  INFO       [showroom] honda / sehore
+17:08:16  INFO       [service] honda / seoni
+17:08:21  INFO       [showroom] honda / seoni
+17:08:26  INFO       [service] honda / seraikelakharsawan
+17:08:31  INFO       [showroom] honda / seraikelakharsawan
+17:08:32  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_seraikelakharsawan_showroom_a1.html
+17:08:36  INFO       [service] honda / shahdol
+17:08:41  INFO       [showroom] honda / shahdol
+17:08:46  INFO       [service] honda / shahjahanpur
+17:08:50  INFO       [showroom] honda / shahjahanpur
+17:08:55  INFO       [service] honda / shajapur
+17:09:00  INFO       [showroom] honda / shajapur
+17:09:05  INFO       [service] honda / sheikhpura
+17:09:09  INFO       [showroom] honda / sheikhpura
+17:09:11  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_sheikhpura_showroom_a1.html
+17:09:15  INFO       [service] honda / sheopur
+17:09:19  INFO       [showroom] honda / sheopur
+17:09:24  INFO       [service] honda / shimoga
+17:09:28  INFO       [showroom] honda / shimoga
+17:09:32  INFO       [service] honda / shivpuri
+17:09:36  INFO       [showroom] honda / shivpuri
+17:09:42  INFO       [service] honda / sibsagar
+17:09:46  INFO       [showroom] honda / sibsagar
+17:09:48  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_sibsagar_showroom_a1.html
+17:09:50  INFO       [service] honda / siddharthnagar
+17:09:55  INFO       [showroom] honda / siddharthnagar
+17:10:00  INFO       [service] honda / sidhi
+17:10:05  INFO       [showroom] honda / sidhi
+17:10:10  INFO       [service] honda / sikar
+17:10:15  INFO       [showroom] honda / sikar
+17:10:20  INFO       [service] honda / siliguri
+17:10:25  INFO       [showroom] honda / siliguri
+17:10:30  INFO       [service] honda / simdega
+17:10:34  INFO       [showroom] honda / simdega
+17:10:36  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_simdega_showroom_a1.html
+17:10:38  INFO       [service] honda / sindhdurg
+17:10:43  INFO       [showroom] honda / sindhdurg
+17:10:45  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_sindhdurg_showroom_a1.html
+17:10:48  INFO       [service] honda / sirmaur
+17:10:53  INFO       [showroom] honda / sirmaur
+17:10:57  INFO       [service] honda / sirohi
+17:11:01  INFO       [showroom] honda / sirohi
+17:11:06  INFO       [service] honda / sirsa
+17:11:11  INFO       [showroom] honda / sirsa
+17:11:15  INFO       [service] honda / sitamarhi
+17:11:20  INFO       [showroom] honda / sitamarhi
+17:11:24  INFO       [service] honda / sitapur
+17:11:29  INFO       [showroom] honda / sitapur
+17:11:33  INFO       [service] honda / sivagangai
+17:11:37  INFO       [showroom] honda / sivagangai
+17:11:41  INFO       [service] honda / siwan
+17:11:46  INFO       [showroom] honda / siwan
+17:11:52  INFO       [service] honda / solan
+17:11:56  INFO       [showroom] honda / solan
+17:12:00  INFO       [service] honda / solapur
+17:12:05  INFO       [showroom] honda / solapur
+17:12:10  INFO       [service] honda / sonapur
+17:12:13  INFO       [showroom] honda / sonapur
+17:12:15  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_sonapur_showroom_a1.html
+17:12:19  INFO       [service] honda / sonbhadra
+17:12:23  INFO       [showroom] honda / sonbhadra
+17:12:28  INFO       [service] honda / sonipat
+17:12:33  INFO       [showroom] honda / sonipat
+17:12:37  INFO       [service] honda / sonitpur
+17:12:42  INFO       [showroom] honda / sonitpur
+17:12:43  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_sonitpur_showroom_a1.html
+17:12:46  INFO       [service] honda / southgoa
+17:12:51  INFO       [showroom] honda / southgoa
+17:12:53  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_southgoa_showroom_a1.html
+17:12:55  INFO       [service] honda / southtripura
+17:13:00  INFO       [showroom] honda / southtripura
+17:13:01  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_southtripura_showroom_a1.html
+17:13:04  INFO       [service] honda / sravasti
+17:13:08  INFO       [showroom] honda / sravasti
+17:13:09  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_sravasti_showroom_a1.html
+17:13:12  INFO       [service] honda / srikakulam
+17:13:17  INFO       [showroom] honda / srikakulam
+17:13:22  INFO       [service] honda / srinagar
+17:13:26  INFO       [showroom] honda / srinagar
+17:13:31  INFO       [service] honda / sultanpur
+17:13:35  INFO       [showroom] honda / sultanpur
+17:13:40  INFO       [service] honda / sundergarh
+17:13:44  INFO       [showroom] honda / sundergarh
+17:13:46  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_sundergarh_showroom_a1.html
+17:13:48  INFO       [service] honda / surat
+17:13:52  INFO       [showroom] honda / surat
+17:13:58  INFO       [service] honda / surendranagar
+17:14:03  INFO       [showroom] honda / surendranagar
+17:14:08  INFO       [service] honda / surguja
+17:14:12  INFO       [showroom] honda / surguja
+17:14:13  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_surguja_showroom_a1.html
+17:14:17  INFO       [service] honda / tarntaran
+17:14:22  INFO       [showroom] honda / tarntaran
+17:14:27  INFO       [service] honda / thane
+17:14:32  INFO       [showroom] honda / thane
+17:14:38  INFO       [service] honda / thanjavur
+17:14:42  INFO       [showroom] honda / thanjavur
+17:14:47  INFO       [service] honda / theni
+17:14:51  INFO       [showroom] honda / theni
+17:14:56  INFO       [service] honda / thiruvallur
+17:15:00  INFO       [showroom] honda / thiruvallur
+17:15:05  INFO       [service] honda / thiruvananthapuram
+17:15:10  INFO       [showroom] honda / thiruvananthapuram
+17:15:14  INFO       [service] honda / thiruvarur
+17:15:18  INFO       [showroom] honda / thiruvarur
+17:15:23  INFO       [service] honda / thoubal
+17:15:28  INFO       [showroom] honda / thoubal
+17:15:29  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_thoubal_showroom_a1.html
+17:15:33  INFO       [service] honda / thrissur
+17:15:37  INFO       [showroom] honda / thrissur
+17:15:42  INFO       [service] honda / tikamgarh
+17:15:46  INFO       [showroom] honda / tikamgarh
+17:15:51  INFO       [service] honda / tinsukia
+17:15:54  INFO       [showroom] honda / tinsukia
+17:16:00  INFO       [service] honda / tiruchirappalli
+17:16:05  INFO       [showroom] honda / tiruchirappalli
+17:16:09  INFO       [service] honda / tirunelveli
+17:16:14  INFO       [showroom] honda / tirunelveli
+17:16:19  INFO       [service] honda / tiruvannamalai
+17:16:22  INFO       [showroom] honda / tiruvannamalai
+17:16:27  INFO       [service] honda / tonk
+17:16:32  INFO       [showroom] honda / tonk
+17:16:37  INFO       [service] honda / tumkur
+17:16:41  INFO       [showroom] honda / tumkur
+17:16:46  INFO       [service] honda / tuticorin
+17:16:51  INFO       [showroom] honda / tuticorin
+17:16:56  INFO       [service] honda / udaipur
+17:17:00  INFO       [showroom] honda / udaipur
+17:17:05  INFO       [service] honda / udhamsinghnagar
+17:17:10  INFO       [showroom] honda / udhamsinghnagar
+17:17:15  INFO       [service] honda / udhampur
+17:17:19  INFO       [showroom] honda / udhampur
+17:17:24  INFO       [service] honda / udupi
+17:17:28  INFO       [showroom] honda / udupi
+17:17:32  INFO       [service] honda / ujjain
+17:17:36  INFO       [showroom] honda / ujjain
+17:17:41  INFO       [service] honda / ulhasnagar
+17:17:46  INFO       [showroom] honda / ulhasnagar
+17:17:51  INFO       [service] honda / umaria
+17:17:55  INFO       [showroom] honda / umaria
+17:17:57  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_umaria_showroom_a1.html
+17:18:00  INFO       [service] honda / una-himachalpradesh
+17:18:04  INFO       [showroom] honda / una-himachalpradesh
+17:18:08  INFO       [service] honda / unnao
+17:18:13  INFO       [showroom] honda / unnao
+17:18:17  INFO       [service] honda / uttardinajpur
+17:18:21  INFO       [showroom] honda / uttardinajpur
+17:18:26  INFO       [service] honda / uttarkannada
+17:18:31  INFO       [showroom] honda / uttarkannada
+17:18:32  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_uttarkannada_showroom_a1.html
+17:18:35  INFO       [service] honda / vadodara
+17:18:40  INFO       [showroom] honda / vadodara
+17:18:44  INFO       [service] honda / vaishali
+17:18:49  INFO       [showroom] honda / vaishali
+17:18:50  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\honda_vaishali_showroom_a1.html
+17:18:53  INFO       [service] honda / valsad
+17:18:58  INFO       [showroom] honda / valsad
+17:19:03  INFO       [service] honda / varanasi
+17:19:07  INFO       [showroom] honda / varanasi
+17:19:12  INFO       [service] honda / vellore
+17:19:17  INFO       [showroom] honda / vellore
+17:19:21  INFO       [service] honda / vidisha
+17:19:25  INFO       [showroom] honda / vidisha
+17:19:30  INFO       [service] honda / villupuram
+17:19:35  INFO       [showroom] honda / villupuram
+17:19:39  INFO       [service] honda / viramgam
+17:19:44  INFO       [showroom] honda / viramgam
+17:19:48  INFO       [service] honda / virudhunagar
+17:19:52  INFO       [showroom] honda / virudhunagar
+17:19:57  INFO       [service] honda / visakhapatnam
+17:20:01  INFO       [showroom] honda / visakhapatnam
+17:20:05  INFO       [service] honda / vizianagaram
+17:20:09  INFO       [showroom] honda / vizianagaram
+17:20:14  INFO       [service] honda / warangal
+17:20:18  INFO       [showroom] honda / warangal
+17:20:22  INFO       [service] honda / wardha
+17:20:27  INFO       [showroom] honda / wardha
+17:20:32  INFO       [service] honda / washim
+17:20:37  INFO       [showroom] honda / washim
+17:20:41  INFO       [service] honda / wayanad
+17:20:46  INFO       [showroom] honda / wayanad
+17:20:51  INFO       [service] honda / westgodavari
+17:20:56  INFO       [showroom] honda / westgodavari
+17:21:00  INFO       [service] honda / westsinghbhum
+17:21:05  INFO       [showroom] honda / westsinghbhum
+17:21:10  INFO       [service] honda / yadagir
+17:21:14  INFO       [showroom] honda / yadagir
+17:21:18  INFO       [service] honda / yamunanagar
+17:21:23  INFO       [showroom] honda / yamunanagar
+17:21:27  INFO       [service] honda / yavatmal
+17:21:32  INFO       [showroom] honda / yavatmal
+17:21:38  INFO     === Brand: bajaj (masking=bajaj) ===
+17:21:38  INFO       Cities API: 513 cities for bajaj
+17:21:38  INFO       513 cities to scrape
+17:21:38  INFO       [service] bajaj / adilabad
+17:21:43  INFO       [showroom] bajaj / adilabad
+17:21:47  INFO       [service] bajaj / agra
+17:21:51  INFO       [showroom] bajaj / agra
+17:21:57  INFO       [service] bajaj / ahmedabad
+17:22:01  INFO       [showroom] bajaj / ahmedabad
+17:22:06  INFO       [service] bajaj / ahmednagar
+17:22:11  INFO       [showroom] bajaj / ahmednagar
+17:22:16  INFO       [service] bajaj / ajmer
+17:22:20  INFO       [showroom] bajaj / ajmer
+17:22:25  INFO       [service] bajaj / akola
+17:22:30  INFO       [showroom] bajaj / akola
+17:22:34  INFO       [service] bajaj / alappuzha
+17:22:38  INFO       [showroom] bajaj / alappuzha
+17:22:43  INFO       [service] bajaj / aligarh
+17:22:47  INFO       [showroom] bajaj / aligarh
+17:22:51  INFO       [service] bajaj / allahabad
+17:22:55  INFO       [showroom] bajaj / allahabad
+17:23:00  INFO       [service] bajaj / almora
+17:23:05  INFO       [showroom] bajaj / almora
+17:23:07  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_almora_showroom_a1.html
+17:23:10  INFO       [service] bajaj / alwar
+17:23:15  INFO       [showroom] bajaj / alwar
+17:23:19  INFO       [service] bajaj / ambalacity
+17:23:25  INFO       [showroom] bajaj / ambalacity
+17:23:29  INFO       [service] bajaj / ambedkarnagar
+17:23:33  INFO       [showroom] bajaj / ambedkarnagar
+17:23:38  INFO       [service] bajaj / amravati
+17:23:43  INFO       [showroom] bajaj / amravati
+17:23:47  INFO       [service] bajaj / amreli
+17:23:52  INFO       [showroom] bajaj / amreli
+17:23:57  INFO       [service] bajaj / amritsar
+17:24:01  INFO       [showroom] bajaj / amritsar
+17:24:05  INFO       [service] bajaj / anand
+17:24:09  INFO       [showroom] bajaj / anand
+17:24:13  INFO       [service] bajaj / anantapur
+17:24:18  INFO       [showroom] bajaj / anantapur
+17:24:23  INFO       [service] bajaj / anantnag
+20:04:07  INFO     === BikeWale scraper — snapshot date: 2026-06-08 ===
+20:04:07  INFO     Already completed: 1875 combos
+20:04:08  INFO     === Brand: hero (masking=hero) ===
+20:04:09  INFO       Cities API: 415 cities for hero
+20:04:09  INFO       415 cities to scrape
+20:04:09  INFO     === Brand: honda (masking=honda) ===
+20:04:10  INFO       Cities API: 504 cities for honda
+20:04:10  INFO       504 cities to scrape
+20:04:10  INFO     === Brand: bajaj (masking=bajaj) ===
+20:04:11  INFO       Cities API: 513 cities for bajaj
+20:04:11  INFO       513 cities to scrape
+20:04:11  INFO       [showroom] bajaj / anantnag
+20:04:18  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_anantnag_showroom_a1.html
+20:04:20  INFO       [service] bajaj / angul
+20:04:26  INFO       [showroom] bajaj / angul
+20:04:31  INFO       [service] bajaj / anuppur
+20:04:36  INFO       [showroom] bajaj / anuppur
+20:04:39  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_anuppur_showroom_a1.html
+20:04:41  INFO       [service] bajaj / ara
+20:04:47  INFO       [showroom] bajaj / ara
+20:04:52  INFO       [service] bajaj / ariyalur
+20:04:57  INFO       [showroom] bajaj / ariyalur
+20:05:01  INFO       [service] bajaj / ashoknagar
+20:05:06  INFO       [showroom] bajaj / ashoknagar
+20:05:11  INFO       [service] bajaj / auraiya
+20:05:16  INFO       [showroom] bajaj / auraiya
+20:05:19  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_auraiya_showroom_a1.html
+20:05:22  INFO       [service] bajaj / aurangabad-maharashtra
+20:05:26  INFO       [showroom] bajaj / aurangabad-maharashtra
+20:05:31  INFO       [service] bajaj / aurangabad-bihar
+20:05:37  INFO       [showroom] bajaj / aurangabad-bihar
+20:05:42  INFO       [service] bajaj / azamgarh
+20:05:47  INFO       [showroom] bajaj / azamgarh
+20:05:52  INFO       [service] bajaj / badaun
+20:05:58  INFO       [showroom] bajaj / badaun
+20:06:03  INFO       [service] bajaj / bagalkot
+20:06:08  INFO       [showroom] bajaj / bagalkot
+20:06:13  INFO       [service] bajaj / bageshwar
+20:06:19  INFO       [showroom] bajaj / bageshwar
+20:06:21  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_bageshwar_showroom_a1.html
+20:06:23  INFO       [service] bajaj / baghpat-uttarpradesh
+20:06:28  INFO       [showroom] bajaj / baghpat-uttarpradesh
+20:06:33  INFO       [service] bajaj / bahraich
+20:06:39  INFO       [showroom] bajaj / bahraich
+20:06:43  INFO       [service] bajaj / balaghat
+20:06:48  INFO       [showroom] bajaj / balaghat
+20:06:54  INFO       [service] bajaj / balangir
+20:06:59  INFO       [showroom] bajaj / balangir
+20:07:05  INFO       [service] bajaj / balasore
+20:07:10  INFO       [showroom] bajaj / balasore
+20:07:14  INFO       [service] bajaj / ballia
+20:07:19  INFO       [showroom] bajaj / ballia
+20:07:24  INFO       [service] bajaj / balrampur
+20:07:29  INFO       [showroom] bajaj / balrampur
+20:07:35  INFO       [service] bajaj / banaskantha
+20:07:41  INFO       [showroom] bajaj / banaskantha
+20:07:43  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_banaskantha_showroom_a1.html
+20:07:46  INFO       [service] bajaj / banda
+20:07:51  INFO       [showroom] bajaj / banda
+20:07:56  INFO       [service] bajaj / bangalore
+20:08:00  INFO       [showroom] bajaj / bangalore
+20:08:06  INFO       [service] bajaj / banka
+20:08:10  INFO       [showroom] bajaj / banka
+20:08:12  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_banka_showroom_a1.html
+20:08:16  INFO       [service] bajaj / bankura
+20:08:21  INFO       [showroom] bajaj / bankura
+20:08:27  INFO       [service] bajaj / banswara
+20:08:31  INFO       [showroom] bajaj / banswara
+20:08:36  INFO       [service] bajaj / barabanki
+20:08:41  INFO       [showroom] bajaj / barabanki
+20:08:47  INFO       [service] bajaj / baramulla
+20:08:51  INFO       [showroom] bajaj / baramulla
+20:08:53  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_baramulla_showroom_a1.html
+20:08:56  INFO       [service] bajaj / baran
+20:09:01  INFO       [showroom] bajaj / baran
+20:09:06  INFO       [service] bajaj / bareilly
+20:09:10  INFO       [showroom] bajaj / bareilly
+20:09:15  INFO       [service] bajaj / bargarh
+20:09:19  INFO       [showroom] bajaj / bargarh
+20:09:25  INFO       [service] bajaj / barmer
+20:09:29  INFO       [showroom] bajaj / barmer
+20:09:34  INFO       [service] bajaj / barnala
+20:09:39  INFO       [showroom] bajaj / barnala
+20:09:43  INFO       [service] bajaj / barpeta
+20:09:48  INFO       [showroom] bajaj / barpeta
+20:09:52  INFO       [service] bajaj / barwani
+20:09:57  INFO       [showroom] bajaj / barwani
+20:10:02  INFO       [service] bajaj / bastar
+20:10:07  INFO       [showroom] bajaj / bastar
+20:10:09  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_bastar_showroom_a1.html
+20:10:11  INFO       [service] bajaj / basti
+20:10:16  INFO       [showroom] bajaj / basti
+20:10:21  INFO       [service] bajaj / bathinda
+20:10:25  INFO       [showroom] bajaj / bathinda
+20:10:29  INFO       [service] bajaj / beed
+20:10:33  INFO       [showroom] bajaj / beed
+20:10:39  INFO       [service] bajaj / begusarai
+20:10:43  INFO       [showroom] bajaj / begusarai
+20:10:48  INFO       [service] bajaj / belgaum
+20:10:52  INFO       [showroom] bajaj / belgaum
+20:10:57  INFO       [service] bajaj / bellary
+20:11:02  INFO       [showroom] bajaj / bellary
+20:11:07  INFO       [service] bajaj / betul
+20:11:12  INFO       [showroom] bajaj / betul
+20:11:16  INFO       [service] bajaj / bhagalpur
+20:11:20  INFO       [showroom] bajaj / bhagalpur
+20:11:25  INFO       [service] bajaj / bhandara
+20:11:29  INFO       [showroom] bajaj / bhandara
+20:11:35  INFO       [service] bajaj / bharatpur
+20:11:39  INFO       [showroom] bajaj / bharatpur
+20:11:44  INFO       [service] bajaj / bharuch
+20:11:49  INFO       [showroom] bajaj / bharuch
+20:11:54  INFO       [service] bajaj / bhavnagar
+20:11:59  INFO       [showroom] bajaj / bhavnagar
+20:12:04  INFO       [service] bajaj / bhilwara
+20:12:08  INFO       [showroom] bajaj / bhilwara
+20:12:13  INFO       [service] bajaj / bhind
+20:12:18  INFO       [showroom] bajaj / bhind
+20:12:24  INFO       [service] bajaj / bhiwani
+20:12:28  INFO       [showroom] bajaj / bhiwani
+20:12:33  INFO       [service] bajaj / bhojpur
+20:12:37  INFO       [showroom] bajaj / bhojpur
+20:12:39  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_bhojpur_showroom_a1.html
+20:12:42  INFO       [service] bajaj / bhopal
+20:12:46  INFO       [showroom] bajaj / bhopal
+20:12:52  INFO       [service] bajaj / bidar
+20:12:56  INFO       [showroom] bajaj / bidar
+20:13:01  INFO       [service] bajaj / bijapur
+20:13:06  INFO       [showroom] bajaj / bijapur
+20:13:10  INFO       [service] bajaj / bijnor
+20:13:15  INFO       [showroom] bajaj / bijnor
+20:13:21  INFO       [service] bajaj / bikaner
+20:13:25  INFO       [showroom] bajaj / bikaner
+20:13:29  INFO       [service] bajaj / bilaspur-chhattisgarh
+20:13:34  INFO       [showroom] bajaj / bilaspur-chhattisgarh
+20:13:39  INFO       [service] bajaj / bilaspur-himachalpradesh
+20:13:43  INFO       [showroom] bajaj / bilaspur-himachalpradesh
+20:13:45  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_bilaspur-himachalpradesh_showroom_a1.html
+20:13:48  INFO       [service] bajaj / bilaspur-punjab
+20:13:53  INFO       [showroom] bajaj / bilaspur-punjab
+20:13:55  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_bilaspur-punjab_showroom_a1.html
+20:13:58  INFO       [service] bajaj / birbhum
+20:14:03  INFO       [showroom] bajaj / birbhum
+20:14:05  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_birbhum_showroom_a1.html
+20:14:08  INFO       [service] bajaj / bokarosteelcity
+20:14:13  INFO       [showroom] bajaj / bokarosteelcity
+20:14:19  INFO       [service] bajaj / bongaigaon
+20:14:23  INFO       [showroom] bajaj / bongaigaon
+20:14:28  INFO       [service] bajaj / boudh
+20:14:32  INFO       [showroom] bajaj / boudh
+20:14:34  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_boudh_showroom_a1.html
+20:14:37  INFO       [service] bajaj / budgam
+20:14:41  INFO       [showroom] bajaj / budgam
+20:14:43  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_budgam_showroom_a1.html
+20:14:45  INFO       [service] bajaj / bulandshahar
+20:14:49  INFO       [showroom] bajaj / bulandshahar
+20:14:54  INFO       [service] bajaj / buldhana
+20:14:58  INFO       [showroom] bajaj / buldhana
+20:15:04  INFO       [service] bajaj / bundi
+20:15:09  INFO       [showroom] bajaj / bundi
+20:15:14  INFO       [service] bajaj / burdwan
+20:15:19  INFO       [showroom] bajaj / burdwan
+20:15:24  INFO       [service] bajaj / burhanpur
+20:15:29  INFO       [showroom] bajaj / burhanpur
+20:15:34  INFO       [service] bajaj / buxar
+20:15:39  INFO       [showroom] bajaj / buxar
+20:15:45  INFO       [service] bajaj / chamba
+20:15:49  INFO       [showroom] bajaj / chamba
+20:15:51  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_chamba_showroom_a1.html
+20:15:55  INFO       [service] bajaj / chamoli
+20:16:00  INFO       [showroom] bajaj / chamoli
+20:16:02  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_chamoli_showroom_a1.html
+20:16:06  INFO       [service] bajaj / chamrajnagar
+20:16:10  INFO       [showroom] bajaj / chamrajnagar
+20:16:15  INFO       [service] bajaj / chandauli
+20:16:20  INFO       [showroom] bajaj / chandauli
+20:16:22  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_chandauli_showroom_a1.html
+20:16:25  INFO       [service] bajaj / chandrapur
+20:16:29  INFO       [showroom] bajaj / chandrapur
+20:16:34  INFO       [service] bajaj / chatra
+20:16:39  INFO       [showroom] bajaj / chatra
+20:16:41  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_chatra_showroom_a1.html
+20:16:44  INFO       [service] bajaj / chennai
+20:16:49  INFO       [showroom] bajaj / chennai
+20:16:55  INFO       [service] bajaj / chhatarpur
+20:16:59  INFO       [showroom] bajaj / chhatarpur
+20:17:03  INFO       [service] bajaj / chhindwara
+20:17:07  INFO       [showroom] bajaj / chhindwara
+20:17:13  INFO       [service] bajaj / chikamagalur
+20:17:17  INFO       [showroom] bajaj / chikamagalur
+20:17:23  INFO       [service] bajaj / chikkaballapur
+20:17:28  INFO       [showroom] bajaj / chikkaballapur
+20:17:33  INFO       [service] bajaj / chitradurga
+20:17:37  INFO       [showroom] bajaj / chitradurga
+20:17:41  INFO       [service] bajaj / chitrakoot
+20:17:46  INFO       [showroom] bajaj / chitrakoot
+20:17:52  INFO       [service] bajaj / chittoor
+20:17:57  INFO       [showroom] bajaj / chittoor
+20:18:03  INFO       [service] bajaj / chittorgarh
+20:18:08  INFO       [showroom] bajaj / chittorgarh
+20:18:13  INFO       [service] bajaj / churu
+20:18:17  INFO       [showroom] bajaj / churu
+20:18:22  INFO       [service] bajaj / coimbatore
+20:18:26  INFO       [showroom] bajaj / coimbatore
+20:18:32  INFO       [service] bajaj / coochbehar
+20:18:36  INFO       [showroom] bajaj / coochbehar
+20:18:40  INFO       [service] bajaj / cuddalore
+20:18:45  INFO       [showroom] bajaj / cuddalore
+20:18:51  INFO       [service] bajaj / cuttack
+20:18:57  INFO       [showroom] bajaj / cuttack
+20:19:02  INFO       [service] bajaj / dahod
+20:19:08  INFO       [showroom] bajaj / dahod
+20:19:12  INFO       [service] bajaj / dakkannada
+20:19:17  INFO       [showroom] bajaj / dakkannada
+20:19:19  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_dakkannada_showroom_a1.html
+20:19:23  INFO       [service] bajaj / damoh
+20:19:29  INFO       [showroom] bajaj / damoh
+20:19:33  INFO       [service] bajaj / dangs
+20:19:38  INFO       [showroom] bajaj / dangs
+20:19:40  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_dangs_showroom_a1.html
+20:19:43  INFO       [service] bajaj / darbhanga
+20:19:48  INFO       [showroom] bajaj / darbhanga
+20:19:52  INFO       [service] bajaj / darjiling
+20:19:58  INFO       [showroom] bajaj / darjiling
+20:19:59  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_darjiling_showroom_a1.html
+20:20:03  INFO       [service] bajaj / darrang
+20:20:07  INFO       [showroom] bajaj / darrang
+20:20:09  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_darrang_showroom_a1.html
+20:20:11  INFO       [service] bajaj / datia
+20:20:15  INFO       [showroom] bajaj / datia
+20:20:17  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_datia_showroom_a1.html
+20:20:20  INFO       [service] bajaj / dausa
+20:20:25  INFO       [showroom] bajaj / dausa
+20:20:29  INFO       [service] bajaj / davangere
+20:20:34  INFO       [showroom] bajaj / davangere
+20:20:39  INFO       [service] bajaj / dehradun
+20:20:43  INFO       [showroom] bajaj / dehradun
+20:20:48  INFO       [service] bajaj / delhi
+20:20:52  INFO       [showroom] bajaj / delhi
+20:20:57  INFO       [service] bajaj / deogarh
+20:21:02  INFO       [showroom] bajaj / deogarh
+20:21:04  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_deogarh_showroom_a1.html
+20:21:07  INFO       [service] bajaj / deoghar
+20:21:12  INFO       [showroom] bajaj / deoghar
+20:21:18  INFO       [service] bajaj / deoria
+20:21:22  INFO       [showroom] bajaj / deoria
+20:21:28  INFO       [service] bajaj / dewas
+20:21:33  INFO       [showroom] bajaj / dewas
+20:21:38  INFO       [service] bajaj / dhalai
+20:21:43  INFO       [showroom] bajaj / dhalai
+20:21:45  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_dhalai_showroom_a1.html
+20:21:48  INFO       [service] bajaj / dhamtari
+20:21:53  INFO       [showroom] bajaj / dhamtari
+20:21:57  INFO       [service] bajaj / dhanbad
+20:22:02  INFO       [showroom] bajaj / dhanbad
+20:22:07  INFO       [service] bajaj / dhar
+20:22:11  INFO       [showroom] bajaj / dhar
+20:22:16  INFO       [service] bajaj / dharmapuri
+20:22:21  INFO       [showroom] bajaj / dharmapuri
+20:22:26  INFO       [service] bajaj / dharwad
+20:22:30  INFO       [showroom] bajaj / dharwad
+20:22:32  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_dharwad_showroom_a1.html
+20:22:35  INFO       [service] bajaj / dhemaji
+20:22:40  INFO       [showroom] bajaj / dhemaji
+20:22:42  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_dhemaji_showroom_a1.html
+20:22:45  INFO       [service] bajaj / dhenkanal
+20:22:50  INFO       [showroom] bajaj / dhenkanal
+20:22:55  INFO       [service] bajaj / dholpur
+20:23:00  INFO       [showroom] bajaj / dholpur
+20:23:05  INFO       [service] bajaj / dhubri
+20:23:10  INFO       [showroom] bajaj / dhubri
+22:01:20  INFO     === BikeWale scraper — snapshot date: 2026-06-08 ===
+22:01:20  INFO     Already completed: 2108 combos
+22:01:22  INFO     === Brand: hero (masking=hero) ===
+22:01:24  INFO       Cities API: 415 cities for hero
+22:01:24  INFO       415 cities to scrape
+22:01:24  INFO     === Brand: honda (masking=honda) ===
+22:01:25  INFO       Cities API: 504 cities for honda
+22:01:25  INFO       504 cities to scrape
+22:01:25  INFO     === Brand: bajaj (masking=bajaj) ===
+22:01:26  INFO       Cities API: 513 cities for bajaj
+22:01:26  INFO       513 cities to scrape
+22:01:26  INFO       [service] bajaj / dhule
+22:01:36  INFO       [showroom] bajaj / dhule
+22:01:42  INFO       [service] bajaj / dibrugarh
+22:01:47  INFO       [showroom] bajaj / dibrugarh
+22:01:52  INFO       [service] bajaj / dindigul
+22:01:57  INFO       [showroom] bajaj / dindigul
+22:02:03  INFO       [service] bajaj / dindori-madhyapradesh
+22:02:08  INFO       [showroom] bajaj / dindori-madhyapradesh
+22:02:11  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_dindori-madhyapradesh_showroom_a1.html
+22:02:15  INFO       [service] bajaj / doda
+22:02:19  INFO       [showroom] bajaj / doda
+22:02:26  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_doda_showroom_a1.html
+22:02:29  INFO       [service] bajaj / dumka
+22:02:33  INFO       [showroom] bajaj / dumka
+22:02:38  INFO       [service] bajaj / dungarpur
+22:02:43  INFO       [showroom] bajaj / dungarpur
+22:02:47  INFO       [service] bajaj / durg
+22:02:52  INFO       [showroom] bajaj / durg
+22:02:57  INFO       [service] bajaj / eastchamparan
+22:03:01  INFO       [showroom] bajaj / eastchamparan
+22:03:03  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_eastchamparan_showroom_a1.html
+22:03:06  INFO       [service] bajaj / eastgodavari
+22:03:10  INFO       [showroom] bajaj / eastgodavari
+22:03:14  INFO       [service] bajaj / eastsikkim
+22:03:18  INFO       [showroom] bajaj / eastsikkim
+22:03:20  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_eastsikkim_showroom_a1.html
+22:03:22  INFO       [service] bajaj / eastsinghbhum
+22:03:27  INFO       [showroom] bajaj / eastsinghbhum
+22:03:28  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_eastsinghbhum_showroom_a1.html
+22:03:32  INFO       [service] bajaj / ernakulam
+22:03:36  INFO       [showroom] bajaj / ernakulam
+22:03:41  INFO       [service] bajaj / erode
+22:03:45  INFO       [showroom] bajaj / erode
+22:03:49  INFO       [service] bajaj / etah
+22:03:53  INFO       [showroom] bajaj / etah
+22:03:58  INFO       [service] bajaj / etawah
+22:04:02  INFO       [showroom] bajaj / etawah
+22:04:07  INFO       [service] bajaj / faizabad
+22:04:11  INFO       [showroom] bajaj / faizabad
+22:04:15  INFO       [service] bajaj / faridabad
+22:04:19  INFO       [showroom] bajaj / faridabad
+22:04:24  INFO       [service] bajaj / faridkot
+22:04:28  INFO       [showroom] bajaj / faridkot
+22:04:33  INFO       [service] bajaj / farrukhabad
+22:04:38  INFO       [showroom] bajaj / farrukhabad
+22:04:43  INFO       [service] bajaj / fatehabad
+22:04:47  INFO       [showroom] bajaj / fatehabad
+22:04:51  INFO       [service] bajaj / fatehgarhsahib
+22:04:55  INFO       [showroom] bajaj / fatehgarhsahib
+22:04:56  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_fatehgarhsahib_showroom_a1.html
+22:05:00  INFO       [service] bajaj / fatehpur
+22:05:04  INFO       [showroom] bajaj / fatehpur
+22:05:08  INFO       [service] bajaj / firozabad
+22:05:12  INFO       [showroom] bajaj / firozabad
+22:05:17  INFO       [service] bajaj / firozpur
+22:05:21  INFO       [showroom] bajaj / firozpur
+22:05:27  INFO       [service] bajaj / gadag
+22:05:31  INFO       [showroom] bajaj / gadag
+22:05:35  INFO       [service] bajaj / gadchiroli
+22:05:39  INFO       [showroom] bajaj / gadchiroli
+22:05:43  INFO       [service] bajaj / gajapathi
+22:05:48  INFO       [showroom] bajaj / gajapathi
+22:05:49  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_gajapathi_showroom_a1.html
+22:05:53  INFO       [service] bajaj / gandhinagar
+22:05:57  INFO       [showroom] bajaj / gandhinagar
+22:06:03  INFO       [service] bajaj / garhwa
+22:06:07  INFO       [showroom] bajaj / garhwa
+22:06:08  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_garhwa_showroom_a1.html
+22:06:11  INFO       [service] bajaj / gautambuddhanagar
+22:06:15  INFO       [showroom] bajaj / gautambuddhanagar
+22:06:17  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_gautambuddhanagar_showroom_a1.html
+22:06:19  INFO       [service] bajaj / gaya
+22:06:24  INFO       [showroom] bajaj / gaya
+22:06:28  INFO       [service] bajaj / ghaziabad
+22:06:34  INFO       [showroom] bajaj / ghaziabad
+22:06:38  INFO       [service] bajaj / ghazipur
+22:06:42  INFO       [showroom] bajaj / ghazipur
+22:06:47  INFO       [service] bajaj / giridih
+22:06:52  INFO       [showroom] bajaj / giridih
+22:06:56  INFO       [service] bajaj / goalpara
+22:07:00  INFO       [showroom] bajaj / goalpara
+22:07:05  INFO       [service] bajaj / godda
+22:07:10  INFO       [showroom] bajaj / godda
+22:07:15  INFO       [service] bajaj / golaghat
+22:07:20  INFO       [showroom] bajaj / golaghat
+22:07:25  INFO       [service] bajaj / gonda
+22:07:29  INFO       [showroom] bajaj / gonda
+22:07:34  INFO       [service] bajaj / gondia
+22:07:38  INFO       [showroom] bajaj / gondia
+22:07:42  INFO       [service] bajaj / gopalganj
+22:07:47  INFO       [showroom] bajaj / gopalganj
+22:07:51  INFO       [service] bajaj / gorakhpur
+22:07:56  INFO       [showroom] bajaj / gorakhpur
+22:08:00  INFO       [service] bajaj / gulbarga
+22:08:05  INFO       [showroom] bajaj / gulbarga
+22:08:10  INFO       [service] bajaj / gumla
+22:08:14  INFO       [showroom] bajaj / gumla
+22:08:15  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_gumla_showroom_a1.html
+22:08:18  INFO       [service] bajaj / guntur
+22:08:23  INFO       [showroom] bajaj / guntur
+22:08:28  INFO       [service] bajaj / gurdaspur
+22:08:33  INFO       [showroom] bajaj / gurdaspur
+22:08:37  INFO       [service] bajaj / gurgaon
+22:08:42  INFO       [showroom] bajaj / gurgaon
+22:08:46  INFO       [service] bajaj / gwalior
+22:08:51  INFO       [showroom] bajaj / gwalior
+22:08:56  INFO       [service] bajaj / hamirpur
+22:09:01  INFO       [showroom] bajaj / hamirpur
+22:09:02  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_hamirpur_showroom_a1.html
+22:09:05  INFO       [service] bajaj / hanumangarh
+22:09:09  INFO       [showroom] bajaj / hanumangarh
+22:09:14  INFO       [service] bajaj / hardoi
+22:09:19  INFO       [showroom] bajaj / hardoi
+22:09:23  INFO       [service] bajaj / haridwar
+22:09:27  INFO       [showroom] bajaj / haridwar
+22:09:31  INFO       [service] bajaj / hassan
+22:09:35  INFO       [showroom] bajaj / hassan
+22:09:40  INFO       [service] bajaj / hathras
+22:09:44  INFO       [showroom] bajaj / hathras
+22:09:49  INFO       [service] bajaj / haveri
+22:09:53  INFO       [showroom] bajaj / haveri
+22:09:55  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_haveri_showroom_a1.html
+22:09:58  INFO       [service] bajaj / hazaribagh
+22:10:02  INFO       [showroom] bajaj / hazaribagh
+22:10:07  INFO       [service] bajaj / hingoli
+22:10:11  INFO       [showroom] bajaj / hingoli
+22:10:16  INFO       [service] bajaj / hisar
+22:10:20  INFO       [showroom] bajaj / hisar
+22:10:25  INFO       [service] bajaj / hooghly
+22:10:30  INFO       [showroom] bajaj / hooghly
+22:10:35  INFO       [service] bajaj / hoshangabad
+22:10:40  INFO       [showroom] bajaj / hoshangabad
+22:10:41  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_hoshangabad_showroom_a1.html
+22:10:45  INFO       [service] bajaj / hoshiarpur
+22:10:49  INFO       [showroom] bajaj / hoshiarpur
+22:10:53  INFO       [service] bajaj / howrah
+22:10:57  INFO       [showroom] bajaj / howrah
+22:11:02  INFO       [service] bajaj / hyderabad
+22:11:07  INFO       [showroom] bajaj / hyderabad
+22:11:11  INFO       [service] bajaj / idukki
+22:11:16  INFO       [showroom] bajaj / idukki
+22:11:18  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_idukki_showroom_a1.html
+22:11:21  INFO       [service] bajaj / indore
+22:11:25  INFO       [showroom] bajaj / indore
+22:11:29  INFO       [service] bajaj / jabalpur
+22:11:34  INFO       [showroom] bajaj / jabalpur
+22:11:40  INFO       [service] bajaj / jagatsinghpur
+22:11:44  INFO       [showroom] bajaj / jagatsinghpur
+22:11:45  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_jagatsinghpur_showroom_a1.html
+22:11:48  INFO       [service] bajaj / jaipur
+22:11:53  INFO       [showroom] bajaj / jaipur
+22:11:57  INFO       [service] bajaj / jaisalmer
+22:12:01  INFO       [showroom] bajaj / jaisalmer
+22:12:03  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_jaisalmer_showroom_a1.html
+22:12:06  INFO       [service] bajaj / jajpurorissa
+22:12:10  INFO       [showroom] bajaj / jajpurorissa
+22:12:12  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_jajpurorissa_showroom_a1.html
+22:12:16  INFO       [service] bajaj / jalandhar
+22:12:20  INFO       [showroom] bajaj / jalandhar
+22:12:25  INFO       [service] bajaj / jalaun
+22:12:29  INFO       [showroom] bajaj / jalaun
+22:12:31  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_jalaun_showroom_a1.html
+22:12:33  INFO       [service] bajaj / jalgaon
+22:12:38  INFO       [showroom] bajaj / jalgaon
+22:12:42  INFO       [service] bajaj / jalna
+22:12:46  INFO       [showroom] bajaj / jalna
+22:12:50  INFO       [service] bajaj / jalpaiguri
+22:12:54  INFO       [showroom] bajaj / jalpaiguri
+22:12:55  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_jalpaiguri_showroom_a1.html
+22:12:58  INFO       [service] bajaj / jammu
+22:13:03  INFO       [showroom] bajaj / jammu
+22:13:08  INFO       [service] bajaj / jamnagar
+22:13:12  INFO       [showroom] bajaj / jamnagar
+22:13:16  INFO       [service] bajaj / jamtara
+22:13:20  INFO       [showroom] bajaj / jamtara
+22:13:25  INFO       [service] bajaj / jamui
+22:13:30  INFO       [showroom] bajaj / jamui
+22:13:34  INFO       [service] bajaj / janjgirchampa
+22:13:38  INFO       [showroom] bajaj / janjgirchampa
+22:13:43  INFO       [service] bajaj / jashpur
+22:13:47  INFO       [showroom] bajaj / jashpur
+22:13:51  INFO       [service] bajaj / jaunpur
+22:13:55  INFO       [showroom] bajaj / jaunpur
+22:14:00  INFO       [service] bajaj / jhabua
+22:14:05  INFO       [showroom] bajaj / jhabua
+22:14:10  INFO       [service] bajaj / jhajjar
+22:14:14  INFO       [showroom] bajaj / jhajjar
+22:14:18  INFO       [service] bajaj / jhalawar
+22:14:22  INFO       [showroom] bajaj / jhalawar
+22:14:26  INFO       [service] bajaj / jhansi
+22:14:31  INFO       [showroom] bajaj / jhansi
+22:14:35  INFO       [service] bajaj / jharsuguda
+22:14:40  INFO       [showroom] bajaj / jharsuguda
+22:14:45  INFO       [service] bajaj / jhunjhunu
+22:14:49  INFO       [showroom] bajaj / jhunjhunu
+22:14:53  INFO       [service] bajaj / jind
+22:14:58  INFO       [showroom] bajaj / jind
+22:15:03  INFO       [service] bajaj / jodhpur
+22:15:08  INFO       [showroom] bajaj / jodhpur
+22:15:12  INFO       [service] bajaj / jorhat
+22:15:17  INFO       [showroom] bajaj / jorhat
+22:15:21  INFO       [service] bajaj / junagadh
+22:15:26  INFO       [showroom] bajaj / junagadh
+22:15:31  INFO       [service] bajaj / kadapa
+22:15:35  INFO       [showroom] bajaj / kadapa
+22:15:39  INFO       [service] bajaj / kaimurbhabua
+22:15:44  INFO       [showroom] bajaj / kaimurbhabua
+22:15:45  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kaimurbhabua_showroom_a1.html
+22:15:49  INFO       [service] bajaj / kaithal
+22:15:53  INFO       [showroom] bajaj / kaithal
+22:15:58  INFO       [service] bajaj / kalahandi
+22:16:03  INFO       [showroom] bajaj / kalahandi
+22:16:05  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kalahandi_showroom_a1.html
+22:16:08  INFO       [service] bajaj / kamrup
+22:16:16  INFO       [showroom] bajaj / kamrup
+22:16:20  INFO       [service] bajaj / kancheepuram
+22:16:25  INFO       [showroom] bajaj / kancheepuram
+22:16:30  INFO       [service] bajaj / kangra
+22:16:36  INFO       [showroom] bajaj / kangra
+22:16:40  INFO       [service] bajaj / kanker
+22:16:46  INFO       [showroom] bajaj / kanker
+22:16:47  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kanker_showroom_a1.html
+22:16:50  INFO       [service] bajaj / kannauj
+22:16:54  INFO       [showroom] bajaj / kannauj
+22:16:59  INFO       [service] bajaj / kannur
+22:17:03  INFO       [showroom] bajaj / kannur
+22:17:08  INFO       [service] bajaj / kanpurdehat
+22:17:13  INFO       [showroom] bajaj / kanpurdehat
+22:17:18  INFO       [service] bajaj / kanpurnagar
+22:17:23  INFO       [showroom] bajaj / kanpurnagar
+22:17:24  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kanpurnagar_showroom_a1.html
+22:17:27  INFO       [service] bajaj / kanyakumari
+22:17:33  INFO       [showroom] bajaj / kanyakumari
+22:17:38  INFO       [service] bajaj / kapurthala
+22:17:42  INFO       [showroom] bajaj / kapurthala
+22:17:47  INFO       [service] bajaj / karaikal
+22:17:52  INFO       [showroom] bajaj / karaikal
+22:17:53  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_karaikal_showroom_a1.html
+22:17:57  INFO       [service] bajaj / karauli
+22:18:02  INFO       [showroom] bajaj / karauli
+22:18:03  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_karauli_showroom_a1.html
+22:18:06  INFO       [service] bajaj / karbianglong
+22:18:10  INFO       [showroom] bajaj / karbianglong
+22:18:14  INFO       [service] bajaj / karimganj
+22:18:17  INFO       [showroom] bajaj / karimganj
+22:18:19  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_karimganj_showroom_a1.html
+22:18:22  INFO       [service] bajaj / karimnagar
+22:18:26  INFO       [showroom] bajaj / karimnagar
+22:18:31  INFO       [service] bajaj / karnal
+22:18:35  INFO       [showroom] bajaj / karnal
+22:18:40  INFO       [service] bajaj / karur
+22:18:43  INFO       [showroom] bajaj / karur
+22:18:48  INFO       [service] bajaj / kasaragod
+22:18:53  INFO       [showroom] bajaj / kasaragod
+22:18:58  INFO       [service] bajaj / kathua
+22:19:03  INFO       [showroom] bajaj / kathua
+22:19:05  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kathua_showroom_a1.html
+22:19:08  INFO       [service] bajaj / katihar
+22:19:11  INFO       [showroom] bajaj / katihar
+22:19:16  INFO       [service] bajaj / katni
+22:19:21  INFO       [showroom] bajaj / katni
+22:19:25  INFO       [service] bajaj / kaushambi
+22:19:30  INFO       [showroom] bajaj / kaushambi
+22:19:35  INFO       [service] bajaj / kawardha
+22:19:40  INFO       [showroom] bajaj / kawardha
+22:19:45  INFO       [service] bajaj / keonjhar
+22:19:50  INFO       [showroom] bajaj / keonjhar
+22:19:54  INFO       [service] bajaj / khagaria
+22:19:59  INFO       [showroom] bajaj / khagaria
+22:20:03  INFO       [service] bajaj / khammam
+22:20:07  INFO       [showroom] bajaj / khammam
+22:20:12  INFO       [service] bajaj / kheda
+22:20:17  INFO       [showroom] bajaj / kheda
+22:20:22  INFO       [service] bajaj / khurda-andhrapradesh
+22:20:26  INFO       [showroom] bajaj / khurda-andhrapradesh
+22:20:27  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_khurda-andhrapradesh_showroom_a1.html
+22:20:30  INFO       [service] bajaj / khurda-orissa
+22:20:34  INFO       [showroom] bajaj / khurda-orissa
+22:20:36  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_khurda-orissa_showroom_a1.html
+22:20:38  INFO       [service] bajaj / kodarma
+22:20:42  INFO       [showroom] bajaj / kodarma
+22:20:47  INFO       [service] bajaj / kokrajhar
+22:20:52  INFO       [showroom] bajaj / kokrajhar
+22:20:57  INFO       [service] bajaj / kolar
+22:21:01  INFO       [showroom] bajaj / kolar
+22:21:06  INFO       [service] bajaj / kolhapur
+22:21:10  INFO       [showroom] bajaj / kolhapur
+22:21:14  INFO       [service] bajaj / kolkata
+22:21:18  INFO       [showroom] bajaj / kolkata
+22:21:23  INFO       [service] bajaj / kollam
+22:21:28  INFO       [showroom] bajaj / kollam
+22:21:33  INFO       [service] bajaj / koppal
+22:21:37  INFO       [showroom] bajaj / koppal
+22:21:42  INFO       [service] bajaj / korba
+22:21:47  INFO       [showroom] bajaj / korba
+22:21:51  INFO       [service] bajaj / koriya
+22:21:55  INFO       [showroom] bajaj / koriya
+22:22:00  INFO       [service] bajaj / kota
+22:22:04  INFO       [showroom] bajaj / kota
+22:22:09  INFO       [service] bajaj / kottayam
+22:22:14  INFO       [showroom] bajaj / kottayam
+22:22:18  INFO       [service] bajaj / kozhikode
+22:22:22  INFO       [showroom] bajaj / kozhikode
+22:22:26  INFO       [service] bajaj / krishna
+22:22:30  INFO       [showroom] bajaj / krishna
+22:22:31  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_krishna_showroom_a1.html
+22:22:35  INFO       [service] bajaj / krishnagiri
+22:22:39  INFO       [showroom] bajaj / krishnagiri
+22:22:43  INFO       [service] bajaj / kullu
+22:22:48  INFO       [showroom] bajaj / kullu
+22:22:50  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kullu_showroom_a1.html
+22:22:53  INFO       [service] bajaj / kurnool
+22:22:58  INFO       [showroom] bajaj / kurnool
+22:23:03  INFO       [service] bajaj / kurukshetra
+22:23:07  INFO       [showroom] bajaj / kurukshetra
+22:23:11  INFO       [service] bajaj / kushinagar
+22:23:15  INFO       [showroom] bajaj / kushinagar
+22:23:17  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kushinagar_showroom_a1.html
+22:23:19  INFO       [service] bajaj / kutch
+22:23:24  INFO       [showroom] bajaj / kutch
+22:23:26  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_kutch_showroom_a1.html
+22:23:29  INFO       [service] bajaj / lakhimpur
+22:23:34  INFO       [showroom] bajaj / lakhimpur
+22:23:38  INFO       [service] bajaj / lakhisarai
+22:23:43  INFO       [showroom] bajaj / lakhisarai
+22:23:44  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_lakhisarai_showroom_a1.html
+22:23:47  INFO       [service] bajaj / lalitpur
+22:23:51  INFO       [showroom] bajaj / lalitpur
+22:23:56  INFO       [service] bajaj / latur
+22:24:01  INFO       [showroom] bajaj / latur
+22:24:06  INFO       [service] bajaj / lohardaga
+22:24:11  INFO       [showroom] bajaj / lohardaga
+22:24:12  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_lohardaga_showroom_a1.html
+22:24:16  INFO       [service] bajaj / lucknow
+22:24:20  INFO       [showroom] bajaj / lucknow
+22:24:25  INFO       [service] bajaj / ludhiana
+22:24:30  INFO       [showroom] bajaj / ludhiana
+22:24:35  INFO       [service] bajaj / madhepura
+22:24:40  INFO       [showroom] bajaj / madhepura
+22:24:45  INFO       [service] bajaj / madhubani
+22:24:49  INFO       [showroom] bajaj / madhubani
+22:24:53  INFO       [service] bajaj / madurai
+22:24:58  INFO       [showroom] bajaj / madurai
+22:25:02  INFO       [service] bajaj / maharajganj
+22:25:07  INFO       [showroom] bajaj / maharajganj
+22:25:11  INFO       [service] bajaj / mahasamund
+22:25:16  INFO       [showroom] bajaj / mahasamund
+22:25:21  INFO       [service] bajaj / mahendragarh
+22:25:25  INFO       [showroom] bajaj / mahendragarh
+22:25:27  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_mahendragarh_showroom_a1.html
+22:25:30  INFO       [service] bajaj / mahoba
+22:25:34  INFO       [showroom] bajaj / mahoba
+22:25:40  INFO       [service] bajaj / mainpuri
+22:25:44  INFO       [showroom] bajaj / mainpuri
+22:25:45  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_mainpuri_showroom_a1.html
+22:25:49  INFO       [service] bajaj / malappuram
+22:25:54  INFO       [showroom] bajaj / malappuram
+22:25:58  INFO       [service] bajaj / malda
+22:26:03  INFO       [showroom] bajaj / malda
+22:26:08  INFO       [service] bajaj / malkangiri
+22:26:12  INFO       [showroom] bajaj / malkangiri
+22:26:14  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_malkangiri_showroom_a1.html
+22:26:17  INFO       [service] bajaj / mandasur
+22:26:21  INFO       [showroom] bajaj / mandasur
+22:26:26  INFO       [service] bajaj / mandi
+22:26:31  INFO       [showroom] bajaj / mandi
+22:26:36  INFO       [service] bajaj / mandla
+22:26:41  INFO       [showroom] bajaj / mandla
+22:26:42  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_mandla_showroom_a1.html
+22:26:45  INFO       [service] bajaj / mandya
+22:26:49  INFO       [showroom] bajaj / mandya
+22:26:53  INFO       [service] bajaj / mansa
+22:26:58  INFO       [showroom] bajaj / mansa
+22:26:59  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_mansa_showroom_a1.html
+22:27:02  INFO       [service] bajaj / mathura
+22:27:07  INFO       [showroom] bajaj / mathura
+22:27:12  INFO       [service] bajaj / mau
+22:27:17  INFO       [showroom] bajaj / mau
+22:27:21  INFO       [service] bajaj / mayurbhanj
+22:27:26  INFO       [showroom] bajaj / mayurbhanj
+22:27:30  INFO       [service] bajaj / medak
+22:27:34  INFO       [showroom] bajaj / medak
+22:27:38  INFO       [service] bajaj / meerut
+22:27:42  INFO       [showroom] bajaj / meerut
+22:27:46  INFO       [service] bajaj / mehsana
+22:27:50  INFO       [showroom] bajaj / mehsana
+22:27:55  INFO       [service] bajaj / midnapore
+22:28:00  INFO       [showroom] bajaj / midnapore
+22:28:05  INFO       [service] bajaj / mirzapur
+22:28:10  INFO       [showroom] bajaj / mirzapur
+22:28:15  INFO       [service] bajaj / moga
+22:28:19  INFO       [showroom] bajaj / moga
+22:28:23  INFO       [service] bajaj / mohali
+22:28:27  INFO       [showroom] bajaj / mohali
+22:28:32  INFO       [service] bajaj / moradabad
+22:28:36  INFO       [showroom] bajaj / moradabad
+22:28:41  INFO       [service] bajaj / morena
+22:28:46  INFO       [showroom] bajaj / morena
+22:28:50  INFO       [service] bajaj / morigaon
+22:28:55  INFO       [showroom] bajaj / morigaon
+22:29:00  INFO       [service] bajaj / muktsar
+22:29:03  INFO       [showroom] bajaj / muktsar
+22:29:05  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_muktsar_showroom_a1.html
+22:29:08  INFO       [service] bajaj / mumbai
+22:29:12  INFO       [showroom] bajaj / mumbai
+22:29:17  INFO       [service] bajaj / munger
+22:29:21  INFO       [showroom] bajaj / munger
+22:29:26  INFO       [service] bajaj / murshidabad
+22:29:30  INFO       [showroom] bajaj / murshidabad
+22:29:35  INFO       [service] bajaj / muzaffarnagar
+22:29:39  INFO       [showroom] bajaj / muzaffarnagar
+22:29:44  INFO       [service] bajaj / muzaffarpur
+22:29:49  INFO       [showroom] bajaj / muzaffarpur
+22:29:53  INFO       [service] bajaj / mysore
+22:29:58  INFO       [showroom] bajaj / mysore
+22:30:03  INFO       [service] bajaj / nabarangapur
+22:30:07  INFO       [showroom] bajaj / nabarangapur
+22:30:08  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_nabarangapur_showroom_a1.html
+22:30:12  INFO       [service] bajaj / nadia
+22:30:17  INFO       [showroom] bajaj / nadia
+22:30:18  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_nadia_showroom_a1.html
+22:30:22  INFO       [service] bajaj / nagaon
+22:30:26  INFO       [showroom] bajaj / nagaon
+22:30:30  INFO       [service] bajaj / nagapattinam
+22:30:35  INFO       [showroom] bajaj / nagapattinam
+22:30:37  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_nagapattinam_showroom_a1.html
+22:30:41  INFO       [service] bajaj / nagaur
+22:30:45  INFO       [showroom] bajaj / nagaur
+22:30:50  INFO       [service] bajaj / nagpur
+22:30:55  INFO       [showroom] bajaj / nagpur
+22:30:59  INFO       [service] bajaj / nainital-uttrakhand
+22:31:04  INFO       [showroom] bajaj / nainital-uttrakhand
+22:31:05  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_nainital-uttrakhand_showroom_a1.html
+22:31:08  INFO       [service] bajaj / nalanda
+22:31:13  INFO       [showroom] bajaj / nalanda
+22:31:14  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_nalanda_showroom_a1.html
+22:31:18  INFO       [service] bajaj / nalbari
+22:31:22  INFO       [showroom] bajaj / nalbari
+22:31:27  INFO       [service] bajaj / nalgonda
+22:31:31  INFO       [showroom] bajaj / nalgonda
+22:31:36  INFO       [service] bajaj / namakkal
+22:31:41  INFO       [showroom] bajaj / namakkal
+22:31:45  INFO       [service] bajaj / nanded
+22:31:49  INFO       [showroom] bajaj / nanded
+22:31:54  INFO       [service] bajaj / nandurbar
+22:31:59  INFO       [showroom] bajaj / nandurbar
+22:32:04  INFO       [service] bajaj / narasinghpur
+22:32:08  INFO       [showroom] bajaj / narasinghpur
+22:32:12  INFO       [service] bajaj / narmada
+22:32:16  INFO       [showroom] bajaj / narmada
+22:32:17  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_narmada_showroom_a1.html
+22:32:20  INFO       [service] bajaj / nashik
+22:32:25  INFO       [showroom] bajaj / nashik
+22:32:29  INFO       [service] bajaj / navi-mumbai
+22:32:34  INFO       [showroom] bajaj / navi-mumbai
+22:32:38  INFO       [service] bajaj / navsari
+22:32:43  INFO       [showroom] bajaj / navsari
+22:32:47  INFO       [service] bajaj / nawada
+22:32:53  INFO       [showroom] bajaj / nawada
+22:32:58  INFO       [service] bajaj / nawanshahr
+22:33:03  INFO       [showroom] bajaj / nawanshahr
+22:33:07  INFO       [service] bajaj / neemuch
+22:33:12  INFO       [showroom] bajaj / neemuch
+22:33:16  INFO       [service] bajaj / nellore
+22:33:20  INFO       [showroom] bajaj / nellore
+22:33:25  INFO       [service] bajaj / nilgiris
+22:33:29  INFO       [showroom] bajaj / nilgiris
+22:33:33  INFO       [service] bajaj / nizamabad
+22:33:38  INFO       [showroom] bajaj / nizamabad
+22:33:43  INFO       [service] bajaj / noida
+22:33:48  INFO       [showroom] bajaj / noida
+22:33:53  INFO       [service] bajaj / north24parganas
+22:33:57  INFO       [showroom] bajaj / north24parganas
+22:34:01  INFO       [service] bajaj / northgoa
+22:34:05  INFO       [showroom] bajaj / northgoa
+22:34:07  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_northgoa_showroom_a1.html
+22:34:11  INFO       [service] bajaj / northtripura
+22:34:16  INFO       [showroom] bajaj / northtripura
+22:34:17  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_northtripura_showroom_a1.html
+22:34:21  INFO       [service] bajaj / nuapada
+22:34:26  INFO       [showroom] bajaj / nuapada
+22:34:27  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_nuapada_showroom_a1.html
+22:34:30  INFO       [service] bajaj / osmanabad
+22:34:35  INFO       [showroom] bajaj / osmanabad
+22:34:39  INFO       [service] bajaj / palakkad
+22:34:44  INFO       [showroom] bajaj / palakkad
+22:34:49  INFO       [service] bajaj / palamu
+22:34:53  INFO       [showroom] bajaj / palamu
+22:34:55  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_palamu_showroom_a1.html
+22:34:58  INFO       [service] bajaj / pali
+22:35:02  INFO       [showroom] bajaj / pali
+22:35:04  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_pali_showroom_a1.html
+22:35:06  INFO       [service] bajaj / panchkula
+22:35:11  INFO       [showroom] bajaj / panchkula
+22:35:16  INFO       [service] bajaj / panchmahal
+22:35:20  INFO       [showroom] bajaj / panchmahal
+22:35:22  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_panchmahal_showroom_a1.html
+22:35:25  INFO       [service] bajaj / panipat
+22:35:30  INFO       [showroom] bajaj / panipat
+22:35:34  INFO       [service] bajaj / panna
+22:35:38  INFO       [showroom] bajaj / panna
+22:35:40  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_panna_showroom_a1.html
+22:35:42  INFO       [service] bajaj / parbhani
+22:35:47  INFO       [showroom] bajaj / parbhani
+22:35:51  INFO       [service] bajaj / patan
+22:35:57  INFO       [showroom] bajaj / patan
+22:36:01  INFO       [service] bajaj / pathanamthitta
+22:36:05  INFO       [showroom] bajaj / pathanamthitta
+22:36:09  INFO       [service] bajaj / pathankot
+22:36:13  INFO       [showroom] bajaj / pathankot
+22:36:18  INFO       [service] bajaj / patiala
+22:36:22  INFO       [showroom] bajaj / patiala
+22:36:28  INFO       [service] bajaj / patna
+22:36:32  INFO       [showroom] bajaj / patna
+22:36:37  INFO       [service] bajaj / paurigarhwal
+22:36:42  INFO       [showroom] bajaj / paurigarhwal
+22:36:43  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_paurigarhwal_showroom_a1.html
+22:36:46  INFO       [service] bajaj / perambalur
+22:36:50  INFO       [showroom] bajaj / perambalur
+22:36:55  INFO       [service] bajaj / pilibhit
+22:37:00  INFO       [showroom] bajaj / pilibhit
+22:37:04  INFO       [service] bajaj / pithoragarh
+22:37:07  INFO       [showroom] bajaj / pithoragarh
+22:37:09  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_pithoragarh_showroom_a1.html
+22:37:12  INFO       [service] bajaj / pondicherry
+22:37:16  INFO       [showroom] bajaj / pondicherry
+22:37:21  INFO       [service] bajaj / porbandar
+22:37:25  INFO       [showroom] bajaj / porbandar
+22:37:31  INFO       [service] bajaj / prakasam
+22:37:36  INFO       [showroom] bajaj / prakasam
+22:37:37  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_prakasam_showroom_a1.html
+22:37:41  INFO       [service] bajaj / pratapgarh-rajasthan
+22:37:46  INFO       [showroom] bajaj / pratapgarh-rajasthan
+22:37:50  INFO       [service] bajaj / pratapgarh-uttarpradesh
+22:37:55  INFO       [showroom] bajaj / pratapgarh-uttarpradesh
+22:38:00  INFO       [service] bajaj / pudukkottai
+22:38:04  INFO       [showroom] bajaj / pudukkottai
+22:38:09  INFO       [service] bajaj / pulwama
+22:38:14  INFO       [showroom] bajaj / pulwama
+22:38:16  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_pulwama_showroom_a1.html
+22:38:19  INFO       [service] bajaj / pune
+22:38:22  INFO       [showroom] bajaj / pune
+22:38:27  INFO       [service] bajaj / puri
+22:38:31  INFO       [showroom] bajaj / puri
+22:38:35  INFO       [service] bajaj / purnea
+22:38:39  INFO       [showroom] bajaj / purnea
+22:38:44  INFO       [service] bajaj / purulia
+22:38:49  INFO       [showroom] bajaj / purulia
+22:38:50  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_purulia_showroom_a1.html
+22:38:54  INFO       [service] bajaj / raebareli
+22:38:58  INFO       [showroom] bajaj / raebareli
+22:39:02  INFO       [service] bajaj / raichur
+22:39:07  INFO       [showroom] bajaj / raichur
+22:39:12  INFO       [service] bajaj / raigad
+22:39:17  INFO       [showroom] bajaj / raigad
+22:39:22  INFO       [service] bajaj / raigarh
+22:39:26  INFO       [showroom] bajaj / raigarh
+22:39:31  INFO       [service] bajaj / raipur
+22:39:36  INFO       [showroom] bajaj / raipur
+22:39:40  INFO       [service] bajaj / raisen
+22:39:44  INFO       [showroom] bajaj / raisen
+22:39:48  INFO       [service] bajaj / rajgarh
+22:39:52  INFO       [showroom] bajaj / rajgarh
+22:39:54  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_rajgarh_showroom_a1.html
+22:39:57  INFO       [service] bajaj / rajkot
+22:40:02  INFO       [showroom] bajaj / rajkot
+22:40:07  INFO       [service] bajaj / rajnandgaon
+22:40:12  INFO       [showroom] bajaj / rajnandgaon
+22:40:16  INFO       [service] bajaj / rajouri
+22:40:20  INFO       [showroom] bajaj / rajouri
+22:40:21  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_rajouri_showroom_a1.html
+22:40:24  INFO       [service] bajaj / rajsamand
+22:40:29  INFO       [showroom] bajaj / rajsamand
+22:40:33  INFO       [service] bajaj / ramanagara
+22:40:37  INFO       [showroom] bajaj / ramanagara
+22:40:43  INFO       [service] bajaj / ramanathapuram
+22:40:48  INFO       [showroom] bajaj / ramanathapuram
+22:40:52  INFO       [service] bajaj / ramgarh
+22:40:57  INFO       [showroom] bajaj / ramgarh
+22:41:02  INFO       [service] bajaj / rampur-himachalpradesh
+22:41:06  INFO       [showroom] bajaj / rampur-himachalpradesh
+22:41:08  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_rampur-himachalpradesh_showroom_a1.html
+22:41:12  INFO       [service] bajaj / rampur-uttarpradesh
+22:41:16  INFO       [showroom] bajaj / rampur-uttarpradesh
+22:41:20  INFO       [service] bajaj / ranchi
+22:41:24  INFO       [showroom] bajaj / ranchi
+22:41:28  INFO       [service] bajaj / rangareddy
+22:41:33  INFO       [showroom] bajaj / rangareddy
+22:41:37  INFO       [service] bajaj / ratlam
+22:41:42  INFO       [showroom] bajaj / ratlam
+22:41:46  INFO       [service] bajaj / ratnagiri
+22:41:50  INFO       [showroom] bajaj / ratnagiri
+22:41:55  INFO       [service] bajaj / rayagada
+22:42:01  INFO       [showroom] bajaj / rayagada
+22:42:06  INFO       [service] bajaj / rewa
+22:42:10  INFO       [showroom] bajaj / rewa
+22:42:11  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_rewa_showroom_a1.html
+22:42:15  INFO       [service] bajaj / rewari
+22:42:20  INFO       [showroom] bajaj / rewari
+22:42:21  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_rewari_showroom_a1.html
+22:42:25  INFO       [service] bajaj / rohtak
+22:42:29  INFO       [showroom] bajaj / rohtak
+22:42:33  INFO       [service] bajaj / rohtas
+22:42:38  INFO       [showroom] bajaj / rohtas
+22:42:39  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_rohtas_showroom_a1.html
+22:42:43  INFO       [service] bajaj / ropar
+22:42:48  INFO       [showroom] bajaj / ropar
+22:42:53  INFO       [service] bajaj / rudraprayag
+22:42:56  INFO       [showroom] bajaj / rudraprayag
+22:42:58  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_rudraprayag_showroom_a1.html
+22:43:00  INFO       [service] bajaj / rupnagar
+22:43:05  INFO       [showroom] bajaj / rupnagar
+22:43:11  INFO       [service] bajaj / sabarkantha
+22:43:14  INFO       [showroom] bajaj / sabarkantha
+22:43:16  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sabarkantha_showroom_a1.html
+22:43:20  INFO       [service] bajaj / sagar
+22:43:24  INFO       [showroom] bajaj / sagar
+22:43:29  INFO       [service] bajaj / saharanpur
+22:43:33  INFO       [showroom] bajaj / saharanpur
+22:43:37  INFO       [service] bajaj / saharsa
+22:43:42  INFO       [showroom] bajaj / saharsa
+22:43:47  INFO       [service] bajaj / sahibganj
+22:43:51  INFO       [showroom] bajaj / sahibganj
+22:43:55  INFO       [service] bajaj / salem
+22:43:59  INFO       [showroom] bajaj / salem
+22:44:04  INFO       [service] bajaj / samastipur
+22:44:07  INFO       [showroom] bajaj / samastipur
+22:44:13  INFO       [service] bajaj / sambalpur
+22:44:16  INFO       [showroom] bajaj / sambalpur
+22:44:22  INFO       [service] bajaj / sangli
+22:44:25  INFO       [showroom] bajaj / sangli
+22:44:30  INFO       [service] bajaj / sangrur
+22:44:35  INFO       [showroom] bajaj / sangrur
+22:44:40  INFO       [service] bajaj / santkabirnagar
+22:44:45  INFO       [showroom] bajaj / santkabirnagar
+22:44:46  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_santkabirnagar_showroom_a1.html
+22:44:49  INFO       [service] bajaj / santravidasnagar
+22:44:53  INFO       [showroom] bajaj / santravidasnagar
+22:44:55  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_santravidasnagar_showroom_a1.html
+22:44:58  INFO       [service] bajaj / saran
+22:45:02  INFO       [showroom] bajaj / saran
+22:45:03  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_saran_showroom_a1.html
+22:45:06  INFO       [service] bajaj / satara
+22:45:11  INFO       [showroom] bajaj / satara
+22:45:15  INFO       [service] bajaj / satna
+22:45:20  INFO       [showroom] bajaj / satna
+22:45:25  INFO       [service] bajaj / sawaimadhopur
+22:45:29  INFO       [showroom] bajaj / sawaimadhopur
+22:45:34  INFO       [service] bajaj / sehore
+22:45:38  INFO       [showroom] bajaj / sehore
+22:45:43  INFO       [service] bajaj / seoni
+22:45:47  INFO       [showroom] bajaj / seoni
+22:45:52  INFO       [service] bajaj / seraikelakharsawan
+22:45:56  INFO       [showroom] bajaj / seraikelakharsawan
+22:45:57  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_seraikelakharsawan_showroom_a1.html
+22:46:00  INFO       [service] bajaj / shahdol
+22:46:04  INFO       [showroom] bajaj / shahdol
+22:46:08  INFO       [service] bajaj / shahjahanpur
+22:46:13  INFO       [showroom] bajaj / shahjahanpur
+22:46:17  INFO       [service] bajaj / shajapur
+22:46:21  INFO       [showroom] bajaj / shajapur
+22:46:26  INFO       [service] bajaj / sheikhpura
+22:46:30  INFO       [showroom] bajaj / sheikhpura
+22:46:32  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sheikhpura_showroom_a1.html
+22:46:35  INFO       [service] bajaj / sheohar
+22:46:40  INFO       [showroom] bajaj / sheohar
+22:46:42  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sheohar_showroom_a1.html
+22:46:45  INFO       [service] bajaj / sheopur
+22:46:49  INFO       [showroom] bajaj / sheopur
+22:46:51  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sheopur_showroom_a1.html
+22:46:53  INFO       [service] bajaj / shimla
+22:46:57  INFO       [showroom] bajaj / shimla
+22:46:58  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_shimla_showroom_a1.html
+22:47:02  INFO       [service] bajaj / shimoga
+22:47:07  INFO       [showroom] bajaj / shimoga
+22:47:12  INFO       [service] bajaj / shivpuri
+22:47:16  INFO       [showroom] bajaj / shivpuri
+22:47:20  INFO       [service] bajaj / sibsagar
+22:47:24  INFO       [showroom] bajaj / sibsagar
+22:47:25  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sibsagar_showroom_a1.html
+22:47:28  INFO       [service] bajaj / siddharthnagar
+22:47:33  INFO       [showroom] bajaj / siddharthnagar
+22:47:37  INFO       [service] bajaj / sidhi
+22:47:42  INFO       [showroom] bajaj / sidhi
+22:47:46  INFO       [service] bajaj / sikar
+22:47:51  INFO       [showroom] bajaj / sikar
+22:47:55  INFO       [service] bajaj / sindhdurg
+22:48:00  INFO       [showroom] bajaj / sindhdurg
+22:48:01  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sindhdurg_showroom_a1.html
+22:48:04  INFO       [service] bajaj / sirmaur
+22:48:09  INFO       [showroom] bajaj / sirmaur
+22:48:10  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sirmaur_showroom_a1.html
+22:48:13  INFO       [service] bajaj / sirohi
+22:48:17  INFO       [showroom] bajaj / sirohi
+22:48:18  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sirohi_showroom_a1.html
+22:48:21  INFO       [service] bajaj / sirsa
+22:48:25  INFO       [showroom] bajaj / sirsa
+22:48:31  INFO       [service] bajaj / sitamarhi
+22:48:35  INFO       [showroom] bajaj / sitamarhi
+22:48:39  INFO       [service] bajaj / sitapur
+22:48:44  INFO       [showroom] bajaj / sitapur
+22:48:49  INFO       [service] bajaj / sivagangai
+22:48:53  INFO       [showroom] bajaj / sivagangai
+22:48:55  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sivagangai_showroom_a1.html
+22:48:58  INFO       [service] bajaj / siwan
+22:49:02  INFO       [showroom] bajaj / siwan
+22:49:07  INFO       [service] bajaj / solan
+22:49:11  INFO       [showroom] bajaj / solan
+22:49:12  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_solan_showroom_a1.html
+22:49:16  INFO       [service] bajaj / solapur
+22:49:20  INFO       [showroom] bajaj / solapur
+22:49:24  INFO       [service] bajaj / sonapur
+22:49:29  INFO       [showroom] bajaj / sonapur
+22:49:34  INFO       [service] bajaj / sonbhadra
+22:49:38  INFO       [showroom] bajaj / sonbhadra
+22:49:43  INFO       [service] bajaj / sonipat
+22:49:47  INFO       [showroom] bajaj / sonipat
+22:49:52  INFO       [service] bajaj / sonitpur
+22:49:57  INFO       [showroom] bajaj / sonitpur
+22:49:58  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sonitpur_showroom_a1.html
+22:50:01  INFO       [service] bajaj / southgoa
+22:50:06  INFO       [showroom] bajaj / southgoa
+22:50:07  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_southgoa_showroom_a1.html
+22:50:11  INFO       [service] bajaj / southtripura
+22:50:16  INFO       [showroom] bajaj / southtripura
+22:50:21  INFO       [service] bajaj / sravasti
+22:50:25  INFO       [showroom] bajaj / sravasti
+22:50:26  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sravasti_showroom_a1.html
+22:50:30  INFO       [service] bajaj / srikakulam
+22:50:34  INFO       [showroom] bajaj / srikakulam
+22:50:38  INFO       [service] bajaj / sultanpur
+22:50:43  INFO       [showroom] bajaj / sultanpur
+22:50:47  INFO       [service] bajaj / sundergarh
+22:50:52  INFO       [showroom] bajaj / sundergarh
+22:50:53  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_sundergarh_showroom_a1.html
+22:50:57  INFO       [service] bajaj / supaul
+22:51:01  INFO       [showroom] bajaj / supaul
+22:51:02  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_supaul_showroom_a1.html
+22:51:06  INFO       [service] bajaj / surat
+22:51:10  INFO       [showroom] bajaj / surat
+22:51:16  INFO       [service] bajaj / surendranagar
+22:51:20  INFO       [showroom] bajaj / surendranagar
+22:51:24  INFO       [service] bajaj / surguja
+22:51:28  INFO       [showroom] bajaj / surguja
+22:51:29  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_surguja_showroom_a1.html
+22:51:33  INFO       [service] bajaj / tarntaran
+22:51:38  INFO       [showroom] bajaj / tarntaran
+22:51:42  INFO       [service] bajaj / tehrigarhwal
+22:51:48  INFO       [showroom] bajaj / tehrigarhwal
+22:51:49  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_tehrigarhwal_showroom_a1.html
+22:51:52  INFO       [service] bajaj / thane
+22:51:57  INFO       [showroom] bajaj / thane
+22:52:02  INFO       [service] bajaj / thanjavur
+22:52:06  INFO       [showroom] bajaj / thanjavur
+22:52:11  INFO       [service] bajaj / theni
+22:52:16  INFO       [showroom] bajaj / theni
+22:52:21  INFO       [service] bajaj / thiruvallur
+22:52:25  INFO       [showroom] bajaj / thiruvallur
+22:52:29  INFO       [service] bajaj / thiruvananthapuram
+22:52:34  INFO       [showroom] bajaj / thiruvananthapuram
+22:52:38  INFO       [service] bajaj / thiruvarur
+22:52:42  INFO       [showroom] bajaj / thiruvarur
+22:52:47  INFO       [service] bajaj / thrissur
+22:52:52  INFO       [showroom] bajaj / thrissur
+22:52:56  INFO       [service] bajaj / tikamgarh
+22:53:01  INFO       [showroom] bajaj / tikamgarh
+22:53:02  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_tikamgarh_showroom_a1.html
+22:53:05  INFO       [service] bajaj / tinsukia
+22:53:09  INFO       [showroom] bajaj / tinsukia
+22:53:14  INFO       [service] bajaj / tiruchirappalli
+22:53:19  INFO       [showroom] bajaj / tiruchirappalli
+22:53:24  INFO       [service] bajaj / tirunelveli
+22:53:28  INFO       [showroom] bajaj / tirunelveli
+22:53:33  INFO       [service] bajaj / tiruvannamalai
+22:53:38  INFO       [showroom] bajaj / tiruvannamalai
+22:53:43  INFO       [service] bajaj / tonk
+22:53:48  INFO       [showroom] bajaj / tonk
+22:53:52  INFO       [service] bajaj / tumkur
+22:53:56  INFO       [showroom] bajaj / tumkur
+22:54:01  INFO       [service] bajaj / tuticorin
+22:54:05  INFO       [showroom] bajaj / tuticorin
+22:54:09  INFO       [service] bajaj / udaipur
+22:54:14  INFO       [showroom] bajaj / udaipur
+22:54:18  INFO       [service] bajaj / udhamsinghnagar
+22:54:22  INFO       [showroom] bajaj / udhamsinghnagar
+22:54:27  INFO       [service] bajaj / udhampur
+22:54:32  INFO       [showroom] bajaj / udhampur
+22:54:33  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_udhampur_showroom_a1.html
+22:54:36  INFO       [service] bajaj / udupi
+22:54:41  INFO       [showroom] bajaj / udupi
+22:54:45  INFO       [service] bajaj / ujjain
+22:54:50  INFO       [showroom] bajaj / ujjain
+22:54:55  INFO       [service] bajaj / umaria
+22:54:59  INFO       [showroom] bajaj / umaria
+22:55:00  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_umaria_showroom_a1.html
+22:55:03  INFO       [service] bajaj / una-himachalpradesh
+22:55:08  INFO       [showroom] bajaj / una-himachalpradesh
+22:55:12  INFO       [service] bajaj / unnao
+22:55:16  INFO       [showroom] bajaj / unnao
+22:55:21  INFO       [service] bajaj / uttardinajpur
+22:55:25  INFO       [showroom] bajaj / uttardinajpur
+22:55:27  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_uttardinajpur_showroom_a1.html
+22:55:30  INFO       [service] bajaj / uttarkannada
+22:55:34  INFO       [showroom] bajaj / uttarkannada
+22:55:35  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_uttarkannada_showroom_a1.html
+22:55:39  INFO       [service] bajaj / uttarkashi
+22:55:44  INFO       [showroom] bajaj / uttarkashi
+22:55:45  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_uttarkashi_showroom_a1.html
+22:55:49  INFO       [service] bajaj / vadodara
+22:55:53  INFO       [showroom] bajaj / vadodara
+22:55:57  INFO       [service] bajaj / vaishali
+22:56:01  INFO       [showroom] bajaj / vaishali
+22:56:02  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_vaishali_showroom_a1.html
+22:56:06  INFO       [service] bajaj / valsad
+22:56:10  INFO       [showroom] bajaj / valsad
+22:56:15  INFO       [service] bajaj / varanasi
+22:56:19  INFO       [showroom] bajaj / varanasi
+22:56:24  INFO       [service] bajaj / vellore
+22:56:28  INFO       [showroom] bajaj / vellore
+22:56:32  INFO       [service] bajaj / vidisha
+22:56:37  INFO       [showroom] bajaj / vidisha
+22:56:42  INFO       [service] bajaj / villupuram
+22:56:46  INFO       [showroom] bajaj / villupuram
+22:56:52  INFO       [service] bajaj / virudhunagar
+22:56:56  INFO       [showroom] bajaj / virudhunagar
+22:57:00  INFO       [service] bajaj / visakhapatnam
+22:57:05  INFO       [showroom] bajaj / visakhapatnam
+22:57:10  INFO       [service] bajaj / vizianagaram
+22:57:14  INFO       [showroom] bajaj / vizianagaram
+22:57:18  INFO       [service] bajaj / warangal
+22:57:22  INFO       [showroom] bajaj / warangal
+22:57:26  INFO       [service] bajaj / wardha
+22:57:30  INFO       [showroom] bajaj / wardha
+22:57:35  INFO       [service] bajaj / washim
+22:57:38  INFO       [showroom] bajaj / washim
+22:57:43  INFO       [service] bajaj / wayanad
+22:57:48  INFO       [showroom] bajaj / wayanad
+22:57:53  INFO       [service] bajaj / westgarohills
+22:57:57  INFO       [showroom] bajaj / westgarohills
+22:57:58  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_westgarohills_showroom_a1.html
+22:58:01  INFO       [service] bajaj / westgodavari
+22:58:06  INFO       [showroom] bajaj / westgodavari
+22:58:08  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_westgodavari_showroom_a1.html
+22:58:10  INFO       [service] bajaj / westsinghbhum
+22:58:15  INFO       [showroom] bajaj / westsinghbhum
+22:58:19  INFO       [service] bajaj / westtripura
+22:58:23  INFO       [showroom] bajaj / westtripura
+22:58:24  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_westtripura_showroom_a1.html
+22:58:28  INFO       [service] bajaj / yadagir
+22:58:32  INFO       [showroom] bajaj / yadagir
+22:58:33  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\bajaj_yadagir_showroom_a1.html
+22:58:36  INFO       [service] bajaj / yamunanagar
+22:58:41  INFO       [showroom] bajaj / yamunanagar
+22:58:45  INFO       [service] bajaj / yavatmal
+22:58:49  INFO       [showroom] bajaj / yavatmal
+22:58:54  INFO     === Brand: tvs (masking=tvs) ===
+22:58:54  INFO       Cities API: 3 cities for tvs
+22:58:54  INFO       3 cities to scrape
+22:58:54  INFO       [service] tvs / ahmedabad
+22:58:59  INFO       [showroom] tvs / ahmedabad
+22:59:04  INFO       [service] tvs / chandigarh
+22:59:09  INFO       [showroom] tvs / chandigarh
+22:59:14  INFO       [service] tvs / noida
+22:59:18  INFO       [showroom] tvs / noida
+22:59:23  INFO     === Brand: royal-enfield (masking=royalenfield) ===
+22:59:24  INFO       Cities API: 461 cities for royal-enfield
+22:59:24  INFO       461 cities to scrape
+22:59:24  INFO       [service] royal-enfield / abohar
+22:59:28  INFO       [showroom] royal-enfield / abohar
+22:59:34  INFO       [service] royal-enfield / adilabad
+22:59:38  INFO       [showroom] royal-enfield / adilabad
+22:59:42  INFO       [service] royal-enfield / agartala
+22:59:46  INFO       [showroom] royal-enfield / agartala
+22:59:50  INFO       [service] royal-enfield / agra
+22:59:55  INFO       [showroom] royal-enfield / agra
+23:00:00  INFO       [service] royal-enfield / ahmedabad
+23:00:04  INFO       [showroom] royal-enfield / ahmedabad
+23:00:10  INFO       [service] royal-enfield / ahmednagar
+23:00:15  INFO       [showroom] royal-enfield / ahmednagar
+23:00:18  INFO       [service] royal-enfield / ajmer
+23:00:22  INFO       [showroom] royal-enfield / ajmer
+23:00:27  INFO       [service] royal-enfield / akola
+23:00:32  INFO       [showroom] royal-enfield / akola
+23:00:37  INFO       [service] royal-enfield / aligarh
+23:00:40  INFO       [showroom] royal-enfield / aligarh
+23:00:45  INFO       [service] royal-enfield / allahabad
+23:00:50  INFO       [showroom] royal-enfield / allahabad
+23:00:54  INFO       [service] royal-enfield / alleppey
+23:00:59  INFO       [showroom] royal-enfield / alleppey
+23:01:00  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_alleppey_showroom_a1.html
+23:01:04  INFO       [service] royal-enfield / alwar
+23:01:08  INFO       [showroom] royal-enfield / alwar
+23:01:13  INFO       [service] royal-enfield / amalapuram
+23:01:17  INFO       [showroom] royal-enfield / amalapuram
+23:01:21  INFO       [service] royal-enfield / ambalacity
+23:01:26  INFO       [showroom] royal-enfield / ambalacity
+23:01:31  INFO       [service] royal-enfield / ambedkarnagar
+23:01:35  INFO       [showroom] royal-enfield / ambedkarnagar
+23:01:40  INFO       [service] royal-enfield / ambikapur
+23:01:44  INFO       [showroom] royal-enfield / ambikapur
+23:01:50  INFO       [service] royal-enfield / amravati
+23:01:54  INFO       [showroom] royal-enfield / amravati
+23:01:58  INFO       [service] royal-enfield / amritsar
+23:02:02  INFO       [showroom] royal-enfield / amritsar
+23:02:07  INFO       [service] royal-enfield / anand
+23:02:12  INFO       [showroom] royal-enfield / anand
+23:02:16  INFO       [service] royal-enfield / anantapur
+23:02:21  INFO       [showroom] royal-enfield / anantapur
+23:02:25  INFO       [service] royal-enfield / angul
+23:02:29  INFO       [showroom] royal-enfield / angul
+23:02:33  INFO       [service] royal-enfield / ara
+23:02:38  INFO       [showroom] royal-enfield / ara
+23:02:42  INFO       [service] royal-enfield / arani
+23:02:47  INFO       [showroom] royal-enfield / arani
+23:02:51  INFO       [service] royal-enfield / arwal
+23:02:56  INFO       [showroom] royal-enfield / arwal
+23:03:00  INFO       [service] royal-enfield / asansol
+23:03:05  INFO       [showroom] royal-enfield / asansol
+23:03:10  INFO       [service] royal-enfield / aurangabad-maharashtra
+23:03:14  INFO       [showroom] royal-enfield / aurangabad-maharashtra
+23:03:19  INFO       [service] royal-enfield / azamgarh
+23:03:24  INFO       [showroom] royal-enfield / azamgarh
+23:03:28  INFO       [service] royal-enfield / badaun
+23:03:33  INFO       [showroom] royal-enfield / badaun
+23:03:37  INFO       [service] royal-enfield / baddi
+23:03:41  INFO       [showroom] royal-enfield / baddi
+23:03:42  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_baddi_showroom_a1.html
+23:03:46  INFO       [service] royal-enfield / bagalkot
+23:03:51  INFO       [showroom] royal-enfield / bagalkot
+23:03:55  INFO       [service] royal-enfield / baghpat-uttarpradesh
+23:03:58  INFO       [showroom] royal-enfield / baghpat-uttarpradesh
+23:04:03  INFO       [service] royal-enfield / balangir
+23:04:08  INFO       [showroom] royal-enfield / balangir
+23:04:12  INFO       [service] royal-enfield / balrampur
+23:04:16  INFO       [showroom] royal-enfield / balrampur
+23:04:22  INFO       [service] royal-enfield / bangalore
+23:04:26  INFO       [showroom] royal-enfield / bangalore
+23:04:31  INFO       [service] royal-enfield / banswara
+23:04:35  INFO       [showroom] royal-enfield / banswara
+23:04:40  INFO       [service] royal-enfield / barabanki
+23:04:45  INFO       [showroom] royal-enfield / barabanki
+23:04:50  INFO       [service] royal-enfield / baramati
+23:04:54  INFO       [showroom] royal-enfield / baramati
+23:04:59  INFO       [service] royal-enfield / baramulla
+23:05:03  INFO       [showroom] royal-enfield / baramulla
+23:05:08  INFO       [service] royal-enfield / barasat
+23:05:11  INFO       [showroom] royal-enfield / barasat
+23:05:16  INFO       [service] royal-enfield / bardoli
+23:05:21  INFO       [showroom] royal-enfield / bardoli
+23:05:25  INFO       [service] royal-enfield / bareilly
+23:05:30  INFO       [showroom] royal-enfield / bareilly
+23:05:34  INFO       [service] royal-enfield / bargarh
+23:05:37  INFO       [showroom] royal-enfield / bargarh
+23:05:42  INFO       [service] royal-enfield / baripada
+23:05:46  INFO       [showroom] royal-enfield / baripada
+23:05:50  INFO       [service] royal-enfield / barmer
+23:05:54  INFO       [showroom] royal-enfield / barmer
+23:05:58  INFO       [service] royal-enfield / barnala
+23:06:01  INFO       [showroom] royal-enfield / barnala
+23:06:05  INFO       [service] royal-enfield / barpeta
+23:06:10  INFO       [showroom] royal-enfield / barpeta
+23:06:15  INFO       [service] royal-enfield / basirhat
+23:06:19  INFO       [showroom] royal-enfield / basirhat
+23:06:24  INFO       [service] royal-enfield / basti
+23:06:29  INFO       [showroom] royal-enfield / basti
+23:06:32  INFO       [service] royal-enfield / batala
+23:06:36  INFO       [showroom] royal-enfield / batala
+23:06:41  INFO       [service] royal-enfield / bathinda
+23:06:46  INFO       [showroom] royal-enfield / bathinda
+23:06:51  INFO       [service] royal-enfield / beed
+23:06:55  INFO       [showroom] royal-enfield / beed
+23:06:59  INFO       [service] royal-enfield / begusarai
+23:07:04  INFO       [showroom] royal-enfield / begusarai
+23:07:09  INFO       [service] royal-enfield / belgaum
+23:07:14  INFO       [showroom] royal-enfield / belgaum
+23:07:18  INFO       [service] royal-enfield / bellary
+23:07:22  INFO       [showroom] royal-enfield / bellary
+23:07:26  INFO       [service] royal-enfield / bettiah
+23:07:30  INFO       [showroom] royal-enfield / bettiah
+23:07:35  INFO       [service] royal-enfield / betul
+23:07:38  INFO       [showroom] royal-enfield / betul
+23:07:43  INFO       [service] royal-enfield / bhagalpur
+23:07:47  INFO       [showroom] royal-enfield / bhagalpur
+23:07:52  INFO       [service] royal-enfield / bharatpur
+23:07:56  INFO       [showroom] royal-enfield / bharatpur
+23:08:01  INFO       [service] royal-enfield / bharuch
+23:08:06  INFO       [showroom] royal-enfield / bharuch
+23:08:11  INFO       [service] royal-enfield / bhavnagar
+23:08:15  INFO       [showroom] royal-enfield / bhavnagar
+23:08:20  INFO       [service] royal-enfield / bhawanipatna
+23:08:25  INFO       [showroom] royal-enfield / bhawanipatna
+23:08:29  INFO       [service] royal-enfield / bhilai
+23:08:33  INFO       [showroom] royal-enfield / bhilai
+23:08:37  INFO       [service] royal-enfield / bhilwara
+23:08:43  INFO       [showroom] royal-enfield / bhilwara
+23:08:47  INFO       [service] royal-enfield / bhimavaram
+23:08:51  INFO       [showroom] royal-enfield / bhimavaram
+23:08:56  INFO       [service] royal-enfield / bhind
+23:09:01  INFO       [showroom] royal-enfield / bhind
+23:09:04  INFO       [service] royal-enfield / bhiwadi
+23:09:09  INFO       [showroom] royal-enfield / bhiwadi
+23:09:14  INFO       [service] royal-enfield / bhiwani
+23:09:18  INFO       [showroom] royal-enfield / bhiwani
+23:09:23  INFO       [service] royal-enfield / bhopal
+23:09:28  INFO       [showroom] royal-enfield / bhopal
+23:09:32  INFO       [service] royal-enfield / bhubaneswar
+23:09:36  INFO       [showroom] royal-enfield / bhubaneswar
+23:09:40  INFO       [service] royal-enfield / bhuj
+23:09:44  INFO       [showroom] royal-enfield / bhuj
+23:09:48  INFO       [service] royal-enfield / bhusawal
+23:09:53  INFO       [showroom] royal-enfield / bhusawal
+23:09:58  INFO       [service] royal-enfield / bidar
+23:10:02  INFO       [showroom] royal-enfield / bidar
+23:10:07  INFO       [service] royal-enfield / bijapur
+23:10:11  INFO       [showroom] royal-enfield / bijapur
+23:10:16  INFO       [service] royal-enfield / bijnor
+23:10:21  INFO       [showroom] royal-enfield / bijnor
+23:10:26  INFO       [service] royal-enfield / bikaner
+23:10:30  INFO       [showroom] royal-enfield / bikaner
+23:10:34  INFO       [service] royal-enfield / bilaspur-chhattisgarh
+23:10:39  INFO       [showroom] royal-enfield / bilaspur-chhattisgarh
+23:10:44  INFO       [service] royal-enfield / bilaspur-himachalpradesh
+23:10:48  INFO       [showroom] royal-enfield / bilaspur-himachalpradesh
+23:10:53  INFO       [service] royal-enfield / bilaspur-punjab
+23:10:58  INFO       [showroom] royal-enfield / bilaspur-punjab
+23:10:59  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_bilaspur-punjab_showroom_a1.html
+23:11:02  INFO       [service] royal-enfield / bokarosteelcity
+23:11:06  INFO       [showroom] royal-enfield / bokarosteelcity
+23:11:12  INFO       [service] royal-enfield / brahmapur
+23:11:15  INFO       [showroom] royal-enfield / brahmapur
+23:11:20  INFO       [service] royal-enfield / budaun
+23:11:24  INFO       [showroom] royal-enfield / budaun
+23:11:29  INFO       [service] royal-enfield / bulandshahar
+23:11:34  INFO       [showroom] royal-enfield / bulandshahar
+23:11:38  INFO       [service] royal-enfield / buldhana
+23:11:42  INFO       [showroom] royal-enfield / buldhana
+23:11:46  INFO       [service] royal-enfield / burdwan
+23:11:49  INFO       [showroom] royal-enfield / burdwan
+23:11:55  INFO       [service] royal-enfield / buxar
+23:11:58  INFO       [showroom] royal-enfield / buxar
+23:12:03  INFO       [service] royal-enfield / chamba
+23:12:07  INFO       [showroom] royal-enfield / chamba
+23:12:12  INFO       [service] royal-enfield / champawat
+23:12:16  INFO       [showroom] royal-enfield / champawat
+23:12:20  INFO       [service] royal-enfield / chandigarh
+23:12:25  INFO       [showroom] royal-enfield / chandigarh
+23:12:30  INFO       [service] royal-enfield / chandrapur
+23:12:34  INFO       [showroom] royal-enfield / chandrapur
+23:12:37  INFO       [service] royal-enfield / charkhidadri
+23:12:42  INFO       [showroom] royal-enfield / charkhidadri
+23:12:47  INFO       [service] royal-enfield / chengalpattu
+23:12:52  INFO       [showroom] royal-enfield / chengalpattu
+23:12:57  INFO       [service] royal-enfield / chennai
+23:13:01  INFO       [showroom] royal-enfield / chennai
+23:13:06  INFO       [service] royal-enfield / chhindwara
+23:13:10  INFO       [showroom] royal-enfield / chhindwara
+23:13:15  INFO       [service] royal-enfield / chikamagalur
+23:13:19  INFO       [showroom] royal-enfield / chikamagalur
+23:13:24  INFO       [service] royal-enfield / chiplun
+23:13:28  INFO       [showroom] royal-enfield / chiplun
+23:13:33  INFO       [service] royal-enfield / chirala
+23:13:37  INFO       [showroom] royal-enfield / chirala
+23:13:41  INFO       [service] royal-enfield / chitradurga
+23:13:46  INFO       [showroom] royal-enfield / chitradurga
+23:13:51  INFO       [service] royal-enfield / chittoor
+23:13:56  INFO       [showroom] royal-enfield / chittoor
+23:14:01  INFO       [service] royal-enfield / chittorgarh
+23:14:05  INFO       [showroom] royal-enfield / chittorgarh
+23:14:10  INFO       [service] royal-enfield / churachandpur
+23:14:14  INFO       [showroom] royal-enfield / churachandpur
+23:14:19  INFO       [service] royal-enfield / churu
+23:14:24  INFO       [showroom] royal-enfield / churu
+23:14:28  INFO       [service] royal-enfield / coimbatore
+23:14:33  INFO       [showroom] royal-enfield / coimbatore
+23:14:38  INFO       [service] royal-enfield / coochbehar
+23:14:42  INFO       [showroom] royal-enfield / coochbehar
+23:14:44  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_coochbehar_showroom_a1.html
+23:14:47  INFO       [service] royal-enfield / cuddalore
+23:14:51  INFO       [showroom] royal-enfield / cuddalore
+23:14:57  INFO       [service] royal-enfield / cuttack
+23:15:01  INFO       [showroom] royal-enfield / cuttack
+23:15:06  INFO       [service] royal-enfield / dadri-uttarpradesh
+23:15:10  INFO       [showroom] royal-enfield / dadri-uttarpradesh
+23:15:12  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_dadri-uttarpradesh_showroom_a1.html
+23:15:15  INFO       [service] royal-enfield / dakkannada
+23:15:18  INFO       [showroom] royal-enfield / dakkannada
+23:15:23  INFO       [service] royal-enfield / daltonganj
+23:15:26  INFO       [showroom] royal-enfield / daltonganj
+23:15:31  INFO       [service] royal-enfield / dankuni
+23:15:36  INFO       [showroom] royal-enfield / dankuni
+23:15:41  INFO       [service] royal-enfield / darbhanga
+23:15:44  INFO       [showroom] royal-enfield / darbhanga
+23:15:49  INFO       [service] royal-enfield / davangere
+23:15:54  INFO       [showroom] royal-enfield / davangere
+23:15:58  INFO       [service] royal-enfield / dehradun
+23:16:02  INFO       [showroom] royal-enfield / dehradun
+23:16:06  INFO       [service] royal-enfield / delhi
+23:16:11  INFO       [showroom] royal-enfield / delhi
+23:16:16  INFO       [service] royal-enfield / deoghar
+23:16:20  INFO       [showroom] royal-enfield / deoghar
+23:16:25  INFO       [service] royal-enfield / deoria
+23:16:29  INFO       [showroom] royal-enfield / deoria
+23:16:34  INFO       [service] royal-enfield / dewas
+23:16:38  INFO       [showroom] royal-enfield / dewas
+23:16:43  INFO       [service] royal-enfield / dhamtari
+23:16:47  INFO       [showroom] royal-enfield / dhamtari
+23:16:52  INFO       [service] royal-enfield / dhanbad
+23:16:56  INFO       [showroom] royal-enfield / dhanbad
+23:17:01  INFO       [service] royal-enfield / dharamsala
+23:17:05  INFO       [showroom] royal-enfield / dharamsala
+23:17:10  INFO       [service] royal-enfield / dharmapuri
+23:17:13  INFO       [showroom] royal-enfield / dharmapuri
+23:17:17  INFO       [service] royal-enfield / dhule
+23:17:22  INFO       [showroom] royal-enfield / dhule
+23:17:27  INFO       [service] royal-enfield / dibrugarh
+23:17:32  INFO       [showroom] royal-enfield / dibrugarh
+23:17:36  INFO       [service] royal-enfield / dimapur-nagaland
+23:17:41  INFO       [showroom] royal-enfield / dimapur-nagaland
+23:17:45  INFO       [service] royal-enfield / dindigul
+23:17:50  INFO       [showroom] royal-enfield / dindigul
+23:17:54  INFO       [service] royal-enfield / dindori-madhyapradesh
+23:17:58  INFO       [showroom] royal-enfield / dindori-madhyapradesh
+23:17:59  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_dindori-madhyapradesh_showroom_a1.html
+23:18:03  INFO       [service] royal-enfield / dumka
+23:18:08  INFO       [showroom] royal-enfield / dumka
+23:18:13  INFO       [service] royal-enfield / eastgodavari
+23:18:17  INFO       [showroom] royal-enfield / eastgodavari
+23:18:22  INFO       [service] royal-enfield / eluru
+23:18:26  INFO       [showroom] royal-enfield / eluru
+23:18:31  INFO       [service] royal-enfield / ernakulam
+23:18:35  INFO       [showroom] royal-enfield / ernakulam
+23:18:39  INFO       [service] royal-enfield / erode
+23:18:43  INFO       [showroom] royal-enfield / erode
+23:18:48  INFO       [service] royal-enfield / etawah
+23:18:53  INFO       [showroom] royal-enfield / etawah
+23:18:57  INFO       [service] royal-enfield / faizabad
+23:19:01  INFO       [showroom] royal-enfield / faizabad
+23:19:05  INFO       [service] royal-enfield / faridabad
+23:19:10  INFO       [showroom] royal-enfield / faridabad
+23:19:15  INFO       [service] royal-enfield / faridkot
+23:19:19  INFO       [showroom] royal-enfield / faridkot
+23:19:24  INFO       [service] royal-enfield / farrukhabad
+23:19:28  INFO       [showroom] royal-enfield / farrukhabad
+23:19:32  INFO       [service] royal-enfield / fatehabad
+23:19:36  INFO       [showroom] royal-enfield / fatehabad
+23:19:40  INFO       [service] royal-enfield / fatehpur
+23:19:45  INFO       [showroom] royal-enfield / fatehpur
+23:19:49  INFO       [service] royal-enfield / firozabad
+23:19:53  INFO       [showroom] royal-enfield / firozabad
+23:19:57  INFO       [service] royal-enfield / firozpur
+23:20:01  INFO       [showroom] royal-enfield / firozpur
+23:20:05  INFO       [service] royal-enfield / gadag
+23:20:10  INFO       [showroom] royal-enfield / gadag
+23:20:15  INFO       [service] royal-enfield / gadchiroli
+23:20:20  INFO       [showroom] royal-enfield / gadchiroli
+23:20:24  INFO       [service] royal-enfield / gandhidham
+23:20:28  INFO       [showroom] royal-enfield / gandhidham
+23:20:31  INFO       [service] royal-enfield / gandhinagar
+23:20:36  INFO       [showroom] royal-enfield / gandhinagar
+23:20:40  INFO       [service] royal-enfield / gangtok
+23:20:45  INFO       [showroom] royal-enfield / gangtok
+23:20:49  INFO       [service] royal-enfield / gaya
+23:20:53  INFO       [showroom] royal-enfield / gaya
+23:20:58  INFO       [service] royal-enfield / ghaziabad
+23:21:03  INFO       [showroom] royal-enfield / ghaziabad
+23:21:08  INFO       [service] royal-enfield / ghazipur
+23:21:12  INFO       [showroom] royal-enfield / ghazipur
+23:21:17  INFO       [service] royal-enfield / godda
+23:21:22  INFO       [showroom] royal-enfield / godda
+23:21:28  INFO       [service] royal-enfield / godhra
+23:21:32  INFO       [showroom] royal-enfield / godhra
+23:21:36  INFO       [service] royal-enfield / golaghat
+23:21:41  INFO       [showroom] royal-enfield / golaghat
+23:21:45  INFO       [service] royal-enfield / gonda
+23:21:49  INFO       [showroom] royal-enfield / gonda
+23:21:54  INFO       [service] royal-enfield / gondia
+23:21:58  INFO       [showroom] royal-enfield / gondia
+23:22:02  INFO       [service] royal-enfield / gopalganj
+23:22:06  INFO       [showroom] royal-enfield / gopalganj
+23:22:10  INFO       [service] royal-enfield / gorakhpur
+23:22:14  INFO       [showroom] royal-enfield / gorakhpur
+23:22:18  INFO       [service] royal-enfield / gudur
+23:22:23  INFO       [showroom] royal-enfield / gudur
+23:22:28  INFO       [service] royal-enfield / gulbarga
+23:22:32  INFO       [showroom] royal-enfield / gulbarga
+23:22:36  INFO       [service] royal-enfield / guna
+23:22:41  INFO       [showroom] royal-enfield / guna
+23:22:46  INFO       [service] royal-enfield / guntur
+23:22:50  INFO       [showroom] royal-enfield / guntur
+23:22:55  INFO       [service] royal-enfield / gurdaspur
+23:23:00  INFO       [showroom] royal-enfield / gurdaspur
+23:23:04  INFO       [service] royal-enfield / gurgaon
+23:23:08  INFO       [showroom] royal-enfield / gurgaon
+23:23:13  INFO       [service] royal-enfield / guwahati
+23:23:18  INFO       [showroom] royal-enfield / guwahati
+23:23:22  INFO       [service] royal-enfield / gwalior
+23:23:27  INFO       [showroom] royal-enfield / gwalior
+23:23:31  INFO       [service] royal-enfield / hajipur
+23:23:36  INFO       [showroom] royal-enfield / hajipur
+23:23:41  INFO       [service] royal-enfield / haldia
+23:23:45  INFO       [showroom] royal-enfield / haldia
+23:23:50  INFO       [service] royal-enfield / haldwani
+23:23:54  INFO       [showroom] royal-enfield / haldwani
+23:23:58  INFO       [service] royal-enfield / hamirpur
+23:24:02  INFO       [showroom] royal-enfield / hamirpur
+23:24:06  INFO       [service] royal-enfield / hanumangarh
+23:24:11  INFO       [showroom] royal-enfield / hanumangarh
+23:24:16  INFO       [service] royal-enfield / hapur
+23:24:21  INFO       [showroom] royal-enfield / hapur
+23:24:25  INFO       [service] royal-enfield / hardoi
+23:24:29  INFO       [showroom] royal-enfield / hardoi
+23:24:34  INFO       [service] royal-enfield / haridwar
+23:24:39  INFO       [showroom] royal-enfield / haridwar
+23:24:42  INFO       [service] royal-enfield / hassan
+23:24:46  INFO       [showroom] royal-enfield / hassan
+23:24:51  INFO       [service] royal-enfield / hathras
+23:24:55  INFO       [showroom] royal-enfield / hathras
+23:24:59  INFO       [service] royal-enfield / hazaribagh
+23:25:02  INFO       [showroom] royal-enfield / hazaribagh
+23:25:06  INFO       [service] royal-enfield / himmatnagar
+23:25:11  INFO       [showroom] royal-enfield / himmatnagar
+23:25:16  INFO       [service] royal-enfield / hisar
+23:25:19  INFO       [showroom] royal-enfield / hisar
+23:25:24  INFO       [service] royal-enfield / hooghly
+23:25:29  INFO       [showroom] royal-enfield / hooghly
+23:25:33  INFO       [service] royal-enfield / hoshiarpur
+23:25:38  INFO       [showroom] royal-enfield / hoshiarpur
+23:25:43  INFO       [service] royal-enfield / hosur
+23:25:47  INFO       [showroom] royal-enfield / hosur
+23:25:52  INFO       [service] royal-enfield / howrah
+23:25:57  INFO       [showroom] royal-enfield / howrah
+23:26:02  INFO       [service] royal-enfield / hubli
+23:26:06  INFO       [showroom] royal-enfield / hubli
+23:26:10  INFO       [service] royal-enfield / hyderabad
+23:26:15  INFO       [showroom] royal-enfield / hyderabad
+23:26:19  INFO       [service] royal-enfield / ichalkaranji
+23:26:23  INFO       [showroom] royal-enfield / ichalkaranji
+23:26:25  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_ichalkaranji_showroom_a1.html
+23:26:28  INFO       [service] royal-enfield / imphal
+23:26:32  INFO       [showroom] royal-enfield / imphal
+23:26:37  INFO       [service] royal-enfield / indore
+23:26:41  INFO       [showroom] royal-enfield / indore
+23:26:45  INFO       [service] royal-enfield / itarsi
+23:26:50  INFO       [showroom] royal-enfield / itarsi
+23:26:54  INFO       [service] royal-enfield / jabalpur
+23:26:59  INFO       [showroom] royal-enfield / jabalpur
+23:27:03  INFO       [service] royal-enfield / jagdalpur
+23:27:07  INFO       [showroom] royal-enfield / jagdalpur
+23:27:11  INFO       [service] royal-enfield / jaipur
+23:27:15  INFO       [showroom] royal-enfield / jaipur
+23:27:20  INFO       [service] royal-enfield / jajpurorissa
+23:27:24  INFO       [showroom] royal-enfield / jajpurorissa
+23:27:28  INFO       [service] royal-enfield / jalandhar
+23:27:32  INFO       [showroom] royal-enfield / jalandhar
+23:27:36  INFO       [service] royal-enfield / jalgaon
+23:27:41  INFO       [showroom] royal-enfield / jalgaon
+23:27:46  INFO       [service] royal-enfield / jalna
+23:27:50  INFO       [showroom] royal-enfield / jalna
+23:27:55  INFO       [service] royal-enfield / jammu
+23:27:59  INFO       [showroom] royal-enfield / jammu
+23:28:04  INFO       [service] royal-enfield / jamnagar
+23:28:08  INFO       [showroom] royal-enfield / jamnagar
+23:28:13  INFO       [service] royal-enfield / jamshedpur
+23:28:17  INFO       [showroom] royal-enfield / jamshedpur
+23:28:22  INFO       [service] royal-enfield / janjgirchampa
+23:28:26  INFO       [showroom] royal-enfield / janjgirchampa
+23:28:31  INFO       [service] royal-enfield / jaunpur
+23:28:35  INFO       [showroom] royal-enfield / jaunpur
+23:28:40  INFO       [service] royal-enfield / jehanabad
+23:28:45  INFO       [showroom] royal-enfield / jehanabad
+23:28:49  INFO       [service] royal-enfield / jhansi
+23:28:53  INFO       [showroom] royal-enfield / jhansi
+23:28:57  INFO       [service] royal-enfield / jhunjhunu
+23:29:02  INFO       [showroom] royal-enfield / jhunjhunu
+23:29:07  INFO       [service] royal-enfield / jind
+23:29:12  INFO       [showroom] royal-enfield / jind
+23:29:17  INFO       [service] royal-enfield / jodhpur
+23:29:21  INFO       [showroom] royal-enfield / jodhpur
+23:29:25  INFO       [service] royal-enfield / jorhat
+23:29:29  INFO       [showroom] royal-enfield / jorhat
+23:29:33  INFO       [service] royal-enfield / junagadh
+23:29:38  INFO       [showroom] royal-enfield / junagadh
+23:29:42  INFO       [service] royal-enfield / kadapa
+23:29:47  INFO       [showroom] royal-enfield / kadapa
+23:29:51  INFO       [service] royal-enfield / kaithal
+23:29:56  INFO       [showroom] royal-enfield / kaithal
+23:30:00  INFO       [service] royal-enfield / kakinada
+23:30:04  INFO       [showroom] royal-enfield / kakinada
+23:30:09  INFO       [service] royal-enfield / kalahandi
+23:30:13  INFO       [showroom] royal-enfield / kalahandi
+23:30:17  INFO       [service] royal-enfield / kallakurichi
+23:30:22  INFO       [showroom] royal-enfield / kallakurichi
+23:30:27  INFO       [service] royal-enfield / kancheepuram
+23:30:32  INFO       [showroom] royal-enfield / kancheepuram
+23:30:37  INFO       [service] royal-enfield / kangra
+23:30:41  INFO       [showroom] royal-enfield / kangra
+23:30:46  INFO       [service] royal-enfield / kannur
+23:30:51  INFO       [showroom] royal-enfield / kannur
+23:30:55  INFO       [service] royal-enfield / kanpur
+23:31:00  INFO       [showroom] royal-enfield / kanpur
+23:31:06  INFO       [service] royal-enfield / kanpurdehat
+23:31:10  INFO       [showroom] royal-enfield / kanpurdehat
+23:31:15  INFO       [service] royal-enfield / kapurthala
+23:31:19  INFO       [showroom] royal-enfield / kapurthala
+23:31:23  INFO       [service] royal-enfield / karad
+23:31:28  INFO       [showroom] royal-enfield / karad
+23:31:33  INFO       [service] royal-enfield / karaikal
+23:31:37  INFO       [showroom] royal-enfield / karaikal
+23:31:42  INFO       [service] royal-enfield / karimnagar
+23:31:46  INFO       [showroom] royal-enfield / karimnagar
+23:31:51  INFO       [service] royal-enfield / karnal
+23:31:56  INFO       [showroom] royal-enfield / karnal
+23:32:01  INFO       [service] royal-enfield / karur
+23:32:06  INFO       [showroom] royal-enfield / karur
+23:32:11  INFO       [service] royal-enfield / kasganj
+23:32:16  INFO       [showroom] royal-enfield / kasganj
+23:32:20  INFO       [service] royal-enfield / kashipur
+23:32:25  INFO       [showroom] royal-enfield / kashipur
+23:32:27  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_kashipur_showroom_a1.html
+23:32:30  INFO       [service] royal-enfield / kathua
+23:32:34  INFO       [showroom] royal-enfield / kathua
+23:32:39  INFO       [service] royal-enfield / katihar
+23:32:43  INFO       [showroom] royal-enfield / katihar
+23:32:48  INFO       [service] royal-enfield / katni
+23:32:52  INFO       [showroom] royal-enfield / katni
+23:32:57  INFO       [service] royal-enfield / kaushambi
+23:33:00  INFO       [showroom] royal-enfield / kaushambi
+23:33:05  INFO       [service] royal-enfield / kayamkulam
+23:33:09  INFO       [showroom] royal-enfield / kayamkulam
+23:33:13  INFO       [service] royal-enfield / khammam
+23:33:17  INFO       [showroom] royal-enfield / khammam
+23:33:22  INFO       [service] royal-enfield / khandwa
+23:33:27  INFO       [showroom] royal-enfield / khandwa
+23:33:33  INFO       [service] royal-enfield / khanna
+23:33:37  INFO       [showroom] royal-enfield / khanna
+23:33:42  INFO       [service] royal-enfield / kharagpur
+23:33:47  INFO       [showroom] royal-enfield / kharagpur
+23:33:51  INFO       [service] royal-enfield / khurda-andhrapradesh
+23:33:56  INFO       [showroom] royal-enfield / khurda-andhrapradesh
+23:33:57  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_khurda-andhrapradesh_showroom_a1.html
+23:34:01  INFO       [service] royal-enfield / khurda-orissa
+23:34:06  INFO       [showroom] royal-enfield / khurda-orissa
+23:34:08  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_khurda-orissa_showroom_a1.html
+23:34:12  INFO       [service] royal-enfield / kochi
+23:34:16  INFO       [showroom] royal-enfield / kochi
+23:34:18  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_kochi_showroom_a1.html
+23:34:21  INFO       [service] royal-enfield / kodagu
+23:34:25  INFO       [showroom] royal-enfield / kodagu
+23:34:29  INFO       [service] royal-enfield / kodarma
+23:34:33  INFO       [showroom] royal-enfield / kodarma
+23:34:39  INFO       [service] royal-enfield / kodungallur
+23:34:44  INFO       [showroom] royal-enfield / kodungallur
+23:34:48  INFO       [service] royal-enfield / kolar
+23:34:53  INFO       [showroom] royal-enfield / kolar
+23:34:57  INFO       [service] royal-enfield / kolhapur
+23:35:01  INFO       [showroom] royal-enfield / kolhapur
+23:35:05  INFO       [service] royal-enfield / kolkata
+23:35:10  INFO       [showroom] royal-enfield / kolkata
+23:35:14  INFO       [service] royal-enfield / kollam
+23:35:19  INFO       [showroom] royal-enfield / kollam
+23:35:25  INFO       [service] royal-enfield / koraput
+23:35:30  INFO       [showroom] royal-enfield / koraput
+23:35:34  INFO       [service] royal-enfield / korba
+23:35:39  INFO       [showroom] royal-enfield / korba
+23:35:43  INFO       [service] royal-enfield / kota
+23:35:48  INFO       [showroom] royal-enfield / kota
+23:35:52  INFO       [service] royal-enfield / kotputli
+23:35:56  INFO       [showroom] royal-enfield / kotputli
+23:36:01  INFO       [service] royal-enfield / kottarakara
+23:36:06  INFO       [showroom] royal-enfield / kottarakara
+23:36:11  INFO       [service] royal-enfield / kottayam
+23:36:15  INFO       [showroom] royal-enfield / kottayam
+23:36:20  INFO       [service] royal-enfield / kozhikode
+23:36:25  INFO       [showroom] royal-enfield / kozhikode
+23:36:29  INFO       [service] royal-enfield / krishnagiri
+23:36:33  INFO       [showroom] royal-enfield / krishnagiri
+23:36:38  INFO       [service] royal-enfield / krishnanagar
+23:36:43  INFO       [showroom] royal-enfield / krishnanagar
+23:36:48  INFO       [service] royal-enfield / kurnool
+23:36:52  INFO       [showroom] royal-enfield / kurnool
+23:36:57  INFO       [service] royal-enfield / kurukshetra
+23:37:01  INFO       [showroom] royal-enfield / kurukshetra
+23:37:06  INFO       [service] royal-enfield / kushinagar
+23:37:11  INFO       [showroom] royal-enfield / kushinagar
+23:37:16  INFO       [service] royal-enfield / lakhimpur
+23:37:21  INFO       [showroom] royal-enfield / lakhimpur
+23:37:26  INFO       [service] royal-enfield / latur
+23:37:30  INFO       [showroom] royal-enfield / latur
+23:37:35  INFO       [service] royal-enfield / leh
+23:37:39  INFO       [showroom] royal-enfield / leh
+23:37:45  INFO       [service] royal-enfield / lucknow
+23:37:50  INFO       [showroom] royal-enfield / lucknow
+23:37:54  INFO       [service] royal-enfield / ludhiana
+23:37:59  INFO       [showroom] royal-enfield / ludhiana
+23:38:03  INFO       [service] royal-enfield / machilipatnam
+23:38:08  INFO       [showroom] royal-enfield / machilipatnam
+23:38:13  INFO       [service] royal-enfield / madanapalle
+23:38:18  INFO       [showroom] royal-enfield / madanapalle
+23:38:22  INFO       [service] royal-enfield / madhubani
+23:38:26  INFO       [showroom] royal-enfield / madhubani
+23:38:31  INFO       [service] royal-enfield / madurai
+23:38:35  INFO       [showroom] royal-enfield / madurai
+23:38:40  INFO       [service] royal-enfield / maharajganj
+23:38:44  INFO       [showroom] royal-enfield / maharajganj
+23:38:49  INFO       [service] royal-enfield / malappuram
+23:38:54  INFO       [showroom] royal-enfield / malappuram
+23:39:00  INFO       [service] royal-enfield / malda
+23:39:04  INFO       [showroom] royal-enfield / malda
+23:39:09  INFO       [service] royal-enfield / malegaon
+23:39:14  INFO       [showroom] royal-enfield / malegaon
+23:39:18  INFO       [service] royal-enfield / malkangiri
+23:39:24  INFO       [showroom] royal-enfield / malkangiri
+23:39:25  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_malkangiri_showroom_a1.html
+23:39:28  INFO       [service] royal-enfield / manali
+23:39:33  INFO       [showroom] royal-enfield / manali
+23:39:34  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_manali_showroom_a1.html
+23:39:37  INFO       [service] royal-enfield / mandi
+23:39:42  INFO       [showroom] royal-enfield / mandi
+23:39:46  INFO       [service] royal-enfield / mandya
+23:39:50  INFO       [showroom] royal-enfield / mandya
+23:39:55  INFO       [service] royal-enfield / mangalore
+23:39:59  INFO       [showroom] royal-enfield / mangalore
+23:40:04  INFO       [service] royal-enfield / mansa
+23:40:07  INFO       [showroom] royal-enfield / mansa
+23:40:12  INFO       [service] royal-enfield / mathura
+23:40:17  INFO       [showroom] royal-enfield / mathura
+23:40:22  INFO       [service] royal-enfield / mau
+23:40:26  INFO       [showroom] royal-enfield / mau
+23:40:30  INFO       [service] royal-enfield / meerut
+23:40:35  INFO       [showroom] royal-enfield / meerut
+23:40:40  INFO       [service] royal-enfield / mehsana
+23:40:44  INFO       [showroom] royal-enfield / mehsana
+23:40:48  INFO       [service] royal-enfield / midnapore
+23:40:53  INFO       [showroom] royal-enfield / midnapore
+23:40:58  INFO       [service] royal-enfield / mirzapur
+23:41:02  INFO       [showroom] royal-enfield / mirzapur
+23:41:06  INFO       [service] royal-enfield / modinagar
+23:41:10  INFO       [showroom] royal-enfield / modinagar
+23:41:12  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_modinagar_showroom_a1.html
+23:41:15  INFO       [service] royal-enfield / moga
+23:41:20  INFO       [showroom] royal-enfield / moga
+23:41:25  INFO       [service] royal-enfield / mohali
+23:41:29  INFO       [showroom] royal-enfield / mohali
+23:41:34  INFO       [service] royal-enfield / moradabad
+23:41:39  INFO       [showroom] royal-enfield / moradabad
+23:41:44  INFO       [service] royal-enfield / morbi
+23:41:49  INFO       [showroom] royal-enfield / morbi
+23:41:53  INFO       [service] royal-enfield / morinda
+23:41:58  INFO       [showroom] royal-enfield / morinda
+23:42:03  INFO       [service] royal-enfield / motihari
+23:42:08  INFO       [showroom] royal-enfield / motihari
+23:42:13  INFO       [service] royal-enfield / mughalsarai
+23:42:17  INFO       [showroom] royal-enfield / mughalsarai
+23:42:22  INFO       [service] royal-enfield / mukerian
+23:42:26  INFO       [showroom] royal-enfield / mukerian
+23:42:27  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_mukerian_showroom_a1.html
+23:42:31  INFO       [service] royal-enfield / muktsar
+23:42:35  INFO       [showroom] royal-enfield / muktsar
+23:42:39  INFO       [service] royal-enfield / mumbai
+23:42:43  INFO       [showroom] royal-enfield / mumbai
+23:42:48  INFO       [service] royal-enfield / mungeli
+23:42:53  INFO       [showroom] royal-enfield / mungeli
+23:42:54  WARNING    Count not found — debug HTML: C:\Users\HP\Documents\Self Projects\Motorcycles\motorcycle_analysis\data\raw\debug\royal-enfield_mungeli_showroom_a1.html
+23:42:58  INFO       [service] royal-enfield / murshidabad
+23:43:02  INFO       [showroom] royal-enfield / murshidabad
+23:43:07  INFO       [service] royal-enfield / muzaffarnagar
+23:43:11  INFO       [showroom] royal-enfield / muzaffarnagar
+23:43:15  INFO       [service] royal-enfield / muzaffarpur
+23:43:19  INFO       [showroom] royal-enfield / muzaffarpur
+23:43:24  INFO       [service] royal-enfield / mysore

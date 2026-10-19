@@ -1,0 +1,813 @@
+{
+  "brands": [
+    "hero",
+    "honda",
+    "bajaj",
+    "royal-enfield",
+    "yamaha",
+    "suzuki",
+    "jawa"
+  ],
+  "zones": [
+    "North",
+    "South",
+    "West",
+    "Central",
+    "East",
+    "Northeast"
+  ],
+  "sc_matrix": [
+    [
+      1.024,
+      0.788,
+      1.131,
+      1.18,
+      1.144,
+      0.886
+    ],
+    [
+      1.035,
+      1.003,
+      1.028,
+      1.065,
+      0.895,
+      0.633
+    ],
+    [
+      1.149,
+      0.802,
+      0.886,
+      1.273,
+      1.049,
+      0.902
+    ],
+    [
+      1.073,
+      1.003,
+      1.012,
+      0.669,
+      1.029,
+      0.913
+    ],
+    [
+      0.694,
+      1.382,
+      0.988,
+      0.615,
+      1.048,
+      1.792
+    ],
+    [
+      0.626,
+      1.285,
+      1.563,
+      0.998,
+      0.568,
+      1.05
+    ],
+    [
+      0.884,
+      1.038,
+      1.08,
+      0.669,
+      1.175,
+      1.784
+    ]
+  ],
+  "sw_matrix": [
+    [
+      0.997,
+      0.792,
+      1.05,
+      1.453,
+      1.193,
+      0.943
+    ],
+    [
+      0.92,
+      1.194,
+      1.076,
+      0.848,
+      0.776,
+      0.657
+    ],
+    [
+      1.0,
+      1.023,
+      0.965,
+      1.302,
+      0.796,
+      1.313
+    ],
+    [
+      1.125,
+      1.054,
+      0.815,
+      0.7,
+      0.941,
+      1.278
+    ],
+    [
+      1.302,
+      1.018,
+      0.602,
+      0.424,
+      1.02,
+      1.383
+    ],
+    [
+      0.767,
+      1.318,
+      1.783,
+      0.64,
+      0.139,
+      0.0
+    ],
+    [
+      1.028,
+      1.031,
+      0.993,
+      0.63,
+      0.967,
+      1.593
+    ]
+  ],
+  "records": [
+    {
+      "brand": "hero",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 0.997,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 0.792,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 1.05,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 1.453,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "hero",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 1.193,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 0.943,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 0.92,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 1.194,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 1.076,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 0.848,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 0.776,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 0.657,
+      "label": "Under-present"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 1.0,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 1.023,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 0.965,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 1.302,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 0.796,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 1.313,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 1.125,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 1.054,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 0.815,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 0.7,
+      "label": "Under-present"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 0.941,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 1.278,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 1.302,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 1.018,
+      "label": "Proportional"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 0.602,
+      "label": "Under-present"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 0.424,
+      "label": "Under-present"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 1.02,
+      "label": "Proportional"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 1.383,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 0.767,
+      "label": "Proportional"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 1.318,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 1.783,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 0.64,
+      "label": "Under-present"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 0.139,
+      "label": "Under-present"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 0.0,
+      "label": "No data"
+    },
+    {
+      "brand": "ola-electric",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 0.798,
+      "label": "Proportional"
+    },
+    {
+      "brand": "ola-electric",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 0.836,
+      "label": "Proportional"
+    },
+    {
+      "brand": "ola-electric",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 1.222,
+      "label": "Proportional"
+    },
+    {
+      "brand": "ola-electric",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 1.439,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "ola-electric",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 1.352,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "ola-electric",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 0.783,
+      "label": "Proportional"
+    },
+    {
+      "brand": "ather",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 0.592,
+      "label": "Under-present"
+    },
+    {
+      "brand": "ather",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 1.174,
+      "label": "Proportional"
+    },
+    {
+      "brand": "ather",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 1.376,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "ather",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 1.42,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "ather",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 0.855,
+      "label": "Proportional"
+    },
+    {
+      "brand": "ather",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 0.877,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "North",
+      "metric": "showroom",
+      "lq": 1.028,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "South",
+      "metric": "showroom",
+      "lq": 1.031,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "West",
+      "metric": "showroom",
+      "lq": 0.993,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "Central",
+      "metric": "showroom",
+      "lq": 0.63,
+      "label": "Under-present"
+    },
+    {
+      "brand": "jawa",
+      "zone": "East",
+      "metric": "showroom",
+      "lq": 0.967,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "Northeast",
+      "metric": "showroom",
+      "lq": 1.593,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "hero",
+      "zone": "North",
+      "metric": "service",
+      "lq": 1.024,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "South",
+      "metric": "service",
+      "lq": 0.788,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "West",
+      "metric": "service",
+      "lq": 1.131,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "Central",
+      "metric": "service",
+      "lq": 1.18,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "East",
+      "metric": "service",
+      "lq": 1.144,
+      "label": "Proportional"
+    },
+    {
+      "brand": "hero",
+      "zone": "Northeast",
+      "metric": "service",
+      "lq": 0.886,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "North",
+      "metric": "service",
+      "lq": 1.035,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "South",
+      "metric": "service",
+      "lq": 1.003,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "West",
+      "metric": "service",
+      "lq": 1.028,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "Central",
+      "metric": "service",
+      "lq": 1.065,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "East",
+      "metric": "service",
+      "lq": 0.895,
+      "label": "Proportional"
+    },
+    {
+      "brand": "honda",
+      "zone": "Northeast",
+      "metric": "service",
+      "lq": 0.633,
+      "label": "Under-present"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "North",
+      "metric": "service",
+      "lq": 1.149,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "South",
+      "metric": "service",
+      "lq": 0.802,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "West",
+      "metric": "service",
+      "lq": 0.886,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "Central",
+      "metric": "service",
+      "lq": 1.273,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "East",
+      "metric": "service",
+      "lq": 1.049,
+      "label": "Proportional"
+    },
+    {
+      "brand": "bajaj",
+      "zone": "Northeast",
+      "metric": "service",
+      "lq": 0.902,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "North",
+      "metric": "service",
+      "lq": 1.073,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "South",
+      "metric": "service",
+      "lq": 1.003,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "West",
+      "metric": "service",
+      "lq": 1.012,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "Central",
+      "metric": "service",
+      "lq": 0.669,
+      "label": "Under-present"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "East",
+      "metric": "service",
+      "lq": 1.029,
+      "label": "Proportional"
+    },
+    {
+      "brand": "royal-enfield",
+      "zone": "Northeast",
+      "metric": "service",
+      "lq": 0.913,
+      "label": "Proportional"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "North",
+      "metric": "service",
+      "lq": 0.694,
+      "label": "Under-present"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "South",
+      "metric": "service",
+      "lq": 1.382,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "West",
+      "metric": "service",
+      "lq": 0.988,
+      "label": "Proportional"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "Central",
+      "metric": "service",
+      "lq": 0.615,
+      "label": "Under-present"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "East",
+      "metric": "service",
+      "lq": 1.048,
+      "label": "Proportional"
+    },
+    {
+      "brand": "yamaha",
+      "zone": "Northeast",
+      "metric": "service",
+      "lq": 1.792,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "North",
+      "metric": "service",
+      "lq": 0.626,
+      "label": "Under-present"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "South",
+      "metric": "service",
+      "lq": 1.285,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "West",
+      "metric": "service",
+      "lq": 1.563,
+      "label": "Over-concentrated"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "Central",
+      "metric": "service",
+      "lq": 0.998,
+      "label": "Proportional"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "East",
+      "metric": "service",
+      "lq": 0.568,
+      "label": "Under-present"
+    },
+    {
+      "brand": "suzuki",
+      "zone": "Northeast",
+      "metric": "service",
+      "lq": 1.05,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "North",
+      "metric": "service",
+      "lq": 0.884,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "South",
+      "metric": "service",
+      "lq": 1.038,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "West",
+      "metric": "service",
+      "lq": 1.08,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "Central",
+      "metric": "service",
+      "lq": 0.669,
+      "label": "Under-present"
+    },
+    {
+      "brand": "jawa",
+      "zone": "East",
+      "metric": "service",
+      "lq": 1.175,
+      "label": "Proportional"
+    },
+    {
+      "brand": "jawa",
+      "zone": "Northeast",
+      "metric": "service",
+      "lq": 1.784,
+      "label": "Over-concentrated"
+    }
+  ],
+  "thresholds": {
+    "over_concentrated": 1.25,
+    "under_present": 0.75
+  }
+}

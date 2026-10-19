@@ -1,0 +1,18 @@
+{
+  "moran_i": 0.0259,
+  "p_value": 0.098,
+  "significant": false,
+  "n_cities": 635,
+  "distance_km": 150,
+  "n_permutations": 999,
+  "interpretation": "Weak / no spatial autocorrelation \u2014 gaps are broadly random",
+  "by_zone": {
+    "North": -0.0114,
+    "South": 0.0303,
+    "Northeast": -0.0696,
+    "West": 0.1039,
+    "Central": -0.0485,
+    "East": 0.0169
+  },
+  "expected_i": -0.0016
+}

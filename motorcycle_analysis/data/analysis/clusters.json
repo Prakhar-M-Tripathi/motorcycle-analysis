@@ -1,0 +1,5440 @@
+{
+  "optimal_k": 2,
+  "silhouette_score": 0.8865,
+  "elbow": {
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "inertias": [
+      7406.9,
+      5444.9,
+      4725.7,
+      4041.2,
+      3675.7,
+      3365.4,
+      3139.6
+    ],
+    "silhouettes": [
+      0.8865,
+      0.5468,
+      0.5662,
+      0.4052,
+      0.4052,
+      0.3008,
+      0.3171
+    ]
+  },
+  "cluster_labels": {
+    "0": "Metro / Major Hub",
+    "1": "Metro / Major Hub"
+  },
+  "cluster_summary": [
+    {
+      "cluster": 0,
+      "archetype": "Metro / Major Hub",
+      "n_cities": 763,
+      "avg_sw": 12.47,
+      "avg_sc": 10.8,
+      "top_zone": "North"
+    },
+    {
+      "cluster": 1,
+      "archetype": "Metro / Major Hub",
+      "n_cities": 6,
+      "avg_sw": 262.83,
+      "avg_sc": 129.33,
+      "top_zone": "South"
+    }
+  ],
+  "city_assignments": [
+    {
+      "city_slug": "abohar",
+      "city": "Abohar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "adilabad",
+      "city": "Adilabad",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "agartala",
+      "city": "Agartala",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "agra",
+      "city": "Agra",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ahmedabad",
+      "city": "Ahmedabad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ahmednagar",
+      "city": "Ahmednagar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "aizawl",
+      "city": "Aizawl",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ajmer",
+      "city": "Ajmer",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "akola",
+      "city": "Akola",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "alappuzha",
+      "city": "Alappuzha",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "aligarh",
+      "city": "Aligarh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "allahabad",
+      "city": "Allahabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "alleppey",
+      "city": "Alleppey",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "almora",
+      "city": "Almora",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "alwar",
+      "city": "Alwar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "alwaye",
+      "city": "Alwaye",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "amalapuram",
+      "city": "Amalapuram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ambala",
+      "city": "Ambala",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ambalacity",
+      "city": "Ambala City",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ambedkarnagar",
+      "city": "Ambedkarnagar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ambikapur",
+      "city": "Ambikapur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "amravati",
+      "city": "Amravati",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "amreli",
+      "city": "Amreli",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "amritsar",
+      "city": "Amritsar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "anand",
+      "city": "Anand",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "anantapur",
+      "city": "Anantapur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "anantnag",
+      "city": "Anantnag",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "angul",
+      "city": "Angul",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "anuppur",
+      "city": "Anuppur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ara",
+      "city": "Ara",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "arani",
+      "city": "Arani",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ariyalur",
+      "city": "Ariyalur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "arrah",
+      "city": "Arrah",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "arwal",
+      "city": "Arwal",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "asansol",
+      "city": "Asansol",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ashoknagar",
+      "city": "Ashoknagar",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "auraiya",
+      "city": "Auraiya",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "aurangabad",
+      "city": "Aurangabad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "aurangabad-bihar",
+      "city": "Aurangabad (Bihar)",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "aurangabad-maharashtra",
+      "city": "Aurangabad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ayodhya",
+      "city": "Ayodhya",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "azamgarh",
+      "city": "Azamgarh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "babrala",
+      "city": "Babrala",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "badaun",
+      "city": "Badaun",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "baddi",
+      "city": "Baddi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bagalkot",
+      "city": "Bagalkot",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bageshwar",
+      "city": "Bageshwar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "baghpat-uttarpradesh",
+      "city": "Baghpat",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bahraich",
+      "city": "Bahraich",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "balaghat",
+      "city": "Balaghat",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "balangir",
+      "city": "Balangir",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "balasore",
+      "city": "Balasore",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ballari",
+      "city": "Ballari",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ballia",
+      "city": "Ballia",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "balrampur",
+      "city": "Balrampur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "banaskantha",
+      "city": "Banaskantha",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "banda",
+      "city": "Banda",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bangalore",
+      "city": "Bangalore",
+      "zone": "South",
+      "cluster": 1,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "banka",
+      "city": "Banka",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bankura",
+      "city": "Bankura",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "banswara",
+      "city": "Banswara",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "barabanki",
+      "city": "Barabanki",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "baramati",
+      "city": "Baramati",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "baramulla",
+      "city": "Baramulla",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "baran",
+      "city": "Baran",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "barasat",
+      "city": "Barasat",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bardhaman",
+      "city": "Bardhaman",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bardoli",
+      "city": "Bardoli",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bareilly",
+      "city": "Bareilly",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bargarh",
+      "city": "Bargarh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "baripada",
+      "city": "Baripada",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "barmer",
+      "city": "Barmer",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "barnala",
+      "city": "Barnala",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "barpeta",
+      "city": "Barpeta",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "barwani",
+      "city": "Barwani",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "basirhat",
+      "city": "Basirhat",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bastar",
+      "city": "Bastar",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "basti",
+      "city": "Basti",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "batala",
+      "city": "Batala",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bathinda",
+      "city": "Bathinda",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bazpur",
+      "city": "Bazpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "beed",
+      "city": "Beed",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "begusarai",
+      "city": "Begusarai",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "belagavi",
+      "city": "Belagavi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "belgaum",
+      "city": "Belgaum",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bellary",
+      "city": "Bellary",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bengaluru",
+      "city": "Bengaluru",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "berhampore",
+      "city": "Berhampore",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "berhampur",
+      "city": "Berhampur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bettiah",
+      "city": "Bettiah",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "betul",
+      "city": "Betul",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhadrak",
+      "city": "Bhadrak",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhagalpur",
+      "city": "Bhagalpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhandara",
+      "city": "Bhandara",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bharatpur",
+      "city": "Bharatpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bharuch",
+      "city": "Bharuch",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhavnagar",
+      "city": "Bhavnagar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhawanipatna",
+      "city": "Bhawanipatna",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhilai",
+      "city": "Bhilai",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhilwara",
+      "city": "Bhilwara",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhimavaram",
+      "city": "Bhimavaram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhind",
+      "city": "Bhind",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhiwadi",
+      "city": "Bhiwadi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhiwandi",
+      "city": "Bhiwandi",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhiwani",
+      "city": "Bhiwani",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhojpur",
+      "city": "Bhojpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhopal",
+      "city": "Bhopal",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhubaneswar",
+      "city": "Bhubaneswar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhuj",
+      "city": "Bhuj",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bhusawal",
+      "city": "Bhusawal",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bidar",
+      "city": "Bidar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bijapur",
+      "city": "Bijapur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bijnor",
+      "city": "Bijnor",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bikaner",
+      "city": "Bikaner",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bilaspur",
+      "city": "Bilaspur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bilaspur-chhattisgarh",
+      "city": "Bilaspur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bilaspur-himachalpradesh",
+      "city": "Bilaspur (HP)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bilaspur-hp",
+      "city": "Bilaspur (HP)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bilaspur-punjab",
+      "city": "Bilaspur (Punjab)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "birbhum",
+      "city": "Birbhum",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bishnupur",
+      "city": "Bishnupur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bokaro",
+      "city": "Bokaro",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bokarosteelcity",
+      "city": "Bokaro Steel City",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bolangir",
+      "city": "Bolangir",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bongaigaon",
+      "city": "Bongaigaon",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "boudh",
+      "city": "Boudh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "brahmapur",
+      "city": "Brahmapur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "budaun",
+      "city": "Budaun",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "budgam",
+      "city": "Budgam",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bulandshahr",
+      "city": "Bulandshahr",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "buldhana",
+      "city": "Buldhana",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "bundi",
+      "city": "Bundi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "burdwan",
+      "city": "Burdwan",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "burhanpur",
+      "city": "Burhanpur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "buxar",
+      "city": "Buxar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "cachar",
+      "city": "Cachar",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chaibasa",
+      "city": "Chaibasa",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chamarajanagar",
+      "city": "Chamarajanagar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chamba",
+      "city": "Chamba",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chamoli",
+      "city": "Chamoli",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "champawat",
+      "city": "Champawat",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "champhai",
+      "city": "Champhai",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chamrajnagar",
+      "city": "Chamrajnagar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chandauli",
+      "city": "Chandauli",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chandausi",
+      "city": "Chandausi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chandigarh",
+      "city": "Chandigarh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chandrapur",
+      "city": "Chandrapur",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chapra",
+      "city": "Chapra",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "charkhidadri",
+      "city": "Charkhi Dadri",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chatra",
+      "city": "Chatra",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chengalpattu",
+      "city": "Chengalpattu",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chengannur",
+      "city": "Chengannur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chennai",
+      "city": "Chennai",
+      "zone": "South",
+      "cluster": 1,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chhapra",
+      "city": "Chhapra",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chhatarpur",
+      "city": "Chhatarpur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chhindwara",
+      "city": "Chhindwara",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chikamagalur",
+      "city": "Chikamagalur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chikballapur",
+      "city": "Chikballapur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chikkaballapur",
+      "city": "Chikkaballapur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chiplun",
+      "city": "Chiplun",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chirala",
+      "city": "Chirala",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chitradurga",
+      "city": "Chitradurga",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chitrakoot",
+      "city": "Chitrakoot",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chittoor",
+      "city": "Chittoor",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "chittorgarh",
+      "city": "Chittorgarh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "churachandpur",
+      "city": "Churachandpur",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "churu",
+      "city": "Churu",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "coimbatore",
+      "city": "Coimbatore",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "cooch-behar",
+      "city": "Cooch Behar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "coochbehar",
+      "city": "Cooch Behar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "cuddalore",
+      "city": "Cuddalore",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "cuttack",
+      "city": "Cuttack",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dadri-uttarpradesh",
+      "city": "Dadri",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dahod",
+      "city": "Dahod",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dakkannada",
+      "city": "Dak. Kannada",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "daltonganj",
+      "city": "Daltonganj",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "damoh",
+      "city": "Damoh",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dangs",
+      "city": "Dangs",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dankuni",
+      "city": "Dankuni",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "darbhanga",
+      "city": "Darbhanga",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "darjeeling",
+      "city": "Darjeeling",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "darjiling",
+      "city": "Darjeeling",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "darrang",
+      "city": "Darrang",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "datia",
+      "city": "Datia",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dausa",
+      "city": "Dausa",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "davangere",
+      "city": "Davangere",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dehradun",
+      "city": "Dehradun",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "delhi",
+      "city": "Delhi",
+      "zone": "North",
+      "cluster": 1,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "deogarh",
+      "city": "Deogarh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "deoghar",
+      "city": "Deoghar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "deoria",
+      "city": "Deoria",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dewas",
+      "city": "Dewas",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhalai",
+      "city": "Dhalai",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhamtari",
+      "city": "Dhamtari",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhanbad",
+      "city": "Dhanbad",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhar",
+      "city": "Dhar",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dharamsala",
+      "city": "Dharamsala",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dharmanagar",
+      "city": "Dharmanagar",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dharmapuri",
+      "city": "Dharmapuri",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dharwad",
+      "city": "Dharwad",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhemaji",
+      "city": "Dhemaji",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhenkanal",
+      "city": "Dhenkanal",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dholpur",
+      "city": "Dholpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhubri",
+      "city": "Dhubri",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dhule",
+      "city": "Dhule",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "diamondharbour",
+      "city": "Diamond Harbour",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dibrugarh",
+      "city": "Dibrugarh",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dimapur",
+      "city": "Dimapur",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dimapur-nagaland",
+      "city": "Dimapur",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dindigul",
+      "city": "Dindigul",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dindori-madhyapradesh",
+      "city": "Dindori",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "doda",
+      "city": "Doda",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dumka",
+      "city": "Dumka",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "dungarpur",
+      "city": "Dungarpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "durg",
+      "city": "Durg",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "durgapur",
+      "city": "Durgapur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "eastchamparan",
+      "city": "East Champaran",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "eastgodavari",
+      "city": "East Godavari",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "eastkhasihills",
+      "city": "East Khasi Hills",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "eastsikkim",
+      "city": "East Sikkim",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "eastsinghbhum",
+      "city": "East Singhbhum",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "eluru",
+      "city": "Eluru",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ernakulam",
+      "city": "Ernakulam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "erode",
+      "city": "Erode",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "etah",
+      "city": "Etah",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "etawah",
+      "city": "Etawah",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "faizabad",
+      "city": "Faizabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "faridabad",
+      "city": "Faridabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "faridkot",
+      "city": "Faridkot",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "farrukhabad",
+      "city": "Farrukhabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "fatehabad",
+      "city": "Fatehabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "fatehgarhsahib",
+      "city": "Fatehgarh Sahib",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "fatehpur",
+      "city": "Fatehpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "firozabad",
+      "city": "Firozabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "firozpur",
+      "city": "Firozpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gadag",
+      "city": "Gadag",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gadchiroli",
+      "city": "Gadchiroli",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gandhidham",
+      "city": "Gandhidham",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gandhinagar",
+      "city": "Gandhinagar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ganganagar",
+      "city": "Ganganagar",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gangtok",
+      "city": "Gangtok",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "garhwa",
+      "city": "Garhwa",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gautambuddhanagar",
+      "city": "Gautam Buddha Nagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gaya",
+      "city": "Gaya",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ghaziabad",
+      "city": "Ghaziabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ghazipur",
+      "city": "Ghazipur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "giridih",
+      "city": "Giridih",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "goalpara",
+      "city": "Goalpara",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "godda",
+      "city": "Godda",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "godhra",
+      "city": "Godhra",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gohana",
+      "city": "Gohana",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "golaghat",
+      "city": "Golaghat",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gonda",
+      "city": "Gonda",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gondia",
+      "city": "Gondia",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gopalganj",
+      "city": "Gopalganj",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gorakhpur",
+      "city": "Gorakhpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gudur",
+      "city": "Gudur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gulbarga",
+      "city": "Gulbarga",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gumla",
+      "city": "Gumla",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "guna",
+      "city": "Guna",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "guntur",
+      "city": "Guntur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gurdaspur",
+      "city": "Gurdaspur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gurgaon",
+      "city": "Gurgaon",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gurugram",
+      "city": "Gurugram",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "guwahati",
+      "city": "Guwahati",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gwalior",
+      "city": "Gwalior",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "gyalshing",
+      "city": "Gyalshing",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "habra",
+      "city": "Habra",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hailakandi",
+      "city": "Hailakandi",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hajipur",
+      "city": "Hajipur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "haldia",
+      "city": "Haldia",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "haldwani",
+      "city": "Haldwani",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hamirpur",
+      "city": "Hamirpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hanumangarh",
+      "city": "Hanumangarh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hapur",
+      "city": "Hapur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hardoi",
+      "city": "Hardoi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "haridwar",
+      "city": "Haridwar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hassan",
+      "city": "Hassan",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hathras",
+      "city": "Hathras",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "haveri",
+      "city": "Haveri",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hazaribagh",
+      "city": "Hazaribagh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "himmatnagar",
+      "city": "Himmatnagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hingoli",
+      "city": "Hingoli",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hisar",
+      "city": "Hisar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hooghly",
+      "city": "Hooghly",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hoshangabad",
+      "city": "Hoshangabad",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hoshiarpur",
+      "city": "Hoshiarpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hosur",
+      "city": "Hosur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "howrah",
+      "city": "Howrah",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hubli",
+      "city": "Hubli",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "hyderabad",
+      "city": "Hyderabad",
+      "zone": "South",
+      "cluster": 1,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ichalkaranji",
+      "city": "Ichalkaranji",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "idukki",
+      "city": "Idukki",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "imphal",
+      "city": "Imphal",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "indore",
+      "city": "Indore",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "itanagar",
+      "city": "Itanagar",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "itarsi",
+      "city": "Itarsi",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jabalpur",
+      "city": "Jabalpur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jagatsinghpur",
+      "city": "Jagatsinghpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jagdalpur",
+      "city": "Jagdalpur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jaipur",
+      "city": "Jaipur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jaisalmer",
+      "city": "Jaisalmer",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jajpurorissa",
+      "city": "Jajpur (Orissa)",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jalandhar",
+      "city": "Jalandhar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jalaun",
+      "city": "Jalaun",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jalgaon",
+      "city": "Jalgaon",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jalna",
+      "city": "Jalna",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jalore",
+      "city": "Jalore",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jalpaiguri",
+      "city": "Jalpaiguri",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jamkhandi",
+      "city": "Jamkhandi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jammu",
+      "city": "Jammu",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jamnagar",
+      "city": "Jamnagar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jamshedpur",
+      "city": "Jamshedpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jamtara",
+      "city": "Jamtara",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jamui",
+      "city": "Jamui",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "janjgir",
+      "city": "Janjgir",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "janjgirchampa",
+      "city": "Janjgir-Champa",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jashpur",
+      "city": "Jashpur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jassur",
+      "city": "Jassur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jaunpur",
+      "city": "Jaunpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jehanabad",
+      "city": "Jehanabad",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jhabua",
+      "city": "Jhabua",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jhajjar",
+      "city": "Jhajjar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jhalawar",
+      "city": "Jhalawar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jhansi",
+      "city": "Jhansi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jharsuguda",
+      "city": "Jharsuguda",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jhunjhunu",
+      "city": "Jhunjhunu",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jind",
+      "city": "Jind",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jodhpur",
+      "city": "Jodhpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jorhat",
+      "city": "Jorhat",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "jowai",
+      "city": "Jowai",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "junagadh",
+      "city": "Junagadh",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kadapa",
+      "city": "Kadapa",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kaimurbhabua",
+      "city": "Kaimur (Bhabua)",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kaithal",
+      "city": "Kaithal",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kakinada",
+      "city": "Kakinada",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kalaburagi",
+      "city": "Kalaburagi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kalahandi",
+      "city": "Kalahandi",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kallakurichi",
+      "city": "Kallakurichi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kamrup",
+      "city": "Kamrup",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kancheepuram",
+      "city": "Kancheepuram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kandhamal",
+      "city": "Kandhamal",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kangra",
+      "city": "Kangra",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kanker",
+      "city": "Kanker",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kannauj",
+      "city": "Kannauj",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kannur",
+      "city": "Kannur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kanpur",
+      "city": "Kanpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kanpurdehat",
+      "city": "Kanpur Dehat",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kanpurnagar",
+      "city": "Kanpur Nagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kanyakumari",
+      "city": "Kanyakumari",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kapurthala",
+      "city": "Kapurthala",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karad",
+      "city": "Karad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karaikal",
+      "city": "Karaikal",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karauli",
+      "city": "Karauli",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karbianglong",
+      "city": "Karbi Anglong",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kargil",
+      "city": "Kargil",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karimganj",
+      "city": "Karimganj",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karimnagar",
+      "city": "Karimnagar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karnal",
+      "city": "Karnal",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "karur",
+      "city": "Karur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kasaragod",
+      "city": "Kasaragod",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kasganj",
+      "city": "Kasganj",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kashipur",
+      "city": "Kashipur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kathua",
+      "city": "Kathua",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "katihar",
+      "city": "Katihar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "katni",
+      "city": "Katni",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kaushambi",
+      "city": "Kaushambi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kawardha",
+      "city": "Kawardha",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kayamkulam",
+      "city": "Kayamkulam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kendrapada",
+      "city": "Kendrapada",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kendrapara",
+      "city": "Kendrapara",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kendujhar",
+      "city": "Kendujhar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "keonjhar",
+      "city": "Keonjhar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "khagaria",
+      "city": "Khagaria",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "khammam",
+      "city": "Khammam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "khandwa",
+      "city": "Khandwa",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "khanna",
+      "city": "Khanna",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kharagpur",
+      "city": "Kharagpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "khargone",
+      "city": "Khargone",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kheda",
+      "city": "Kheda",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "khurda-andhrapradesh",
+      "city": "Khurda",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "khurda-orissa",
+      "city": "Khurda",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kishanganj",
+      "city": "Kishanganj",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kochi",
+      "city": "Kochi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kodagu",
+      "city": "Kodagu",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kodarma",
+      "city": "Kodarma",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kodungallur",
+      "city": "Kodungallur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kohima",
+      "city": "Kohima",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kokrajhar",
+      "city": "Kokrajhar",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kolar",
+      "city": "Kolar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kolhapur",
+      "city": "Kolhapur",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kolkata",
+      "city": "Kolkata",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kollam",
+      "city": "Kollam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "koppal",
+      "city": "Koppal",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "koraput",
+      "city": "Koraput",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "korba",
+      "city": "Korba",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "koriya",
+      "city": "Koriya",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kota",
+      "city": "Kota",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kotputli",
+      "city": "Kotputli",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kottarakara",
+      "city": "Kottarakkara",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kottayam",
+      "city": "Kottayam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kozhikode",
+      "city": "Kozhikode",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "krishnagiri",
+      "city": "Krishnagiri",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "krishnanagar",
+      "city": "Krishnanagar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kullu",
+      "city": "Kullu",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kumbakonam",
+      "city": "Kumbakonam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kurnool",
+      "city": "Kurnool",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kurukshetra",
+      "city": "Kurukshetra",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kushinagar",
+      "city": "Kushinagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "kutch",
+      "city": "Kutch",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "lakhimpur",
+      "city": "Lakhimpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "lakhisarai",
+      "city": "Lakhisarai",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "lalitpur",
+      "city": "Lalitpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "latehar",
+      "city": "Latehar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "latur",
+      "city": "Latur",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "leh",
+      "city": "Leh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "lohardaga",
+      "city": "Lohardaga",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "lowersubansiri",
+      "city": "Lower Subansiri",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "lucknow",
+      "city": "Lucknow",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ludhiana",
+      "city": "Ludhiana",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "lunglei",
+      "city": "Lunglei",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "machilipatnam",
+      "city": "Machilipatnam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "madanapalle",
+      "city": "Madanapalle",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "madhepura",
+      "city": "Madhepura",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "madhubani",
+      "city": "Madhubani",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "madurai",
+      "city": "Madurai",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "maharajganj",
+      "city": "Maharajganj",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mahasamund",
+      "city": "Mahasamund",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mahbubnagar",
+      "city": "Mahbubnagar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mahendragarh",
+      "city": "Mahendragarh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mahoba",
+      "city": "Mahoba",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mahuva",
+      "city": "Mahuva",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mainpuri",
+      "city": "Mainpuri",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "malappuram",
+      "city": "Malappuram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "malda",
+      "city": "Malda",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "malegaon",
+      "city": "Malegaon",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "malkangiri",
+      "city": "Malkangiri",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "manali",
+      "city": "Manali",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mandasur",
+      "city": "Mandasur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mandi",
+      "city": "Mandi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mandla",
+      "city": "Mandla",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mandsaur",
+      "city": "Mandsaur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mandya",
+      "city": "Mandya",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "manendragarh",
+      "city": "Manendragarh",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "manesar",
+      "city": "Manesar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mangalore",
+      "city": "Mangalore",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mangaluru",
+      "city": "Mangaluru",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mangan",
+      "city": "Mangan",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mansa",
+      "city": "Mansa",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "margao",
+      "city": "Margao",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "marthandam",
+      "city": "Marthandam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mathura",
+      "city": "Mathura",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mau",
+      "city": "Mau",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mayurbhanj",
+      "city": "Mayurbhanj",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "medak",
+      "city": "Medak",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "meerut",
+      "city": "Meerut",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "midnapore",
+      "city": "Midnapore",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "miraj",
+      "city": "Miraj",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mirzapur",
+      "city": "Mirzapur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "modinagar",
+      "city": "Modinagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "moga",
+      "city": "Moga",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mohali",
+      "city": "Mohali",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mokokchung",
+      "city": "Mokokchung",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "moradabad",
+      "city": "Moradabad",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "morbi",
+      "city": "Morbi",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "morena",
+      "city": "Morena",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "morigaon",
+      "city": "Morigaon",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "morinda",
+      "city": "Morinda",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "motihari",
+      "city": "Motihari",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mughalsarai",
+      "city": "Mughalsarai",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mukerian",
+      "city": "Mukerian",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "muktsar",
+      "city": "Muktsar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mumbai",
+      "city": "Mumbai",
+      "zone": "West",
+      "cluster": 1,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mungeli",
+      "city": "Mungeli",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "munger",
+      "city": "Munger",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "murshidabad",
+      "city": "Murshidabad",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "muzaffarnagar",
+      "city": "Muzaffarnagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "muzaffarpur",
+      "city": "Muzaffarpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mysore",
+      "city": "Mysore",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "mysuru",
+      "city": "Mysuru",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nabarangapur",
+      "city": "Nabarangapur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nabha",
+      "city": "Nabha",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nadia",
+      "city": "Nadia",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nadiad",
+      "city": "Nadiad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nagaon",
+      "city": "Nagaon",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nagapattinam",
+      "city": "Nagapattinam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nagaur",
+      "city": "Nagaur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nagercoil",
+      "city": "Nagercoil",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nagpur",
+      "city": "Nagpur",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "naharlagun",
+      "city": "Naharlagun",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nainital",
+      "city": "Nainital",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nainital-uttrakhand",
+      "city": "Nainital",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nakodar",
+      "city": "Nakodar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nalanda",
+      "city": "Nalanda",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nalbari",
+      "city": "Nalbari",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nalgonda",
+      "city": "Nalgonda",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "namakkal",
+      "city": "Namakkal",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "namchi",
+      "city": "Namchi",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nanded",
+      "city": "Nanded",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nandurbar",
+      "city": "Nandurbar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nandyal",
+      "city": "Nandyal",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nangal",
+      "city": "Nangal",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "narasaropet",
+      "city": "Narasaropet",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "narasinghpur",
+      "city": "Narasinghpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "narayangaon",
+      "city": "Narayangaon",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "narnaul",
+      "city": "Narnaul",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "narsinghpur",
+      "city": "Narsinghpur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nashik",
+      "city": "Nashik",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "navi-mumbai",
+      "city": "Navi Mumbai",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "navsari",
+      "city": "Navsari",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nawada",
+      "city": "Nawada",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nawanshahr",
+      "city": "Nawanshahr",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nayagarh",
+      "city": "Nayagarh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "neemuch",
+      "city": "Neemuch",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nellore",
+      "city": "Nellore",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "neyveli",
+      "city": "Neyveli",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nilgiris",
+      "city": "Nilgiris",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nirjuli",
+      "city": "Nirjuli",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nizamabad",
+      "city": "Nizamabad",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "noida",
+      "city": "Noida",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nongstoin",
+      "city": "Nongstoin",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "north24parganas",
+      "city": "North 24 Parganas",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "northgoa",
+      "city": "North Goa",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "northtripura",
+      "city": "North Tripura",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "nuapada",
+      "city": "Nuapada",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ongole",
+      "city": "Ongole",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ooty",
+      "city": "Ooty",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "orai",
+      "city": "Orai",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "osmanabad",
+      "city": "Osmanabad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "padrauna",
+      "city": "Padrauna",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pakur",
+      "city": "Pakur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "palakkad",
+      "city": "Palakkad",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "palamu",
+      "city": "Palamu",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "palanpur",
+      "city": "Palanpur",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pali",
+      "city": "Pali",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "palwal",
+      "city": "Palwal",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "panaji",
+      "city": "Panaji",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "panchkula",
+      "city": "Panchkula",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "panchmahal",
+      "city": "Panchmahal",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "panipat",
+      "city": "Panipat",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "panjim",
+      "city": "Panjim",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "panna",
+      "city": "Panna",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "panvel",
+      "city": "Panvel",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "paontasahib",
+      "city": "Paonta Sahib",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "papumpare",
+      "city": "Papum pare",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "parbhani",
+      "city": "Parbhani",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pasighat",
+      "city": "Pasighat",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "patan",
+      "city": "Patan",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pathalgaon",
+      "city": "Pathalgaon",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pathanamthitta",
+      "city": "Pathanamthitta",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pathankot",
+      "city": "Pathankot",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "patiala",
+      "city": "Patiala",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "patna",
+      "city": "Patna",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pattambi",
+      "city": "Pattambi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "paurigarhwal",
+      "city": "Pauri Garhwal",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "perambalur",
+      "city": "Perambalur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "perinthalmanna",
+      "city": "Perintalmanna",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "perumbavoor",
+      "city": "Perumbavoor",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "phagwara",
+      "city": "Phagwara",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "phaltan",
+      "city": "Phaltan",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pilibhit",
+      "city": "Pilibhit",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pinjore-haryana",
+      "city": "Pinjore",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pithoragarh",
+      "city": "Pithoragarh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pollachi",
+      "city": "Pollachi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pondicherry",
+      "city": "Pondicherry",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "porbandar",
+      "city": "Porbandar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "prakasam",
+      "city": "Prakasam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pratapgarh-rajasthan",
+      "city": "Pratapgarh (Rajasthan)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pratapgarh-uttarpradesh",
+      "city": "Pratapgarh (Uttar Pradesh)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "prayagraj",
+      "city": "Prayagraj",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pudukkottai",
+      "city": "Pudukkottai",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pulwama",
+      "city": "Pulwama",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "pune",
+      "city": "Pune",
+      "zone": "West",
+      "cluster": 1,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "puri",
+      "city": "Puri",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "purnea",
+      "city": "Purnea",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "purnia",
+      "city": "Purnia",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "purulia",
+      "city": "Purulia",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rae-bareli",
+      "city": "Rae Bareli",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "raebareli",
+      "city": "Rae Bareli",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "raichur",
+      "city": "Raichur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "raigad",
+      "city": "Raigad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "raiganj",
+      "city": "Raiganj",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "raigarh",
+      "city": "Raigarh",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "raipur",
+      "city": "Raipur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "raisen",
+      "city": "Raisen",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rajahmundry",
+      "city": "Rajahmundry",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rajahumundry",
+      "city": "Rajahmundry",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rajgarh",
+      "city": "Rajgarh",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rajkot",
+      "city": "Rajkot",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rajnandgaon",
+      "city": "Rajnandgaon",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rajouri",
+      "city": "Rajouri",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rajsamand",
+      "city": "Rajsamand",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ramagundam",
+      "city": "Ramagundam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ramanagara",
+      "city": "Ramanagara",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ramanathapuram",
+      "city": "Ramanathapuram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ramgarh",
+      "city": "Ramgarh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rampur",
+      "city": "Rampur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rampur-himachalpradesh",
+      "city": "Rampur (Himachal Pradesh)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rampur-uttarpradesh",
+      "city": "Rampur (Uttar Pradesh)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ranchi",
+      "city": "Ranchi",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rangareddy",
+      "city": "Ranga Reddy",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ratlam",
+      "city": "Ratlam",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ratnagiri",
+      "city": "Ratnagiri",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rayagada",
+      "city": "Rayagada",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rewa",
+      "city": "Rewa",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rewari",
+      "city": "Rewari",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rishikesh",
+      "city": "Rishikesh",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rohtak",
+      "city": "Rohtak",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rohtas",
+      "city": "Rohtas",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "roorkee",
+      "city": "Roorkee",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ropar",
+      "city": "Ropar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rourkela",
+      "city": "Rourkela",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rudraprayag",
+      "city": "Rudraprayag",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rudrapur",
+      "city": "Rudrapur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "rupnagar",
+      "city": "Rupnagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sabarkantha",
+      "city": "Sabarkantha",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sabroom",
+      "city": "Sabroom",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sagar",
+      "city": "Sagar",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "saharanpur",
+      "city": "Saharanpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "saharsa",
+      "city": "Saharsa",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sahibganj",
+      "city": "Sahibganj",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "salem",
+      "city": "Salem",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "samastipur",
+      "city": "Samastipur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sambalpur",
+      "city": "Sambalpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sangamner",
+      "city": "Sangamner",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sangareddy",
+      "city": "Sangareddy",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sangli",
+      "city": "Sangli",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sangrur",
+      "city": "Sangrur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "santkabirnagar",
+      "city": "Sant Kabir Nagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "santravidasnagar",
+      "city": "Sant Ravidas Nagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "saran",
+      "city": "Saran",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sasaram",
+      "city": "Sasaram",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "satara",
+      "city": "Satara",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "satna",
+      "city": "Satna",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sawai-madhopur",
+      "city": "Sawai Madhopur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sawaimadhopur",
+      "city": "Sawai Madhopur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "secunderabad",
+      "city": "Secunderabad",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sehore",
+      "city": "Sehore",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "seoni",
+      "city": "Seoni",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "seraikelakharsawan",
+      "city": "Seraikela-kharsawan",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shahdol",
+      "city": "Shahdol",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shahjahanpur",
+      "city": "Shahjahanpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shajapur",
+      "city": "Shajapur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sheikhpura",
+      "city": "Sheikhpura",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sheohar",
+      "city": "Sheohar",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sheopur",
+      "city": "Sheopur",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shillong",
+      "city": "Shillong",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shimla",
+      "city": "Shimla",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shimoga",
+      "city": "Shimoga",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shivamogga",
+      "city": "Shivamogga",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shivpuri",
+      "city": "Shivpuri",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "shrirampur",
+      "city": "Shrirampur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sibsagar",
+      "city": "Sibsagar",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "siddharthnagar",
+      "city": "Siddharthnagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "siddipet",
+      "city": "Siddipet",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sidhi",
+      "city": "Sidhi",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sikar",
+      "city": "Sikar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "silchar",
+      "city": "Silchar",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "siliguri",
+      "city": "Siliguri",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "simdega",
+      "city": "Simdega",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sindhdurg",
+      "city": "Sindhdurg",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sirmaur",
+      "city": "Sirmaur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sirohi",
+      "city": "Sirohi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sirsa",
+      "city": "Sirsa",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sitamarhi",
+      "city": "Sitamarhi",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sitapur",
+      "city": "Sitapur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sivagangai",
+      "city": "Sivagangai",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sivakasi",
+      "city": "Sivakasi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sivasagar",
+      "city": "Sivasagar",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "siwan",
+      "city": "Siwan",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "solan",
+      "city": "Solan",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "solapur",
+      "city": "Solapur",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sonapur",
+      "city": "Sonapur",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sonbhadra",
+      "city": "Sonbhadra",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sonepat",
+      "city": "Sonepat",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sonipat",
+      "city": "Sonipat",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sonitpur",
+      "city": "Sonitpur",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "southgoa",
+      "city": "South Goa",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "southtripura",
+      "city": "South Tripura",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sravasti",
+      "city": "Sravasti",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sriganganagar",
+      "city": "Sriganganagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "srikakulam",
+      "city": "Srikakulam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "srinagar",
+      "city": "Srinagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sultanpur",
+      "city": "Sultanpur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sundargarh",
+      "city": "Sundargarh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "sundergarh",
+      "city": "Sundergarh",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "supaul",
+      "city": "Supaul",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "surat",
+      "city": "Surat",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "surendranagar",
+      "city": "Surendranagar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "surguja",
+      "city": "Surguja",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "suryapet",
+      "city": "Suryapet",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tarntaran",
+      "city": "Tarn Taran",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tawang",
+      "city": "Tawang",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tehrigarhwal",
+      "city": "Tehri Garhwal",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tenali",
+      "city": "Tenali",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tezpur",
+      "city": "Tezpur",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thane",
+      "city": "Thane",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thanjavur",
+      "city": "Thanjavur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "theni",
+      "city": "Theni",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thiruvalla",
+      "city": "Thiruvalla",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thiruvallur",
+      "city": "Thiruvallur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thiruvananthapuram",
+      "city": "Thiruvananthapuram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thiruvarur",
+      "city": "Thiruvarur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thodupuzha",
+      "city": "Thodupuzha",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thoubal",
+      "city": "Thoubal",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "thrissur",
+      "city": "Thrissur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tikamgarh",
+      "city": "Tikamgarh",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tinsukia",
+      "city": "Tinsukia",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tiptur",
+      "city": "Tiptur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tiruchengode",
+      "city": "Tiruchengode",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tiruchirappalli",
+      "city": "Tiruchirappalli",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tirunelveli",
+      "city": "Tirunelveli",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tirupati",
+      "city": "Tirupati",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tiruppur",
+      "city": "Tiruppur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tirur",
+      "city": "Tirur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tiruvannamalai",
+      "city": "Tiruvannamalai",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tonk",
+      "city": "Tonk",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tuensang",
+      "city": "Tuensang",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tumkur",
+      "city": "Tumkur",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tura",
+      "city": "Tura",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "tuticorin",
+      "city": "Tuticorin",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "udaipur",
+      "city": "Udaipur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "udaipur-tripura",
+      "city": "Udaipur (Tripura)",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "udgir",
+      "city": "Udgir",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "udhampur",
+      "city": "Udhampur",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "udhamsinghnagar",
+      "city": "Udham Singh Nagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "udumalpet",
+      "city": "Udumalpet",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "udupi",
+      "city": "Udupi",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ujjain",
+      "city": "Ujjain",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ulhasnagar",
+      "city": "Ulhasnagar",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "umaria",
+      "city": "Umaria",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "una",
+      "city": "Una",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "una-himachalpradesh",
+      "city": "Una (HP)",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "unnao",
+      "city": "Unnao",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "uttardinajpur",
+      "city": "Uttar Dinajpur",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "uttarkannada",
+      "city": "Uttar Kannada",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "uttarkashi",
+      "city": "Uttarkashi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vadodara",
+      "city": "Vadodara",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vaishali",
+      "city": "Vaishali",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "valsad",
+      "city": "Valsad",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vapi",
+      "city": "Vapi",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "varanasi",
+      "city": "Varanasi",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vasai",
+      "city": "Vasai",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vasco-da-gama",
+      "city": "Vasco da Gama",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vellore",
+      "city": "Vellore",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "veraval",
+      "city": "Veraval",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vidisha",
+      "city": "Vidisha",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vijayapura",
+      "city": "Vijayapura",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vijayawada",
+      "city": "Vijayawada",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "villupuram",
+      "city": "Villupuram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "viramgam",
+      "city": "Viramgam",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "virudhunagar",
+      "city": "Virudhunagar",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "visakhapatnam",
+      "city": "Visakhapatnam",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "vizianagaram",
+      "city": "Vizianagaram",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "waidhan",
+      "city": "Waidhan",
+      "zone": "Central",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "warangal",
+      "city": "Warangal",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "wardha",
+      "city": "Wardha",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "washim",
+      "city": "Washim",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "wayanad",
+      "city": "Wayanad",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "westgarohills",
+      "city": "West Garo Hills",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "westgodavari",
+      "city": "West Godavari",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "westsiang",
+      "city": "West Siang",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "westsinghbhum",
+      "city": "West Singhbhum",
+      "zone": "East",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "westtripura",
+      "city": "West Tripura",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "wokha",
+      "city": "Wokha",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "yadagir",
+      "city": "Yadgir",
+      "zone": "South",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "yamunanagar",
+      "city": "Yamunanagar",
+      "zone": "North",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "yavatmal",
+      "city": "Yavatmal",
+      "zone": "West",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    },
+    {
+      "city_slug": "ziro",
+      "city": "Ziro",
+      "zone": "Northeast",
+      "cluster": 0,
+      "archetype": "Metro / Major Hub"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\scraper\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\data\\\\raw\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\data\\\\fada\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\data\\\\supplementary\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\data\\\\pincode_db\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\db\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\analysis\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\spatial\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\visualisations\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\HP\\\\Documents\\\\Self Projects\\\\Motorcycles\\\\motorcycle_analysis\\\\outputs\")",
+      "Bash(python -c ' *)",
+      "Bash(pip install *)",
+      "Bash(python -m playwright install chromium)",
+      "PowerShell(python -m playwright install chromium 2>&1; Write-Output \"EXIT:$LASTEXITCODE\")",
+      "Bash(python scraper/bikewale_scraper.py)",
+      "Bash(python -c \"import sqlite3; conn=sqlite3.connect\\('db/motorcycle_analysis.db'\\); r=conn.execute\\('SELECT COUNT\\(*\\) FROM dealers'\\).fetchone\\(\\); print\\('DB rows:', r[0]\\); conn.close\\(\\)\")",
+      "Bash(python analysis/run_all.py)",
+      "Bash(python outputs/final_dashboard.py)",
+      "Bash(python scraper/probe_hero5.py)",
+      "Bash(python scraper/probe_hero7.py)",
+      "Bash(python scraper/probe_hero_sitemap.py)",
+      "Bash(python scraper/hero_sc_count.py)",
+      "Bash(python scraper/hero_city_counts.py)",
+      "WebSearch"
+    ]
+  }
+}

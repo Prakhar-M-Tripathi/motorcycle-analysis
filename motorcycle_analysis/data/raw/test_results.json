@@ -1,0 +1,146 @@
+[
+  {
+    "city": "Delhi",
+    "zone": "North",
+    "type": "service",
+    "count": 31,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/delhi/"
+  },
+  {
+    "city": "Delhi",
+    "zone": "North",
+    "type": "showroom",
+    "count": 29,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/delhi/"
+  },
+  {
+    "city": "Mumbai",
+    "zone": "West",
+    "type": "service",
+    "count": 15,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/mumbai/"
+  },
+  {
+    "city": "Mumbai",
+    "zone": "West",
+    "type": "showroom",
+    "count": 12,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/mumbai/"
+  },
+  {
+    "city": "Chennai",
+    "zone": "South",
+    "type": "service",
+    "count": 25,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/chennai/"
+  },
+  {
+    "city": "Chennai",
+    "zone": "South",
+    "type": "showroom",
+    "count": 26,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/chennai/"
+  },
+  {
+    "city": "Patna",
+    "zone": "East",
+    "type": "service",
+    "count": 5,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/patna/"
+  },
+  {
+    "city": "Patna",
+    "zone": "East",
+    "type": "showroom",
+    "count": 5,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/patna/"
+  },
+  {
+    "city": "Bhopal",
+    "zone": "Central",
+    "type": "service",
+    "count": 2,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/bhopal/"
+  },
+  {
+    "city": "Bhopal",
+    "zone": "Central",
+    "type": "showroom",
+    "count": 3,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/bhopal/"
+  },
+  {
+    "city": "Guwahati",
+    "zone": "Northeast",
+    "type": "service",
+    "count": 4,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/guwahati/"
+  },
+  {
+    "city": "Guwahati",
+    "zone": "Northeast",
+    "type": "showroom",
+    "count": 8,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/guwahati/"
+  },
+  {
+    "city": "Nagpur",
+    "zone": "West",
+    "type": "service",
+    "count": 7,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/nagpur/"
+  },
+  {
+    "city": "Nagpur",
+    "zone": "West",
+    "type": "showroom",
+    "count": 8,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/nagpur/"
+  },
+  {
+    "city": "Haldwani",
+    "zone": "North",
+    "type": "service",
+    "count": 3,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/service-centers/royalenfield/haldwani/"
+  },
+  {
+    "city": "Haldwani",
+    "zone": "North",
+    "type": "showroom",
+    "count": 3,
+    "http": 200,
+    "note": "ok",
+    "url": "https://www.bikewale.com/dealer-showrooms/royalenfield/haldwani/"
+  }
+]

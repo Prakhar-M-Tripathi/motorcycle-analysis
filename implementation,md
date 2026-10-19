@@ -1,0 +1,293 @@
+**Indian Motorcycle Brand**
+
+**Network Bottleneck Analysis**
+
+Project Scope, Technology Stack & Implementation Plan
+
+IIM Sirmaur | BMS Batch 2025 | Management Research Project
+
+# **Table of Contents**
+
+# **1. Executive Summary**
+
+This project investigates whether Indian motorcycle brands — Hero MotoCorp, Bajaj Auto, Royal Enfield, TVS Motor, Honda, Yamaha, Suzuki, KTM, Ola Electric, and Ather Energy — have regional imbalances between their showroom (sales) networks and their service center networks across six geographic zones of India.
+
+The core hypothesis is that zones with fewer service centers relative to showrooms create a customer experience bottleneck that suppresses repeat purchases, reduces brand loyalty, and results in measurable revenue leakage. The project will test this hypothesis using publicly available data, quantify the financial impact, and produce a prescriptive expansion priority index for each brand.
+
+|  |
+| --- |
+| **Project Question**  Do Indian motorcycle brands have a positive correlation between service center density and regional sales volume — and how much revenue are they losing in zones where service infrastructure lags behind sales reach? |
+
+The full analysis covers seven distinct analytical outputs: a bottleneck map, a revenue leakage estimate, a service-to-showroom correlation, an expansion priority index, a service center clustering analysis, a brand maturity vs. network balance study, a Northeast and hill-state neglect score, an EV brand comparison, a competitor advantage map, and a rural vs. urban bottleneck split.
+
+# **2. Project Scope**
+
+## **2.1 Brands Covered**
+
+The analysis covers ten motorcycle and two-wheeler brands active in the Indian market:
+
+| **Brand** | **Segment** | **Market Position** | **Included in EV Layer** |
+| --- | --- | --- | --- |
+| Hero MotoCorp | Commuter / Mass market | Market leader ~28% share | No |
+| Honda (HMSI) | Commuter / Scooter | Second ~25% share | No |
+| Bajaj Auto | Commuter / Performance | Third ~13% share | Partial (Chetak EV) |
+| TVS Motor | Commuter / Performance | Fourth ~17% share | Partial (iQube EV) |
+| Royal Enfield | Mid-size / Premium | ~5% share, fastest growing | No |
+| Yamaha | Performance / Scooter | ~3.3% share | No |
+| Suzuki | Commuter / Scooter | ~5.4% share | No |
+| KTM | Performance / Premium | Niche | No |
+| Ola Electric | Electric scooter | Fast growing EV entrant | Yes (primary) |
+| Ather Energy | Electric scooter | Premium EV segment | Yes (primary) |
+
+## **2.2 Geographic Zones**
+
+India is divided into six standard zones for this analysis. This mirrors the regional sales and distribution structure used by most Indian automotive companies in their internal reporting.
+
+| **Zone** | **States Included** | **Notable Characteristic** |
+| --- | --- | --- |
+| North | Delhi, UP, Haryana, Punjab, Rajasthan, HP, Uttarakhand, J&K | Largest zone by volume; Hero stronghold |
+| South | Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana | TVS and Honda dominant; high service density |
+| West | Maharashtra, Gujarat, Goa, MP, Chhattisgarh | Bajaj stronghold; urban concentration |
+| East | West Bengal, Odisha, Jharkhand, Bihar | Underserved relative to population |
+| Northeast | Assam, Meghalaya, Manipur, Mizoram, Tripura, Nagaland, Arunachal, Sikkim | Most isolated; expected worst service ratios |
+| Central | MP (partial), Chhattisgarh (partial) | Often merged with West in reporting |
+
+## **2.3 Analytical Outputs (Full Scope)**
+
+The project produces ten distinct analytical outputs. Each is described briefly here and detailed in Section 5.
+
+* **Bottleneck Map:** Service-to-showroom ratio per brand per zone, with severity classification (mild / moderate / severe).
+* **Revenue Leakage Estimate:** Monetised estimate of sales lost due to service underinvestment, using FADA retail data and average selling price.
+* **Correlation Analysis:** Pearson r coefficient testing whether service center density positively correlates with zone-level sales volume.
+* **Expansion Priority Index:** Composite score ranking zones where a brand should open its next service center for maximum impact.
+* **Clustering vs. Spread Analysis:** Herfindahl-Hirschman Index applied to service center city-level distribution to detect urban concentration.
+* **Brand Maturity vs. Network Balance:** Comparison of sales growth rate against service network growth rate to flag structural capacity risk.
+* **Northeast / Hill-State Neglect Score:** Weighted underservice index specific to geographically isolated states.
+* **EV Brand Comparison:** Same bottleneck analysis applied to Ola Electric and Ather Energy to demonstrate the forward-looking risk.
+* **Competitor Advantage Map:** Cross-brand analysis identifying which competitor is best positioned in each zone where a brand has a bottleneck.
+* **Rural vs. Urban Bottleneck Split:** Tier 1 / 2 / 3 city classification applied to service center locations to test whether bottlenecks concentrate in smaller towns.
+
+# **3. Data Sources**
+
+## **3.1 Primary Source — BikeWale Scrape**
+
+BikeWale (bikewale.com) is the primary data source for showroom and service center counts. It aggregates dealer and service data for all major brands across Indian cities and is the most comprehensive publicly accessible source for this purpose.
+
+| **Data Point** | **BikeWale URL Pattern** | **Update Frequency** |
+| --- | --- | --- |
+| Showroom count per city | bikewale.com/dealer-showrooms/{brand}/{city}/ | Weekly |
+| Service center count per city | bikewale.com/service-centers/{brand}/{city}/ | Weekly |
+| Service center addresses | Extracted from listing page | As updated by brand |
+| City / pincode | Listed in each record | Static |
+
+## **3.2 Secondary Source — Brand Official Locators**
+
+Each brand's official dealer/service locator is used to cross-validate BikeWale data and catch any listings not aggregated by third parties.
+
+| **Brand** | **Official Locator URL** |
+| --- | --- |
+| Royal Enfield | dealers.royalenfield.com/{state} |
+| Hero MotoCorp | heromotocorp.com/en-in/locate-us.html |
+| Bajaj Auto | bajajauto.com/locate-dealer |
+| TVS Motor | tvsmotor.com/dealer-locator |
+| Honda (HMSI) | honda2wheelersindia.com/service-network |
+| Ola Electric | olaelectric.com/service-centres |
+| Ather Energy | atherenergy.com/service-center |
+
+## **3.3 Sales Data — FADA State-wise Retail Reports**
+
+The Federation of Automobile Dealers Associations (FADA) publishes monthly state-wise retail registration data for all two-wheeler brands. This is the standard proxy for regional revenue in the absence of brand-disclosed zone-level financials.
+
+|  |
+| --- |
+| **Why FADA and not annual reports?**  No Indian two-wheeler brand publicly discloses zone-wise or state-wise revenue breakdowns in their annual reports. National-level revenue is available but cannot be disaggregated by region. FADA retail data is the accepted industry-standard proxy used by analysts, investment firms, and researchers for regional sales performance. |
+
+FADA data is available at fada.in and covers monthly retail (end-customer) registrations — not wholesale dispatches — making it a more accurate proxy for actual demand.
+
+## **3.4 Supplementary Data**
+
+* **India Census population data:** Used for tier 1 / 2 / 3 city classification. Available free from censusindia.gov.in.
+* **Average Selling Price (ASP) per brand:** Derived from brand annual reports (revenue divided by units sold). Used to convert unit gaps into rupee revenue leakage estimates.
+* **India state shapefile:** Used by GeoPandas for choropleth map rendering. Available from the Survey of India or open GIS repositories.
+* **Sales growth rates (historical):** From brand annual reports and FADA historical archives, used for the brand maturity vs. network balance analysis.
+
+# **4. Technology Stack**
+
+## **4.1 Stack Overview**
+
+The project uses a four-phase pipeline. Each phase has a dedicated set of tools chosen for their suitability to the task, ease of use within Claude Code, and availability in a standard Python environment.
+
+| **Phase** | **Task** | **Primary Tool** | **Supporting Tools** |
+| --- | --- | --- | --- |
+| 1 — Collection | Scrape showroom & service center data | Python + Playwright | BeautifulSoup, Requests |
+| 2 — Storage | Store and query structured data | SQLite | Python sqlite3 module |
+| 3 — Analysis | Clean, aggregate, calculate metrics | Pandas | NumPy, SciPy, GeoPandas |
+| 4 — Visualisation | Charts, maps, heatmaps | Plotly | GeoPandas, Matplotlib |
+| Orchestration | Write, run, debug all scripts | Claude Code | Terminal / bash |
+
+## **4.2 Phase 1 — Data Collection (Playwright)**
+
+### **What it is**
+
+Playwright is a Python library that controls a real browser (Chrome or Firefox) programmatically. Unlike simple HTTP scrapers, it can handle websites that load their content using JavaScript — which most dealer locators do. Think of it as a robot sitting at a browser, clicking through pages, reading what appears on screen, and saving the numbers.
+
+### **What it does in this project**
+
+* **Iterates:** Over a pre-built list of brand names and Indian city names.
+* **Opens:** bikewale.com/dealer-showrooms/{brand}/{city}/ in a headless browser.
+* **Reads:** The count number from the page title (e.g. '29 Royal Enfield bike dealers in Delhi').
+* **Repeats:** For service centers using bikewale.com/service-centers/{brand}/{city}/.
+* **Saves:** Each record to a CSV file with columns: brand, city, state, zone, type (showroom/service), count.
+* **Validates:** Against the brand's official locator for a random 10% sample.
+
+|  |
+| --- |
+| **Scraping note**  BikeWale's data is publicly accessible and is scraped only for research purposes. The scraper includes polite delays of 2-3 seconds between requests to avoid server strain. No login or authentication is required. |
+
+## **4.3 Phase 2 — Storage (SQLite)**
+
+### **What it is**
+
+SQLite is a file-based database — the entire database lives as a single .db file on your computer. No server setup is needed. Python's built-in sqlite3 module can read and write it directly. It is the right choice for a project of this scale where the dataset is not large enough to warrant a full database server.
+
+### **Database schema**
+
+| **Table** | **Columns** | **Purpose** |
+| --- | --- | --- |
+| dealers | id, brand, city, state, zone, type, count, scrape\_date | Raw scraped counts |
+| fada\_sales | id, brand, state, zone, year, month, units\_sold | FADA monthly retail data |
+| brand\_asp | brand, year, avg\_selling\_price\_inr | Average selling price from annual reports |
+| city\_tier | city, state, population, tier | Census-based city classification |
+| analysis\_output | brand, zone, showrooms, service\_centers, ratio, deviation, severity, est\_revenue\_lost | Final calculated metrics |
+
+## **4.4 Phase 3 — Analysis (Pandas + SciPy)**
+
+### **What it is**
+
+Pandas is Python's standard library for working with tabular data. Think of it as Excel inside code — you can filter rows, create new columns, group by categories, and merge tables. SciPy adds the statistical functions (Pearson correlation, p-value testing) that Pandas alone does not provide.
+
+### **Analysis scripts in this phase**
+
+* **ratio\_calculator.py:** Computes service-to-showroom ratio, brand baseline, deviation, bottleneck flag, and severity for every brand-zone pair.
+* **revenue\_leakage.py:** Merges dealer data with FADA sales data and ASP to compute counterfactual revenue estimates.
+* **correlation.py:** Runs Pearson correlation between service ratio and FADA units sold per zone per brand.
+* **expansion\_index.py:** Computes composite expansion priority score from volume and service gap.
+* **clustering.py:** Applies the Herfindahl-Hirschman Index to city-level service center distribution.
+* **maturity\_balance.py:** Compares sales growth rates to service network growth rates using historical data.
+* **tier\_split.py:** Merges city tier data with service center locations to produce rural/urban bottleneck breakdown.
+
+## **4.5 Phase 4 — Visualisation (Plotly + GeoPandas)**
+
+### **What it is**
+
+Plotly produces interactive charts (bar charts, scatter plots, heatmaps) that can be opened in a browser and explored. GeoPandas handles geographic data — it reads India's state boundary shapefile and colors each state based on the analysis outputs, producing choropleth maps.
+
+### **Visualisation outputs**
+
+| **Output** | **Chart Type** | **Tool** | **What it shows** |
+| --- | --- | --- | --- |
+| Bottleneck map | India choropleth | GeoPandas + Matplotlib | Severity colour per state per brand |
+| Brand x zone heatmap | Heatmap grid | Plotly | All brands vs all zones at once |
+| Revenue leakage bar chart | Grouped bar chart | Plotly | Est. revenue lost per brand per zone |
+| Correlation scatter | Scatter with regression line | Plotly | Service ratio vs units sold |
+| Expansion priority ranking | Horizontal bar chart | Plotly | Top zones to prioritise per brand |
+| Clustering visualisation | Bubble map | GeoPandas | City-level concentration of service centers |
+| Tier split chart | Stacked bar | Plotly | Bottleneck distribution by city tier |
+| EV comparison | Side-by-side choropleth | GeoPandas | EV vs legacy brand service coverage |
+
+## **4.6 Claude Code — The Orchestrator**
+
+Claude Code is a command-line AI coding assistant. In this project it serves as the primary development environment. Rather than writing every script from scratch, you describe what you need and Claude Code writes, executes, debugs, and iterates the Python code in your terminal.
+
+### **Typical Claude Code workflow in this project**
+
+* **Step 1:** "Write a Playwright scraper that collects showroom counts from BikeWale for Hero MotoCorp across all state capitals."
+* **Step 2:** Claude Code writes the script, runs it, shows you the output.
+* **Step 3:** "The scraper is timing out on some pages — add a retry with exponential backoff."
+* **Step 4:** Claude Code fixes the script and re-runs.
+* **Step 5:** "Now extend this to all ten brands and save to SQLite."
+
+This loop continues for every phase of the project. Claude Code is not just a code generator — it runs the code in your environment and sees the actual output, so errors are caught and fixed in real time.
+
+# **5. Implementation Plan**
+
+## **5.1 Phase Timeline**
+
+| **Week** | **Phase** | **Deliverable** |
+| --- | --- | --- |
+| Week 1 | Setup + Scraping | Python env, Playwright scraper for BikeWale, raw CSV output |
+| Week 1-2 | Data validation | Cross-check against 3 brand official locators, fix discrepancies |
+| Week 2 | FADA data ingestion | Download and parse FADA state-wise PDFs into SQLite |
+| Week 2-3 | Core analysis | Bottleneck ratios, severity scores, revenue leakage estimates |
+| Week 3 | Correlation + advanced analysis | Pearson r, expansion index, clustering, tier split |
+| Week 3-4 | Visualisations | All 8 chart outputs, map renders |
+| Week 4 | Interpretation + write-up | Findings document, presentation deck |
+
+## **5.2 Project Folder Structure**
+
+The following folder structure is recommended for the Claude Code workspace:
+
+**motorcycle\_analysis/**
+
+├── scraper/ # Playwright scripts
+
+├── data/raw/ # Raw CSVs from scraper
+
+├── data/fada/ # FADA sales data
+
+├── data/supplementary/ # ASP, Census tier, shapefile
+
+├── db/ # SQLite database file
+
+├── analysis/ # Python analysis scripts
+
+├── visualisations/ # Plotly + GeoPandas outputs
+
+└── outputs/ # Final charts, maps, report
+
+## **5.3 Installation Checklist**
+
+The following Python packages are required. Claude Code will install them as needed, but this is the complete list:
+
+| **Package** | **Purpose** | **Install command** |
+| --- | --- | --- |
+| playwright | Browser automation for scraping | pip install playwright |
+| pandas | Data manipulation and analysis | pip install pandas |
+| numpy | Numerical operations | pip install numpy |
+| scipy | Statistical tests (Pearson r) | pip install scipy |
+| geopandas | Geographic data and map rendering | pip install geopandas |
+| plotly | Interactive charts | pip install plotly |
+| matplotlib | Static map rendering | pip install matplotlib |
+| requests | HTTP requests for official locators | pip install requests |
+| beautifulsoup4 | HTML parsing fallback | pip install beautifulsoup4 |
+| sqlite3 | Database (built into Python) | No install needed |
+| openpyxl | Read FADA Excel files | pip install openpyxl |
+
+## **5.4 Known Risks and Mitigations**
+
+| **Risk** | **Likelihood** | **Impact** | **Mitigation** |
+| --- | --- | --- | --- |
+| BikeWale changes page structure | Low | Scraper breaks | Version-pin scraper; validate weekly |
+| FADA PDFs have inconsistent formatting | Medium | Manual parsing needed | Claude Code handles PDF text extraction |
+| City names inconsistent across sources | High | Merge errors in analysis | Fuzzy matching using rapidfuzz library |
+| Small sample in Northeast zone | High | Low statistical confidence | Flag in findings; report as observational |
+| Brand locators block scraping | Medium | Missing data for some brands | Use BikeWale as primary; flag gaps |
+| ASP approximation introduces error | Medium | Revenue estimate imprecise | Report as range, not single figure |
+
+# **6. Project-wide Caveats**
+
+## **6.1 Data caveats**
+
+* **No brand discloses zone-wise revenue:** All revenue figures are proxied through FADA units and average selling price. The estimates are directionally sound but not auditable against brand accounts.
+* **BikeWale coverage is city-level:** Smaller towns and rural areas may be underrepresented. The analysis is most reliable at state and zone level.
+* **Data freshness:** Scraped data reflects conditions at the time of scraping. Brand networks change continuously. All findings should note the data collection date.
+* **EV data is thinner:** Ola and Ather have smaller, faster-changing networks. Their analysis should be presented with higher uncertainty bounds.
+
+## **6.2 Analytical caveats**
+
+* **Correlation is not causation:** A positive r between service centers and sales does not prove that adding service centers causes higher sales. Other zone-level factors (income, urbanisation, competitor strength) are confounders.
+* **Revenue leakage is a counterfactual estimate:** It answers 'what if the bottlenecked zone performed as well as the healthy zone?' — a reasonable assumption but not a measured fact.
+* **The bottleneck threshold (70% of brand average) is a modelling choice:** Results should be reported across multiple thresholds (60%, 70%, 80%) to demonstrate robustness.
+* **Northeast zone has few data points:** Statistical tests (Pearson r) require a minimum sample size. With only 8 states in the Northeast, correlation results for this zone should be treated as indicative only.
+
+*— End of Document 1 —*

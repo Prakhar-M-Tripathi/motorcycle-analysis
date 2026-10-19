@@ -1,0 +1,6204 @@
+{
+  "variance_explained": [
+    0.6375,
+    0.0728,
+    0.0676,
+    0.0591,
+    0.0401
+  ],
+  "cumulative_variance": [
+    0.6375,
+    0.7103,
+    0.7779,
+    0.837,
+    0.8771
+  ],
+  "pc1_top_features": [
+    "honda_sw",
+    "bajaj_sw",
+    "hero_sw",
+    "jawa_sw"
+  ],
+  "pc2_top_features": [
+    "bajaj_sc",
+    "ola-electric_sw",
+    "ather_sw",
+    "jawa_sw"
+  ],
+  "feature_names": [
+    "hero_sc",
+    "hero_sw",
+    "honda_sc",
+    "honda_sw",
+    "bajaj_sc",
+    "bajaj_sw",
+    "royal-enfield_sc",
+    "royal-enfield_sw",
+    "yamaha_sc",
+    "yamaha_sw",
+    "suzuki_sc",
+    "suzuki_sw",
+    "ola-electric_sc",
+    "ola-electric_sw",
+    "ather_sc",
+    "ather_sw",
+    "jawa_sc",
+    "jawa_sw"
+  ],
+  "cities": [
+    {
+      "city_slug": "abohar",
+      "city": "Abohar",
+      "zone": "North",
+      "pc1": -1.3436,
+      "pc2": -0.7439,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "adilabad",
+      "city": "Adilabad",
+      "zone": "South",
+      "pc1": 0.2962,
+      "pc2": 0.3302,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "agartala",
+      "city": "Agartala",
+      "zone": "Northeast",
+      "pc1": -0.7277,
+      "pc2": -0.4686,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "agra",
+      "city": "Agra",
+      "zone": "North",
+      "pc1": 4.4526,
+      "pc2": 2.3087,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "ahmedabad",
+      "city": "Ahmedabad",
+      "zone": "West",
+      "pc1": 12.5643,
+      "pc2": -0.522,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "ahmednagar",
+      "city": "Ahmednagar",
+      "zone": "West",
+      "pc1": 5.9314,
+      "pc2": 4.36,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "aizawl",
+      "city": "Aizawl",
+      "zone": "Northeast",
+      "pc1": -1.1883,
+      "pc2": -0.5013,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ajmer",
+      "city": "Ajmer",
+      "zone": "North",
+      "pc1": 2.179,
+      "pc2": 0.3851,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "akola",
+      "city": "Akola",
+      "zone": "West",
+      "pc1": -0.0848,
+      "pc2": 0.9701,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "alappuzha",
+      "city": "Alappuzha",
+      "zone": "South",
+      "pc1": 1.7198,
+      "pc2": 1.461,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "aligarh",
+      "city": "Aligarh",
+      "zone": "North",
+      "pc1": 1.5536,
+      "pc2": 1.21,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "allahabad",
+      "city": "Allahabad",
+      "zone": "North",
+      "pc1": 3.0923,
+      "pc2": 0.3169,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "alleppey",
+      "city": "Alleppey",
+      "zone": "South",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "almora",
+      "city": "Almora",
+      "zone": "North",
+      "pc1": -1.5204,
+      "pc2": -0.3399,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "alwar",
+      "city": "Alwar",
+      "zone": "North",
+      "pc1": 2.0982,
+      "pc2": 0.7855,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "alwaye",
+      "city": "Alwaye",
+      "zone": "South",
+      "pc1": -1.6509,
+      "pc2": -0.665,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "amalapuram",
+      "city": "Amalapuram",
+      "zone": "South",
+      "pc1": -1.4866,
+      "pc2": -0.6951,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "ambala",
+      "city": "Ambala",
+      "zone": "North",
+      "pc1": -1.5715,
+      "pc2": -0.214,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "ambalacity",
+      "city": "Ambala City",
+      "zone": "North",
+      "pc1": 0.856,
+      "pc2": -0.3313,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ambedkarnagar",
+      "city": "Ambedkarnagar",
+      "zone": "South",
+      "pc1": -0.6575,
+      "pc2": -0.3326,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "ambikapur",
+      "city": "Ambikapur",
+      "zone": "Central",
+      "pc1": -0.5079,
+      "pc2": -1.122,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "amravati",
+      "city": "Amravati",
+      "zone": "West",
+      "pc1": 2.351,
+      "pc2": 1.4158,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "amreli",
+      "city": "Amreli",
+      "zone": "West",
+      "pc1": -0.8682,
+      "pc2": 0.1299,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "amritsar",
+      "city": "Amritsar",
+      "zone": "North",
+      "pc1": 3.1829,
+      "pc2": 1.0164,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "anand",
+      "city": "Anand",
+      "zone": "West",
+      "pc1": 1.6782,
+      "pc2": 0.7407,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "anantapur",
+      "city": "Anantapur",
+      "zone": "South",
+      "pc1": 2.5887,
+      "pc2": 0.4996,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "anantnag",
+      "city": "Anantnag",
+      "zone": "North",
+      "pc1": -1.1728,
+      "pc2": 0.0192,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "angul",
+      "city": "Angul",
+      "zone": "East",
+      "pc1": 0.3267,
+      "pc2": -0.1997,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "anuppur",
+      "city": "Anuppur",
+      "zone": "Central",
+      "pc1": -1.5222,
+      "pc2": -0.1042,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ara",
+      "city": "Ara",
+      "zone": "East",
+      "pc1": -0.9481,
+      "pc2": -0.2467,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "arani",
+      "city": "Arani",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "ariyalur",
+      "city": "Ariyalur",
+      "zone": "South",
+      "pc1": -1.3636,
+      "pc2": -0.5223,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "arrah",
+      "city": "Arrah",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "arwal",
+      "city": "Arwal",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "asansol",
+      "city": "Asansol",
+      "zone": "East",
+      "pc1": -0.7406,
+      "pc2": -1.1313,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "ashoknagar",
+      "city": "Ashoknagar",
+      "zone": "Central",
+      "pc1": -1.1851,
+      "pc2": -0.1828,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "auraiya",
+      "city": "Auraiya",
+      "zone": "North",
+      "pc1": -0.3751,
+      "pc2": 0.147,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "aurangabad",
+      "city": "Aurangabad",
+      "zone": "West",
+      "pc1": -0.696,
+      "pc2": 1.6006,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "aurangabad-bihar",
+      "city": "Aurangabad (Bihar)",
+      "zone": "East",
+      "pc1": -0.5293,
+      "pc2": 0.8385,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "aurangabad-maharashtra",
+      "city": "Aurangabad",
+      "zone": "West",
+      "pc1": 2.0333,
+      "pc2": 0.8467,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "ayodhya",
+      "city": "Ayodhya",
+      "zone": "North",
+      "pc1": -1.5715,
+      "pc2": -0.214,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "azamgarh",
+      "city": "Azamgarh",
+      "zone": "North",
+      "pc1": 1.527,
+      "pc2": 0.5625,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "babrala",
+      "city": "Babrala",
+      "zone": "North",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "badaun",
+      "city": "Badaun",
+      "zone": "North",
+      "pc1": -0.6655,
+      "pc2": 0.1535,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "baddi",
+      "city": "Baddi",
+      "zone": "North",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bagalkot",
+      "city": "Bagalkot",
+      "zone": "South",
+      "pc1": 0.8297,
+      "pc2": 1.572,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bageshwar",
+      "city": "Bageshwar",
+      "zone": "North",
+      "pc1": -1.6345,
+      "pc2": -0.5116,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "baghpat-uttarpradesh",
+      "city": "Baghpat",
+      "zone": "North",
+      "pc1": -0.2435,
+      "pc2": -0.3089,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bahraich",
+      "city": "Bahraich",
+      "zone": "North",
+      "pc1": -0.8495,
+      "pc2": -0.476,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "balaghat",
+      "city": "Balaghat",
+      "zone": "Central",
+      "pc1": -0.4843,
+      "pc2": 0.0054,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "balangir",
+      "city": "Balangir",
+      "zone": "East",
+      "pc1": -0.1815,
+      "pc2": -0.4767,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "balasore",
+      "city": "Balasore",
+      "zone": "East",
+      "pc1": 0.2162,
+      "pc2": 1.07,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "ballari",
+      "city": "Ballari",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ballia",
+      "city": "Ballia",
+      "zone": "North",
+      "pc1": -0.5038,
+      "pc2": 0.391,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "balrampur",
+      "city": "Balrampur",
+      "zone": "North",
+      "pc1": -0.3628,
+      "pc2": -0.359,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "banaskantha",
+      "city": "Banaskantha",
+      "zone": "West",
+      "pc1": -1.0808,
+      "pc2": -0.0175,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "banda",
+      "city": "Banda",
+      "zone": "North",
+      "pc1": -1.0011,
+      "pc2": -0.1028,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bangalore",
+      "city": "Bangalore",
+      "zone": "South",
+      "pc1": 36.4558,
+      "pc2": -7.9705,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "banka",
+      "city": "Banka",
+      "zone": "East",
+      "pc1": -1.4795,
+      "pc2": -0.126,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "bankura",
+      "city": "Bankura",
+      "zone": "East",
+      "pc1": 0.5745,
+      "pc2": 3.1808,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "banswara",
+      "city": "Banswara",
+      "zone": "North",
+      "pc1": -0.2391,
+      "pc2": 0.3518,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "barabanki",
+      "city": "Barabanki",
+      "zone": "North",
+      "pc1": 0.2212,
+      "pc2": -0.0864,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "baramati",
+      "city": "Baramati",
+      "zone": "West",
+      "pc1": -0.8552,
+      "pc2": -1.3311,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "baramulla",
+      "city": "Baramulla",
+      "zone": "North",
+      "pc1": -0.6161,
+      "pc2": -0.7765,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "baran",
+      "city": "Baran",
+      "zone": "North",
+      "pc1": -0.9258,
+      "pc2": 0.1788,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "barasat",
+      "city": "Barasat",
+      "zone": "East",
+      "pc1": -1.5146,
+      "pc2": -0.6155,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bardhaman",
+      "city": "Bardhaman",
+      "zone": "East",
+      "pc1": -1.2559,
+      "pc2": 0.4186,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bardoli",
+      "city": "Bardoli",
+      "zone": "West",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bareilly",
+      "city": "Bareilly",
+      "zone": "North",
+      "pc1": 2.844,
+      "pc2": 1.3232,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "bargarh",
+      "city": "Bargarh",
+      "zone": "East",
+      "pc1": -0.4965,
+      "pc2": -0.516,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "baripada",
+      "city": "Baripada",
+      "zone": "East",
+      "pc1": -1.4433,
+      "pc2": -0.5323,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "barmer",
+      "city": "Barmer",
+      "zone": "North",
+      "pc1": -0.022,
+      "pc2": 0.51,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "barnala",
+      "city": "Barnala",
+      "zone": "North",
+      "pc1": -1.1063,
+      "pc2": -0.6575,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "barpeta",
+      "city": "Barpeta",
+      "zone": "Northeast",
+      "pc1": -0.5194,
+      "pc2": 0.1974,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "barwani",
+      "city": "Barwani",
+      "zone": "Central",
+      "pc1": -0.7489,
+      "pc2": -0.1576,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "basirhat",
+      "city": "Basirhat",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bastar",
+      "city": "Bastar",
+      "zone": "Central",
+      "pc1": -1.3172,
+      "pc2": -0.5019,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "basti",
+      "city": "Basti",
+      "zone": "North",
+      "pc1": 0.5596,
+      "pc2": 1.3225,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "batala",
+      "city": "Batala",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bathinda",
+      "city": "Bathinda",
+      "zone": "North",
+      "pc1": 1.3849,
+      "pc2": 0.4805,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bazpur",
+      "city": "Bazpur",
+      "zone": "North",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "beed",
+      "city": "Beed",
+      "zone": "West",
+      "pc1": 0.4059,
+      "pc2": 1.0567,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "begusarai",
+      "city": "Begusarai",
+      "zone": "East",
+      "pc1": 0.4927,
+      "pc2": -0.255,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "belagavi",
+      "city": "Belagavi",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "belgaum",
+      "city": "Belgaum",
+      "zone": "South",
+      "pc1": 2.7171,
+      "pc2": 1.1635,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bellary",
+      "city": "Bellary",
+      "zone": "South",
+      "pc1": -0.0447,
+      "pc2": 0.5248,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bengaluru",
+      "city": "Bengaluru",
+      "zone": "South",
+      "pc1": 2.7627,
+      "pc2": 8.7423,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "berhampore",
+      "city": "Berhampore",
+      "zone": "East",
+      "pc1": -0.9274,
+      "pc2": -1.0794,
+      "dom_brand": "ather"
+    },
+    {
+      "city_slug": "berhampur",
+      "city": "Berhampur",
+      "zone": "East",
+      "pc1": -1.4009,
+      "pc2": -0.0808,
+      "dom_brand": "ather"
+    },
+    {
+      "city_slug": "bettiah",
+      "city": "Bettiah",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "betul",
+      "city": "Betul",
+      "zone": "Central",
+      "pc1": -0.5218,
+      "pc2": -0.1053,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "bhadrak",
+      "city": "Bhadrak",
+      "zone": "East",
+      "pc1": -0.3534,
+      "pc2": 0.3743,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bhagalpur",
+      "city": "Bhagalpur",
+      "zone": "East",
+      "pc1": 0.5957,
+      "pc2": -0.2865,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bhandara",
+      "city": "Bhandara",
+      "zone": "West",
+      "pc1": -0.914,
+      "pc2": -0.5722,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bharatpur",
+      "city": "Bharatpur",
+      "zone": "North",
+      "pc1": 0.2008,
+      "pc2": 0.9466,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bharuch",
+      "city": "Bharuch",
+      "zone": "West",
+      "pc1": 0.1403,
+      "pc2": -0.0605,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bhavnagar",
+      "city": "Bhavnagar",
+      "zone": "West",
+      "pc1": 1.8073,
+      "pc2": 0.6426,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bhawanipatna",
+      "city": "Bhawanipatna",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bhilai",
+      "city": "Bhilai",
+      "zone": "Central",
+      "pc1": -0.9875,
+      "pc2": -0.88,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bhilwara",
+      "city": "Bhilwara",
+      "zone": "North",
+      "pc1": 1.1712,
+      "pc2": 1.5185,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bhimavaram",
+      "city": "Bhimavaram",
+      "zone": "South",
+      "pc1": -0.8552,
+      "pc2": -1.3311,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bhind",
+      "city": "Bhind",
+      "zone": "Central",
+      "pc1": -0.1738,
+      "pc2": 1.088,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bhiwadi",
+      "city": "Bhiwadi",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bhiwandi",
+      "city": "Bhiwandi",
+      "zone": "West",
+      "pc1": -1.63,
+      "pc2": -0.4803,
+      "dom_brand": "ather"
+    },
+    {
+      "city_slug": "bhiwani",
+      "city": "Bhiwani",
+      "zone": "North",
+      "pc1": -0.5129,
+      "pc2": 1.0616,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bhojpur",
+      "city": "Bhojpur",
+      "zone": "East",
+      "pc1": -1.1539,
+      "pc2": -0.4009,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bhopal",
+      "city": "Bhopal",
+      "zone": "Central",
+      "pc1": 4.1038,
+      "pc2": 0.8267,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bhubaneswar",
+      "city": "Bhubaneswar",
+      "zone": "East",
+      "pc1": -0.1911,
+      "pc2": 0.4805,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "bhuj",
+      "city": "Bhuj",
+      "zone": "West",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bhusawal",
+      "city": "Bhusawal",
+      "zone": "West",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bidar",
+      "city": "Bidar",
+      "zone": "South",
+      "pc1": -0.4593,
+      "pc2": 0.274,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bijapur",
+      "city": "Bijapur",
+      "zone": "Central",
+      "pc1": -0.7062,
+      "pc2": 0.1896,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bijnor",
+      "city": "Bijnor",
+      "zone": "North",
+      "pc1": 1.5102,
+      "pc2": 0.6504,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "bikaner",
+      "city": "Bikaner",
+      "zone": "North",
+      "pc1": 1.2321,
+      "pc2": 0.2109,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bilaspur",
+      "city": "Bilaspur",
+      "zone": "Central",
+      "pc1": -1.7013,
+      "pc2": -0.5636,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bilaspur-chhattisgarh",
+      "city": "Bilaspur",
+      "zone": "Central",
+      "pc1": 1.6754,
+      "pc2": 0.7518,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "bilaspur-himachalpradesh",
+      "city": "Bilaspur (HP)",
+      "zone": "North",
+      "pc1": 0.2346,
+      "pc2": 1.5885,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "bilaspur-hp",
+      "city": "Bilaspur (HP)",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bilaspur-punjab",
+      "city": "Bilaspur (Punjab)",
+      "zone": "North",
+      "pc1": 0.0959,
+      "pc2": 1.6055,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "birbhum",
+      "city": "Birbhum",
+      "zone": "East",
+      "pc1": -0.1211,
+      "pc2": 1.0643,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "bishnupur",
+      "city": "Bishnupur",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bokaro",
+      "city": "Bokaro",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bokarosteelcity",
+      "city": "Bokaro Steel City",
+      "zone": "East",
+      "pc1": -0.2966,
+      "pc2": -0.2177,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bolangir",
+      "city": "Bolangir",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "bongaigaon",
+      "city": "Bongaigaon",
+      "zone": "Northeast",
+      "pc1": -0.1377,
+      "pc2": -0.6495,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "boudh",
+      "city": "Boudh",
+      "zone": "East",
+      "pc1": -1.608,
+      "pc2": -0.5303,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "brahmapur",
+      "city": "Brahmapur",
+      "zone": "East",
+      "pc1": -1.0773,
+      "pc2": -0.7712,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "budaun",
+      "city": "Budaun",
+      "zone": "North",
+      "pc1": -1.3711,
+      "pc2": -0.784,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "budgam",
+      "city": "Budgam",
+      "zone": "North",
+      "pc1": -1.5836,
+      "pc2": -0.3705,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "bulandshahr",
+      "city": "Bulandshahr",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "buldhana",
+      "city": "Buldhana",
+      "zone": "West",
+      "pc1": 0.6842,
+      "pc2": 1.5222,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "bundi",
+      "city": "Bundi",
+      "zone": "North",
+      "pc1": -0.5715,
+      "pc2": 0.2737,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "burdwan",
+      "city": "Burdwan",
+      "zone": "East",
+      "pc1": 3.3958,
+      "pc2": 1.2817,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "burhanpur",
+      "city": "Burhanpur",
+      "zone": "Central",
+      "pc1": -1.6009,
+      "pc2": -0.6087,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "buxar",
+      "city": "Buxar",
+      "zone": "East",
+      "pc1": -0.8567,
+      "pc2": -0.5975,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "cachar",
+      "city": "Cachar",
+      "zone": "Northeast",
+      "pc1": -1.6774,
+      "pc2": -0.6463,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "chaibasa",
+      "city": "Chaibasa",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "chamarajanagar",
+      "city": "Chamarajanagar",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "chamba",
+      "city": "Chamba",
+      "zone": "North",
+      "pc1": -1.2277,
+      "pc2": -0.315,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "chamoli",
+      "city": "Chamoli",
+      "zone": "North",
+      "pc1": -1.7017,
+      "pc2": -0.5453,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "champawat",
+      "city": "Champawat",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "champhai",
+      "city": "Champhai",
+      "zone": "Northeast",
+      "pc1": -1.6733,
+      "pc2": -0.6432,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "chamrajnagar",
+      "city": "Chamrajnagar",
+      "zone": "South",
+      "pc1": -0.9223,
+      "pc2": -0.0603,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "chandauli",
+      "city": "Chandauli",
+      "zone": "North",
+      "pc1": -1.2297,
+      "pc2": -0.1249,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "chandausi",
+      "city": "Chandausi",
+      "zone": "North",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "chandigarh",
+      "city": "Chandigarh",
+      "zone": "North",
+      "pc1": 0.1272,
+      "pc2": -1.1616,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "chandrapur",
+      "city": "Chandrapur",
+      "zone": "West",
+      "pc1": 2.4132,
+      "pc2": 1.2096,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "chapra",
+      "city": "Chapra",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "charkhidadri",
+      "city": "Charkhi Dadri",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "chatra",
+      "city": "Chatra",
+      "zone": "East",
+      "pc1": -1.5642,
+      "pc2": -0.2754,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "chengalpattu",
+      "city": "Chengalpattu",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "chengannur",
+      "city": "Chengannur",
+      "zone": "South",
+      "pc1": -1.6509,
+      "pc2": -0.665,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "chennai",
+      "city": "Chennai",
+      "zone": "South",
+      "pc1": 22.1675,
+      "pc2": -4.0971,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "chhapra",
+      "city": "Chhapra",
+      "zone": "East",
+      "pc1": -1.6733,
+      "pc2": -0.6432,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "chhatarpur",
+      "city": "Chhatarpur",
+      "zone": "Central",
+      "pc1": -0.5205,
+      "pc2": -0.0389,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "chhindwara",
+      "city": "Chhindwara",
+      "zone": "Central",
+      "pc1": 0.5201,
+      "pc2": 1.6659,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "chikamagalur",
+      "city": "Chikamagalur",
+      "zone": "South",
+      "pc1": -0.1235,
+      "pc2": 0.5456,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "chikballapur",
+      "city": "Chikballapur",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "chikkaballapur",
+      "city": "Chikkaballapur",
+      "zone": "South",
+      "pc1": -1.2375,
+      "pc2": -0.6019,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "chiplun",
+      "city": "Chiplun",
+      "zone": "West",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "chirala",
+      "city": "Chirala",
+      "zone": "South",
+      "pc1": -1.4631,
+      "pc2": -0.7856,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "chitradurga",
+      "city": "Chitradurga",
+      "zone": "South",
+      "pc1": -0.1355,
+      "pc2": 0.5267,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "chitrakoot",
+      "city": "Chitrakoot",
+      "zone": "North",
+      "pc1": -1.1814,
+      "pc2": -0.3692,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "chittoor",
+      "city": "Chittoor",
+      "zone": "South",
+      "pc1": 2.0471,
+      "pc2": 0.4965,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "chittorgarh",
+      "city": "Chittorgarh",
+      "zone": "North",
+      "pc1": 0.9555,
+      "pc2": 2.003,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "churachandpur",
+      "city": "Churachandpur",
+      "zone": "Northeast",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "churu",
+      "city": "Churu",
+      "zone": "North",
+      "pc1": -0.2492,
+      "pc2": -0.0632,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "coimbatore",
+      "city": "Coimbatore",
+      "zone": "South",
+      "pc1": 11.9425,
+      "pc2": 3.4527,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "cooch-behar",
+      "city": "Cooch Behar",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "coochbehar",
+      "city": "Cooch Behar",
+      "zone": "East",
+      "pc1": -0.5542,
+      "pc2": 0.178,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "cuddalore",
+      "city": "Cuddalore",
+      "zone": "South",
+      "pc1": 0.065,
+      "pc2": 0.7544,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "cuttack",
+      "city": "Cuttack",
+      "zone": "East",
+      "pc1": 2.2092,
+      "pc2": 1.6831,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dadri-uttarpradesh",
+      "city": "Dadri",
+      "zone": "North",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "dahod",
+      "city": "Dahod",
+      "zone": "West",
+      "pc1": -0.6639,
+      "pc2": 0.4613,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dakkannada",
+      "city": "Dak. Kannada",
+      "zone": "South",
+      "pc1": 1.1266,
+      "pc2": 1.3629,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "daltonganj",
+      "city": "Daltonganj",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "damoh",
+      "city": "Damoh",
+      "zone": "Central",
+      "pc1": -0.594,
+      "pc2": 0.3977,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dangs",
+      "city": "Dangs",
+      "zone": "West",
+      "pc1": -1.7017,
+      "pc2": -0.5453,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "dankuni",
+      "city": "Dankuni",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "darbhanga",
+      "city": "Darbhanga",
+      "zone": "East",
+      "pc1": 0.8428,
+      "pc2": 0.7147,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "darjeeling",
+      "city": "Darjeeling",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "darjiling",
+      "city": "Darjeeling",
+      "zone": "East",
+      "pc1": -0.8701,
+      "pc2": 0.1421,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "darrang",
+      "city": "Darrang",
+      "zone": "Northeast",
+      "pc1": -1.1293,
+      "pc2": -0.0026,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "datia",
+      "city": "Datia",
+      "zone": "Central",
+      "pc1": -1.4277,
+      "pc2": -0.1256,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dausa",
+      "city": "Dausa",
+      "zone": "North",
+      "pc1": -0.5402,
+      "pc2": 0.1607,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "davangere",
+      "city": "Davangere",
+      "zone": "South",
+      "pc1": 1.2216,
+      "pc2": 0.4753,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dehradun",
+      "city": "Dehradun",
+      "zone": "North",
+      "pc1": 3.2204,
+      "pc2": 0.0472,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "delhi",
+      "city": "Delhi",
+      "zone": "North",
+      "pc1": 38.0478,
+      "pc2": -6.9069,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "deogarh",
+      "city": "Deogarh",
+      "zone": "East",
+      "pc1": -1.7017,
+      "pc2": -0.5453,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "deoghar",
+      "city": "Deoghar",
+      "zone": "East",
+      "pc1": 0.4877,
+      "pc2": -0.2449,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "deoria",
+      "city": "Deoria",
+      "zone": "North",
+      "pc1": 0.0015,
+      "pc2": 1.2592,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dewas",
+      "city": "Dewas",
+      "zone": "Central",
+      "pc1": 0.0244,
+      "pc2": 0.4857,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dhalai",
+      "city": "Dhalai",
+      "zone": "Northeast",
+      "pc1": -1.7017,
+      "pc2": -0.5453,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "dhamtari",
+      "city": "Dhamtari",
+      "zone": "Central",
+      "pc1": -0.8191,
+      "pc2": 0.0266,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dhanbad",
+      "city": "Dhanbad",
+      "zone": "East",
+      "pc1": 1.5582,
+      "pc2": 0.956,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dhar",
+      "city": "Dhar",
+      "zone": "Central",
+      "pc1": -0.1002,
+      "pc2": 0.3717,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "dharamsala",
+      "city": "Dharamsala",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "dharmanagar",
+      "city": "Dharmanagar",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "dharmapuri",
+      "city": "Dharmapuri",
+      "zone": "South",
+      "pc1": 0.882,
+      "pc2": 1.3752,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "dharwad",
+      "city": "Dharwad",
+      "zone": "South",
+      "pc1": -0.5634,
+      "pc2": 0.6235,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dhemaji",
+      "city": "Dhemaji",
+      "zone": "Northeast",
+      "pc1": -1.1092,
+      "pc2": -0.159,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "dhenkanal",
+      "city": "Dhenkanal",
+      "zone": "East",
+      "pc1": -0.5026,
+      "pc2": 0.6648,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dholpur",
+      "city": "Dholpur",
+      "zone": "North",
+      "pc1": -1.2055,
+      "pc2": -0.0787,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "dhubri",
+      "city": "Dhubri",
+      "zone": "Northeast",
+      "pc1": -0.7455,
+      "pc2": 0.0227,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "dhule",
+      "city": "Dhule",
+      "zone": "West",
+      "pc1": 0.7662,
+      "pc2": -0.0367,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "diamondharbour",
+      "city": "Diamond Harbour",
+      "zone": "East",
+      "pc1": -1.6733,
+      "pc2": -0.6432,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "dibrugarh",
+      "city": "Dibrugarh",
+      "zone": "Northeast",
+      "pc1": -0.2672,
+      "pc2": 0.135,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dimapur",
+      "city": "Dimapur",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "dimapur-nagaland",
+      "city": "Dimapur",
+      "zone": "Northeast",
+      "pc1": -1.4194,
+      "pc2": -0.6613,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "dindigul",
+      "city": "Dindigul",
+      "zone": "South",
+      "pc1": 0.5293,
+      "pc2": 0.5253,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "dindori-madhyapradesh",
+      "city": "Dindori",
+      "zone": "Central",
+      "pc1": -1.4276,
+      "pc2": -0.3144,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "doda",
+      "city": "Doda",
+      "zone": "North",
+      "pc1": -1.6305,
+      "pc2": -0.5084,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "dumka",
+      "city": "Dumka",
+      "zone": "East",
+      "pc1": -0.5262,
+      "pc2": -0.3369,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "dungarpur",
+      "city": "Dungarpur",
+      "zone": "North",
+      "pc1": -0.7128,
+      "pc2": 0.0413,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "durg",
+      "city": "Durg",
+      "zone": "Central",
+      "pc1": 1.3641,
+      "pc2": 1.3418,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "durgapur",
+      "city": "Durgapur",
+      "zone": "East",
+      "pc1": -1.5435,
+      "pc2": -0.2473,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "eastchamparan",
+      "city": "East Champaran",
+      "zone": "East",
+      "pc1": -0.28,
+      "pc2": -0.3341,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "eastgodavari",
+      "city": "East Godavari",
+      "zone": "South",
+      "pc1": 2.4558,
+      "pc2": 1.4245,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "eastkhasihills",
+      "city": "East Khasi Hills",
+      "zone": "Northeast",
+      "pc1": -1.6774,
+      "pc2": -0.6463,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "eastsikkim",
+      "city": "East Sikkim",
+      "zone": "Northeast",
+      "pc1": -1.7017,
+      "pc2": -0.5453,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "eastsinghbhum",
+      "city": "East Singhbhum",
+      "zone": "East",
+      "pc1": -0.676,
+      "pc2": 0.026,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "eluru",
+      "city": "Eluru",
+      "zone": "South",
+      "pc1": -1.0485,
+      "pc2": 0.2851,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "ernakulam",
+      "city": "Ernakulam",
+      "zone": "South",
+      "pc1": 7.1542,
+      "pc2": 1.7267,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "erode",
+      "city": "Erode",
+      "zone": "South",
+      "pc1": 2.3368,
+      "pc2": 2.0605,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "etah",
+      "city": "Etah",
+      "zone": "North",
+      "pc1": -0.514,
+      "pc2": 0.8622,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "etawah",
+      "city": "Etawah",
+      "zone": "North",
+      "pc1": 0.2517,
+      "pc2": -0.6279,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "faizabad",
+      "city": "Faizabad",
+      "zone": "North",
+      "pc1": -0.218,
+      "pc2": -0.3178,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "faridabad",
+      "city": "Faridabad",
+      "zone": "North",
+      "pc1": 1.7792,
+      "pc2": -0.0502,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "faridkot",
+      "city": "Faridkot",
+      "zone": "North",
+      "pc1": -0.7506,
+      "pc2": -0.3439,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "farrukhabad",
+      "city": "Farrukhabad",
+      "zone": "North",
+      "pc1": -0.8416,
+      "pc2": -0.5484,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "fatehabad",
+      "city": "Fatehabad",
+      "zone": "North",
+      "pc1": -0.7441,
+      "pc2": -0.1841,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "fatehgarhsahib",
+      "city": "Fatehgarh Sahib",
+      "zone": "North",
+      "pc1": -1.2246,
+      "pc2": 0.251,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "fatehpur",
+      "city": "Fatehpur",
+      "zone": "North",
+      "pc1": -0.226,
+      "pc2": 0.012,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "firozabad",
+      "city": "Firozabad",
+      "zone": "North",
+      "pc1": -0.059,
+      "pc2": -0.0195,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "firozpur",
+      "city": "Firozpur",
+      "zone": "North",
+      "pc1": 0.9971,
+      "pc2": 0.7763,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "gadag",
+      "city": "Gadag",
+      "zone": "South",
+      "pc1": -0.419,
+      "pc2": 0.6513,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "gadchiroli",
+      "city": "Gadchiroli",
+      "zone": "West",
+      "pc1": -0.316,
+      "pc2": 0.203,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "gandhidham",
+      "city": "Gandhidham",
+      "zone": "West",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "gandhinagar",
+      "city": "Gandhinagar",
+      "zone": "West",
+      "pc1": 0.8516,
+      "pc2": 1.1226,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "ganganagar",
+      "city": "Ganganagar",
+      "zone": "Central",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gangtok",
+      "city": "Gangtok",
+      "zone": "Northeast",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "garhwa",
+      "city": "Garhwa",
+      "zone": "East",
+      "pc1": -1.5225,
+      "pc2": -0.4173,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "gautambuddhanagar",
+      "city": "Gautam Buddha Nagar",
+      "zone": "North",
+      "pc1": -0.724,
+      "pc2": 0.2828,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gaya",
+      "city": "Gaya",
+      "zone": "East",
+      "pc1": 1.4853,
+      "pc2": -0.3361,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ghaziabad",
+      "city": "Ghaziabad",
+      "zone": "North",
+      "pc1": 3.9307,
+      "pc2": -0.134,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "ghazipur",
+      "city": "Ghazipur",
+      "zone": "North",
+      "pc1": -0.3192,
+      "pc2": -0.0384,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "giridih",
+      "city": "Giridih",
+      "zone": "East",
+      "pc1": -0.0681,
+      "pc2": 0.7594,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "goalpara",
+      "city": "Goalpara",
+      "zone": "Northeast",
+      "pc1": -1.213,
+      "pc2": -0.0697,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "godda",
+      "city": "Godda",
+      "zone": "East",
+      "pc1": -1.1479,
+      "pc2": -0.6879,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "godhra",
+      "city": "Godhra",
+      "zone": "West",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "gohana",
+      "city": "Gohana",
+      "zone": "North",
+      "pc1": -1.5303,
+      "pc2": -0.692,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "golaghat",
+      "city": "Golaghat",
+      "zone": "Northeast",
+      "pc1": -0.8357,
+      "pc2": -0.4381,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "gonda",
+      "city": "Gonda",
+      "zone": "North",
+      "pc1": -0.0064,
+      "pc2": -0.0396,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gondia",
+      "city": "Gondia",
+      "zone": "West",
+      "pc1": -0.04,
+      "pc2": 1.2897,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "gopalganj",
+      "city": "Gopalganj",
+      "zone": "East",
+      "pc1": -0.731,
+      "pc2": -0.2101,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gorakhpur",
+      "city": "Gorakhpur",
+      "zone": "North",
+      "pc1": 2.6618,
+      "pc2": 2.4051,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "gudur",
+      "city": "Gudur",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "gulbarga",
+      "city": "Gulbarga",
+      "zone": "South",
+      "pc1": -0.2966,
+      "pc2": 0.2697,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gumla",
+      "city": "Gumla",
+      "zone": "East",
+      "pc1": -1.5123,
+      "pc2": -0.4378,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "guna",
+      "city": "Guna",
+      "zone": "Central",
+      "pc1": -1.0357,
+      "pc2": -0.6535,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "guntur",
+      "city": "Guntur",
+      "zone": "South",
+      "pc1": 4.0708,
+      "pc2": 0.6262,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gurdaspur",
+      "city": "Gurdaspur",
+      "zone": "North",
+      "pc1": 0.972,
+      "pc2": 2.9143,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gurgaon",
+      "city": "Gurgaon",
+      "zone": "North",
+      "pc1": 6.1044,
+      "pc2": -2.1475,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "gurugram",
+      "city": "Gurugram",
+      "zone": "North",
+      "pc1": -1.5435,
+      "pc2": -0.2473,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "guwahati",
+      "city": "Guwahati",
+      "zone": "Northeast",
+      "pc1": 0.564,
+      "pc2": -1.1824,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "gwalior",
+      "city": "Gwalior",
+      "zone": "Central",
+      "pc1": 1.6187,
+      "pc2": 0.4832,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "gyalshing",
+      "city": "Gyalshing",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "habra",
+      "city": "Habra",
+      "zone": "East",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "hailakandi",
+      "city": "Hailakandi",
+      "zone": "Northeast",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "hajipur",
+      "city": "Hajipur",
+      "zone": "East",
+      "pc1": -1.3485,
+      "pc2": -0.5859,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "haldia",
+      "city": "Haldia",
+      "zone": "East",
+      "pc1": -1.4433,
+      "pc2": -0.5323,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "haldwani",
+      "city": "Haldwani",
+      "zone": "North",
+      "pc1": -1.0659,
+      "pc2": -0.6794,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "hamirpur",
+      "city": "Hamirpur",
+      "zone": "North",
+      "pc1": -0.0718,
+      "pc2": 0.6157,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "hanumangarh",
+      "city": "Hanumangarh",
+      "zone": "North",
+      "pc1": -0.8244,
+      "pc2": 0.4385,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "hapur",
+      "city": "Hapur",
+      "zone": "North",
+      "pc1": -1.1926,
+      "pc2": -0.5493,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "hardoi",
+      "city": "Hardoi",
+      "zone": "North",
+      "pc1": 0.1683,
+      "pc2": 0.7973,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "haridwar",
+      "city": "Haridwar",
+      "zone": "North",
+      "pc1": 0.2222,
+      "pc2": 0.3856,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "hassan",
+      "city": "Hassan",
+      "zone": "South",
+      "pc1": 0.8267,
+      "pc2": 1.3164,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "hathras",
+      "city": "Hathras",
+      "zone": "North",
+      "pc1": -0.0265,
+      "pc2": -0.2002,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "haveri",
+      "city": "Haveri",
+      "zone": "South",
+      "pc1": -0.8845,
+      "pc2": 0.6556,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "hazaribagh",
+      "city": "Hazaribagh",
+      "zone": "East",
+      "pc1": 0.5548,
+      "pc2": -0.527,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "himmatnagar",
+      "city": "Himmatnagar",
+      "zone": "North",
+      "pc1": -1.3436,
+      "pc2": -0.7439,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "hingoli",
+      "city": "Hingoli",
+      "zone": "West",
+      "pc1": -1.3346,
+      "pc2": -0.6359,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "hisar",
+      "city": "Hisar",
+      "zone": "North",
+      "pc1": 1.3244,
+      "pc2": -0.6115,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "hooghly",
+      "city": "Hooghly",
+      "zone": "East",
+      "pc1": 0.6945,
+      "pc2": 0.6558,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "hoshangabad",
+      "city": "Hoshangabad",
+      "zone": "Central",
+      "pc1": 0.1066,
+      "pc2": 1.7429,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "hoshiarpur",
+      "city": "Hoshiarpur",
+      "zone": "North",
+      "pc1": 1.3106,
+      "pc2": 0.9218,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "hosur",
+      "city": "Hosur",
+      "zone": "South",
+      "pc1": -0.6026,
+      "pc2": -1.0684,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "howrah",
+      "city": "Howrah",
+      "zone": "East",
+      "pc1": 2.152,
+      "pc2": 0.4379,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "hubli",
+      "city": "Hubli",
+      "zone": "South",
+      "pc1": -0.5107,
+      "pc2": -1.0668,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "hyderabad",
+      "city": "Hyderabad",
+      "zone": "South",
+      "pc1": 28.4552,
+      "pc2": -7.475,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "ichalkaranji",
+      "city": "Ichalkaranji",
+      "zone": "West",
+      "pc1": -1.5705,
+      "pc2": -0.6905,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "idukki",
+      "city": "Idukki",
+      "zone": "South",
+      "pc1": -0.8665,
+      "pc2": 0.4949,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "imphal",
+      "city": "Imphal",
+      "zone": "Northeast",
+      "pc1": -0.5774,
+      "pc2": -1.0928,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "indore",
+      "city": "Indore",
+      "zone": "Central",
+      "pc1": 6.5832,
+      "pc2": 0.4221,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "itanagar",
+      "city": "Itanagar",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "itarsi",
+      "city": "Itarsi",
+      "zone": "Central",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "jabalpur",
+      "city": "Jabalpur",
+      "zone": "Central",
+      "pc1": 3.1666,
+      "pc2": 1.3442,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jagatsinghpur",
+      "city": "Jagatsinghpur",
+      "zone": "East",
+      "pc1": -0.9891,
+      "pc2": -0.1623,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jagdalpur",
+      "city": "Jagdalpur",
+      "zone": "Central",
+      "pc1": -0.7406,
+      "pc2": -1.1313,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "jaipur",
+      "city": "Jaipur",
+      "zone": "North",
+      "pc1": 12.1755,
+      "pc2": 3.0191,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jaisalmer",
+      "city": "Jaisalmer",
+      "zone": "North",
+      "pc1": -1.5571,
+      "pc2": -0.4934,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "jajpurorissa",
+      "city": "Jajpur (Orissa)",
+      "zone": "East",
+      "pc1": 0.0672,
+      "pc2": -0.1064,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "jalandhar",
+      "city": "Jalandhar",
+      "zone": "North",
+      "pc1": 3.6799,
+      "pc2": 2.9066,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "jalaun",
+      "city": "Jalaun",
+      "zone": "North",
+      "pc1": -1.4018,
+      "pc2": -0.2877,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jalgaon",
+      "city": "Jalgaon",
+      "zone": "West",
+      "pc1": 2.1415,
+      "pc2": 2.747,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jalna",
+      "city": "Jalna",
+      "zone": "West",
+      "pc1": -0.521,
+      "pc2": 0.0489,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "jalore",
+      "city": "Jalore",
+      "zone": "North",
+      "pc1": -0.8802,
+      "pc2": -0.5484,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jalpaiguri",
+      "city": "Jalpaiguri",
+      "zone": "East",
+      "pc1": -0.2171,
+      "pc2": 1.6778,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jamkhandi",
+      "city": "Jamkhandi",
+      "zone": "South",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jammu",
+      "city": "Jammu",
+      "zone": "North",
+      "pc1": 1.3889,
+      "pc2": 0.5357,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jamnagar",
+      "city": "Jamnagar",
+      "zone": "West",
+      "pc1": 0.5323,
+      "pc2": 0.521,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jamshedpur",
+      "city": "Jamshedpur",
+      "zone": "East",
+      "pc1": -0.0551,
+      "pc2": -0.5428,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "jamtara",
+      "city": "Jamtara",
+      "zone": "East",
+      "pc1": -0.8948,
+      "pc2": -0.1026,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jamui",
+      "city": "Jamui",
+      "zone": "East",
+      "pc1": -1.4561,
+      "pc2": -0.4002,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "janjgir",
+      "city": "Janjgir",
+      "zone": "Central",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "janjgirchampa",
+      "city": "Janjgir-Champa",
+      "zone": "Central",
+      "pc1": -0.0962,
+      "pc2": 0.1035,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jashpur",
+      "city": "Jashpur",
+      "zone": "Central",
+      "pc1": -1.3706,
+      "pc2": -0.2873,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "jassur",
+      "city": "Jassur",
+      "zone": "North",
+      "pc1": -1.6774,
+      "pc2": -0.6463,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jaunpur",
+      "city": "Jaunpur",
+      "zone": "North",
+      "pc1": 0.761,
+      "pc2": 1.2851,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jehanabad",
+      "city": "Jehanabad",
+      "zone": "East",
+      "pc1": -1.4001,
+      "pc2": -0.4621,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jhabua",
+      "city": "Jhabua",
+      "zone": "Central",
+      "pc1": -0.7614,
+      "pc2": 0.0349,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jhajjar",
+      "city": "Jhajjar",
+      "zone": "North",
+      "pc1": -0.5238,
+      "pc2": 0.0257,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jhalawar",
+      "city": "Jhalawar",
+      "zone": "North",
+      "pc1": -0.0882,
+      "pc2": 1.5225,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jhansi",
+      "city": "Jhansi",
+      "zone": "North",
+      "pc1": 0.9565,
+      "pc2": 0.1549,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jharsuguda",
+      "city": "Jharsuguda",
+      "zone": "East",
+      "pc1": -0.7237,
+      "pc2": 0.0279,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jhunjhunu",
+      "city": "Jhunjhunu",
+      "zone": "North",
+      "pc1": 0.0501,
+      "pc2": 0.3622,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jind",
+      "city": "Jind",
+      "zone": "North",
+      "pc1": -0.2192,
+      "pc2": 0.0455,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "jodhpur",
+      "city": "Jodhpur",
+      "zone": "North",
+      "pc1": 3.9431,
+      "pc2": 1.2077,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "jorhat",
+      "city": "Jorhat",
+      "zone": "Northeast",
+      "pc1": 0.8009,
+      "pc2": -0.8263,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "jowai",
+      "city": "Jowai",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "junagadh",
+      "city": "Junagadh",
+      "zone": "West",
+      "pc1": 1.7562,
+      "pc2": 1.3993,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kadapa",
+      "city": "Kadapa",
+      "zone": "South",
+      "pc1": 3.6443,
+      "pc2": 0.2839,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kaimurbhabua",
+      "city": "Kaimur (Bhabua)",
+      "zone": "East",
+      "pc1": -1.403,
+      "pc2": -0.3921,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kaithal",
+      "city": "Kaithal",
+      "zone": "North",
+      "pc1": -0.6877,
+      "pc2": -0.1106,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kakinada",
+      "city": "Kakinada",
+      "zone": "South",
+      "pc1": -1.3135,
+      "pc2": -0.1827,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kalaburagi",
+      "city": "Kalaburagi",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kalahandi",
+      "city": "Kalahandi",
+      "zone": "East",
+      "pc1": -0.8016,
+      "pc2": -0.4724,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kallakurichi",
+      "city": "Kallakurichi",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kamrup",
+      "city": "Kamrup",
+      "zone": "Northeast",
+      "pc1": 1.5494,
+      "pc2": 0.3907,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kancheepuram",
+      "city": "Kancheepuram",
+      "zone": "South",
+      "pc1": 3.7858,
+      "pc2": 3.142,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kandhamal",
+      "city": "Kandhamal",
+      "zone": "East",
+      "pc1": -1.6733,
+      "pc2": -0.6432,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kangra",
+      "city": "Kangra",
+      "zone": "North",
+      "pc1": 2.1466,
+      "pc2": -0.3949,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kanker",
+      "city": "Kanker",
+      "zone": "Central",
+      "pc1": -1.2972,
+      "pc2": 0.35,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kannauj",
+      "city": "Kannauj",
+      "zone": "North",
+      "pc1": -0.6351,
+      "pc2": 0.1544,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kannur",
+      "city": "Kannur",
+      "zone": "South",
+      "pc1": 3.3778,
+      "pc2": 1.6871,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kanpur",
+      "city": "Kanpur",
+      "zone": "North",
+      "pc1": 0.135,
+      "pc2": -0.3528,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kanpurdehat",
+      "city": "Kanpur Dehat",
+      "zone": "North",
+      "pc1": 0.2474,
+      "pc2": 1.1477,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kanpurnagar",
+      "city": "Kanpur Nagar",
+      "zone": "North",
+      "pc1": -0.3767,
+      "pc2": 0.4208,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kanyakumari",
+      "city": "Kanyakumari",
+      "zone": "South",
+      "pc1": -0.1679,
+      "pc2": 0.9464,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kapurthala",
+      "city": "Kapurthala",
+      "zone": "North",
+      "pc1": -0.1261,
+      "pc2": 0.5853,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "karad",
+      "city": "Karad",
+      "zone": "West",
+      "pc1": -1.4659,
+      "pc2": -0.7304,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "karaikal",
+      "city": "Karaikal",
+      "zone": "South",
+      "pc1": -0.9559,
+      "pc2": -0.5338,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "karauli",
+      "city": "Karauli",
+      "zone": "North",
+      "pc1": -1.3959,
+      "pc2": -0.1315,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "karbianglong",
+      "city": "Karbi Anglong",
+      "zone": "Northeast",
+      "pc1": -1.4115,
+      "pc2": -0.5012,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "kargil",
+      "city": "Kargil",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "karimganj",
+      "city": "Karimganj",
+      "zone": "Northeast",
+      "pc1": -1.1653,
+      "pc2": -0.3273,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "karimnagar",
+      "city": "Karimnagar",
+      "zone": "South",
+      "pc1": 1.2679,
+      "pc2": 0.9853,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "karnal",
+      "city": "Karnal",
+      "zone": "North",
+      "pc1": 1.3745,
+      "pc2": 0.7147,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "karur",
+      "city": "Karur",
+      "zone": "South",
+      "pc1": -0.6914,
+      "pc2": -0.131,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kasaragod",
+      "city": "Kasaragod",
+      "zone": "South",
+      "pc1": -0.2735,
+      "pc2": 0.7253,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kasganj",
+      "city": "Kasganj",
+      "zone": "North",
+      "pc1": -1.3987,
+      "pc2": -0.6966,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kashipur",
+      "city": "Kashipur",
+      "zone": "North",
+      "pc1": -1.6066,
+      "pc2": -0.6172,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kathua",
+      "city": "Kathua",
+      "zone": "North",
+      "pc1": -0.6524,
+      "pc2": 0.0436,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "katihar",
+      "city": "Katihar",
+      "zone": "East",
+      "pc1": -0.6516,
+      "pc2": -0.1239,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "katni",
+      "city": "Katni",
+      "zone": "Central",
+      "pc1": -0.1611,
+      "pc2": 0.5415,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kaushambi",
+      "city": "Kaushambi",
+      "zone": "North",
+      "pc1": -0.9339,
+      "pc2": 0.0043,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kawardha",
+      "city": "Kawardha",
+      "zone": "Central",
+      "pc1": -1.4644,
+      "pc2": -0.4589,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kayamkulam",
+      "city": "Kayamkulam",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kendrapada",
+      "city": "Kendrapada",
+      "zone": "East",
+      "pc1": -1.6774,
+      "pc2": -0.6463,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kendrapara",
+      "city": "Kendrapara",
+      "zone": "East",
+      "pc1": -1.5062,
+      "pc2": -0.6131,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kendujhar",
+      "city": "Kendujhar",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "keonjhar",
+      "city": "Keonjhar",
+      "zone": "East",
+      "pc1": -0.7886,
+      "pc2": -0.0259,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "khagaria",
+      "city": "Khagaria",
+      "zone": "East",
+      "pc1": -1.1025,
+      "pc2": -0.5502,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "khammam",
+      "city": "Khammam",
+      "zone": "South",
+      "pc1": 0.7179,
+      "pc2": 0.9027,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "khandwa",
+      "city": "Khandwa",
+      "zone": "Central",
+      "pc1": -1.1701,
+      "pc2": -0.3512,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "khanna",
+      "city": "Khanna",
+      "zone": "North",
+      "pc1": -0.8552,
+      "pc2": -1.3311,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kharagpur",
+      "city": "Kharagpur",
+      "zone": "East",
+      "pc1": -1.2161,
+      "pc2": -0.4124,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "khargone",
+      "city": "Khargone",
+      "zone": "Central",
+      "pc1": -1.5435,
+      "pc2": -0.2473,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kheda",
+      "city": "Kheda",
+      "zone": "West",
+      "pc1": -0.0364,
+      "pc2": 1.3742,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "khurda-andhrapradesh",
+      "city": "Khurda",
+      "zone": "Central",
+      "pc1": 0.1705,
+      "pc2": 0.6988,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "khurda-orissa",
+      "city": "Khurda",
+      "zone": "Central",
+      "pc1": 0.1705,
+      "pc2": 0.6988,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kishanganj",
+      "city": "Kishanganj",
+      "zone": "East",
+      "pc1": -1.0419,
+      "pc2": -1.2792,
+      "dom_brand": "jawa"
+    },
+    {
+      "city_slug": "kochi",
+      "city": "Kochi",
+      "zone": "South",
+      "pc1": 0.381,
+      "pc2": -0.5568,
+      "dom_brand": "ather"
+    },
+    {
+      "city_slug": "kodagu",
+      "city": "Kodagu",
+      "zone": "South",
+      "pc1": -0.8167,
+      "pc2": -0.3237,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kodarma",
+      "city": "Kodarma",
+      "zone": "East",
+      "pc1": -0.6306,
+      "pc2": -0.4302,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kodungallur",
+      "city": "Kodungallur",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kohima",
+      "city": "Kohima",
+      "zone": "Northeast",
+      "pc1": -1.6733,
+      "pc2": -0.6432,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kokrajhar",
+      "city": "Kokrajhar",
+      "zone": "Northeast",
+      "pc1": -1.4116,
+      "pc2": -0.397,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kolar",
+      "city": "Kolar",
+      "zone": "South",
+      "pc1": -0.0425,
+      "pc2": 0.9643,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kolhapur",
+      "city": "Kolhapur",
+      "zone": "West",
+      "pc1": 5.7376,
+      "pc2": 2.2152,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kolkata",
+      "city": "Kolkata",
+      "zone": "East",
+      "pc1": 6.949,
+      "pc2": -2.1668,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kollam",
+      "city": "Kollam",
+      "zone": "South",
+      "pc1": 3.7591,
+      "pc2": 2.0364,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "koppal",
+      "city": "Koppal",
+      "zone": "South",
+      "pc1": -1.035,
+      "pc2": 0.3233,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "koraput",
+      "city": "Koraput",
+      "zone": "East",
+      "pc1": -0.9137,
+      "pc2": -0.2407,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "korba",
+      "city": "Korba",
+      "zone": "Central",
+      "pc1": -0.0591,
+      "pc2": 0.2631,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "koriya",
+      "city": "Koriya",
+      "zone": "Central",
+      "pc1": -0.8841,
+      "pc2": 0.0226,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "kota",
+      "city": "Kota",
+      "zone": "North",
+      "pc1": 0.9464,
+      "pc2": -0.0279,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kotputli",
+      "city": "Kotputli",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kottarakara",
+      "city": "Kottarakkara",
+      "zone": "South",
+      "pc1": -1.4631,
+      "pc2": -0.7856,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kottayam",
+      "city": "Kottayam",
+      "zone": "South",
+      "pc1": 2.284,
+      "pc2": 1.0176,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kozhikode",
+      "city": "Kozhikode",
+      "zone": "South",
+      "pc1": 6.5639,
+      "pc2": 3.0755,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "krishnagiri",
+      "city": "Krishnagiri",
+      "zone": "South",
+      "pc1": 1.1938,
+      "pc2": 1.2209,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "krishnanagar",
+      "city": "Krishnanagar",
+      "zone": "East",
+      "pc1": -1.4866,
+      "pc2": -0.6951,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "kullu",
+      "city": "Kullu",
+      "zone": "North",
+      "pc1": -1.4267,
+      "pc2": -0.3248,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kumbakonam",
+      "city": "Kumbakonam",
+      "zone": "South",
+      "pc1": -1.5868,
+      "pc2": -0.3638,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kurnool",
+      "city": "Kurnool",
+      "zone": "South",
+      "pc1": 1.6381,
+      "pc2": 1.2451,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "kurukshetra",
+      "city": "Kurukshetra",
+      "zone": "North",
+      "pc1": 0.8949,
+      "pc2": -0.1287,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "kushinagar",
+      "city": "Kushinagar",
+      "zone": "North",
+      "pc1": 1.6734,
+      "pc2": 2.02,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "kutch",
+      "city": "Kutch",
+      "zone": "West",
+      "pc1": -0.6656,
+      "pc2": -0.1763,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "lakhimpur",
+      "city": "Lakhimpur",
+      "zone": "North",
+      "pc1": 0.1843,
+      "pc2": 0.0456,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "lakhisarai",
+      "city": "Lakhisarai",
+      "zone": "East",
+      "pc1": -1.3511,
+      "pc2": -0.5639,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "lalitpur",
+      "city": "Lalitpur",
+      "zone": "North",
+      "pc1": -1.0086,
+      "pc2": -0.3786,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "latehar",
+      "city": "Latehar",
+      "zone": "East",
+      "pc1": -1.6224,
+      "pc2": -0.6063,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "latur",
+      "city": "Latur",
+      "zone": "West",
+      "pc1": 1.2595,
+      "pc2": 0.2475,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "leh",
+      "city": "Leh",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "lohardaga",
+      "city": "Lohardaga",
+      "zone": "East",
+      "pc1": -1.2128,
+      "pc2": -0.2421,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "lowersubansiri",
+      "city": "Lower Subansiri",
+      "zone": "Northeast",
+      "pc1": -1.6061,
+      "pc2": -0.6094,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "lucknow",
+      "city": "Lucknow",
+      "zone": "North",
+      "pc1": 9.1117,
+      "pc2": -0.4912,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "ludhiana",
+      "city": "Ludhiana",
+      "zone": "North",
+      "pc1": 5.4634,
+      "pc2": 2.0526,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "lunglei",
+      "city": "Lunglei",
+      "zone": "Northeast",
+      "pc1": -1.5588,
+      "pc2": -0.4434,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "machilipatnam",
+      "city": "Machilipatnam",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "madanapalle",
+      "city": "Madanapalle",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "madhepura",
+      "city": "Madhepura",
+      "zone": "East",
+      "pc1": -0.8663,
+      "pc2": -0.5259,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "madhubani",
+      "city": "Madhubani",
+      "zone": "East",
+      "pc1": 0.6077,
+      "pc2": 1.7704,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "madurai",
+      "city": "Madurai",
+      "zone": "South",
+      "pc1": 3.6495,
+      "pc2": -0.2363,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "maharajganj",
+      "city": "Maharajganj",
+      "zone": "North",
+      "pc1": -0.5559,
+      "pc2": -0.092,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "mahasamund",
+      "city": "Mahasamund",
+      "zone": "Central",
+      "pc1": -1.077,
+      "pc2": -0.3602,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mahbubnagar",
+      "city": "Mahbubnagar",
+      "zone": "South",
+      "pc1": -1.457,
+      "pc2": -0.0142,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "mahendragarh",
+      "city": "Mahendragarh",
+      "zone": "North",
+      "pc1": -1.1765,
+      "pc2": -0.1924,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mahoba",
+      "city": "Mahoba",
+      "zone": "North",
+      "pc1": -1.1539,
+      "pc2": -0.247,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mahuva",
+      "city": "Mahuva",
+      "zone": "West",
+      "pc1": -1.6509,
+      "pc2": -0.665,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "mainpuri",
+      "city": "Mainpuri",
+      "zone": "North",
+      "pc1": -0.0599,
+      "pc2": 0.0368,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "malappuram",
+      "city": "Malappuram",
+      "zone": "South",
+      "pc1": 6.2162,
+      "pc2": 3.6246,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "malda",
+      "city": "Malda",
+      "zone": "East",
+      "pc1": 1.7361,
+      "pc2": 1.1826,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "malegaon",
+      "city": "Malegaon",
+      "zone": "West",
+      "pc1": -0.9567,
+      "pc2": -0.0281,
+      "dom_brand": "ather"
+    },
+    {
+      "city_slug": "malkangiri",
+      "city": "Malkangiri",
+      "zone": "East",
+      "pc1": -1.4969,
+      "pc2": -0.4304,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "manali",
+      "city": "Manali",
+      "zone": "North",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mandasur",
+      "city": "Mandasur",
+      "zone": "Central",
+      "pc1": -0.9514,
+      "pc2": 0.093,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mandi",
+      "city": "Mandi",
+      "zone": "North",
+      "pc1": -0.1398,
+      "pc2": -1.0112,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "mandla",
+      "city": "Mandla",
+      "zone": "Central",
+      "pc1": -0.7874,
+      "pc2": -0.1318,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mandsaur",
+      "city": "Mandsaur",
+      "zone": "Central",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mandya",
+      "city": "Mandya",
+      "zone": "South",
+      "pc1": 0.4384,
+      "pc2": 1.0323,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "manendragarh",
+      "city": "Manendragarh",
+      "zone": "Central",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "manesar",
+      "city": "Manesar",
+      "zone": "North",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mangalore",
+      "city": "Mangalore",
+      "zone": "South",
+      "pc1": -0.2885,
+      "pc2": -1.4181,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mangaluru",
+      "city": "Mangaluru",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mangan",
+      "city": "Mangan",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mansa",
+      "city": "Mansa",
+      "zone": "North",
+      "pc1": -0.9954,
+      "pc2": -0.0122,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "margao",
+      "city": "Margao",
+      "zone": "West",
+      "pc1": -1.4504,
+      "pc2": -0.3705,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "marthandam",
+      "city": "Marthandam",
+      "zone": "South",
+      "pc1": -1.6774,
+      "pc2": -0.6463,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mathura",
+      "city": "Mathura",
+      "zone": "North",
+      "pc1": 1.1354,
+      "pc2": 1.5489,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "mau",
+      "city": "Mau",
+      "zone": "North",
+      "pc1": -0.3219,
+      "pc2": -0.8387,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "mayurbhanj",
+      "city": "Mayurbhanj",
+      "zone": "East",
+      "pc1": -1.1666,
+      "pc2": -0.3721,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "medak",
+      "city": "Medak",
+      "zone": "South",
+      "pc1": 0.054,
+      "pc2": 0.2713,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "meerut",
+      "city": "Meerut",
+      "zone": "North",
+      "pc1": 2.8043,
+      "pc2": 0.3227,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "midnapore",
+      "city": "Midnapore",
+      "zone": "East",
+      "pc1": 2.2139,
+      "pc2": 2.9546,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "miraj",
+      "city": "Miraj",
+      "zone": "West",
+      "pc1": -1.2888,
+      "pc2": -1.0278,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mirzapur",
+      "city": "Mirzapur",
+      "zone": "North",
+      "pc1": -0.5422,
+      "pc2": 0.2262,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "modinagar",
+      "city": "Modinagar",
+      "zone": "North",
+      "pc1": -1.5551,
+      "pc2": -0.7873,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "moga",
+      "city": "Moga",
+      "zone": "North",
+      "pc1": -0.6599,
+      "pc2": 0.4214,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "mohali",
+      "city": "Mohali",
+      "zone": "North",
+      "pc1": -0.5079,
+      "pc2": 0.1557,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mokokchung",
+      "city": "Mokokchung",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "moradabad",
+      "city": "Moradabad",
+      "zone": "North",
+      "pc1": 0.8745,
+      "pc2": 0.707,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "morbi",
+      "city": "Morbi",
+      "zone": "West",
+      "pc1": -1.3135,
+      "pc2": -0.1827,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "morena",
+      "city": "Morena",
+      "zone": "Central",
+      "pc1": -0.6765,
+      "pc2": 0.7369,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "morigaon",
+      "city": "Morigaon",
+      "zone": "Northeast",
+      "pc1": -1.2709,
+      "pc2": -0.3482,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "morinda",
+      "city": "Morinda",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "motihari",
+      "city": "Motihari",
+      "zone": "East",
+      "pc1": -0.2873,
+      "pc2": -1.2276,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "mughalsarai",
+      "city": "Mughalsarai",
+      "zone": "North",
+      "pc1": -1.4631,
+      "pc2": -0.7856,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "mukerian",
+      "city": "Mukerian",
+      "zone": "North",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "muktsar",
+      "city": "Muktsar",
+      "zone": "North",
+      "pc1": -0.9784,
+      "pc2": 0.3996,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "mumbai",
+      "city": "Mumbai",
+      "zone": "West",
+      "pc1": 18.4681,
+      "pc2": -4.2841,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "mungeli",
+      "city": "Mungeli",
+      "zone": "Central",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "munger",
+      "city": "Munger",
+      "zone": "East",
+      "pc1": -1.0755,
+      "pc2": -0.3264,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "murshidabad",
+      "city": "Murshidabad",
+      "zone": "East",
+      "pc1": 1.73,
+      "pc2": 0.8015,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "muzaffarnagar",
+      "city": "Muzaffarnagar",
+      "zone": "North",
+      "pc1": 1.357,
+      "pc2": -0.0386,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "muzaffarpur",
+      "city": "Muzaffarpur",
+      "zone": "East",
+      "pc1": 3.0187,
+      "pc2": 1.3175,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "mysore",
+      "city": "Mysore",
+      "zone": "South",
+      "pc1": 2.74,
+      "pc2": -0.4842,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "mysuru",
+      "city": "Mysuru",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nabarangapur",
+      "city": "Nabarangapur",
+      "zone": "East",
+      "pc1": -1.5571,
+      "pc2": -0.4934,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "nabha",
+      "city": "Nabha",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "nadia",
+      "city": "Nadia",
+      "zone": "East",
+      "pc1": 0.493,
+      "pc2": 1.299,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "nadiad",
+      "city": "Nadiad",
+      "zone": "West",
+      "pc1": -1.5868,
+      "pc2": -0.3638,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "nagaon",
+      "city": "Nagaon",
+      "zone": "Northeast",
+      "pc1": -0.1136,
+      "pc2": 0.5323,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "nagapattinam",
+      "city": "Nagapattinam",
+      "zone": "South",
+      "pc1": -1.0861,
+      "pc2": 0.3217,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "nagaur",
+      "city": "Nagaur",
+      "zone": "North",
+      "pc1": 0.6958,
+      "pc2": 1.1936,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "nagercoil",
+      "city": "Nagercoil",
+      "zone": "South",
+      "pc1": -0.7406,
+      "pc2": -1.1313,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "nagpur",
+      "city": "Nagpur",
+      "zone": "West",
+      "pc1": 7.6524,
+      "pc2": 3.1574,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "naharlagun",
+      "city": "Naharlagun",
+      "zone": "Northeast",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "nainital",
+      "city": "Nainital",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nainital-uttrakhand",
+      "city": "Nainital",
+      "zone": "North",
+      "pc1": -1.1012,
+      "pc2": -0.6443,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nakodar",
+      "city": "Nakodar",
+      "zone": "North",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nalanda",
+      "city": "Nalanda",
+      "zone": "East",
+      "pc1": -1.0405,
+      "pc2": 0.2605,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "nalbari",
+      "city": "Nalbari",
+      "zone": "Northeast",
+      "pc1": -0.8462,
+      "pc2": -0.246,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "nalgonda",
+      "city": "Nalgonda",
+      "zone": "South",
+      "pc1": 0.4237,
+      "pc2": 0.8396,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "namakkal",
+      "city": "Namakkal",
+      "zone": "South",
+      "pc1": 0.9723,
+      "pc2": 1.6397,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "namchi",
+      "city": "Namchi",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nanded",
+      "city": "Nanded",
+      "zone": "West",
+      "pc1": 2.6908,
+      "pc2": 1.0226,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "nandurbar",
+      "city": "Nandurbar",
+      "zone": "West",
+      "pc1": -0.6977,
+      "pc2": -0.431,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "nandyal",
+      "city": "Nandyal",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "nangal",
+      "city": "Nangal",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "narasaropet",
+      "city": "Narasaropet",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "narasinghpur",
+      "city": "Narasinghpur",
+      "zone": "East",
+      "pc1": -0.92,
+      "pc2": -0.0537,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "narayangaon",
+      "city": "Narayangaon",
+      "zone": "Central",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "narnaul",
+      "city": "Narnaul",
+      "zone": "North",
+      "pc1": -1.4866,
+      "pc2": -0.6951,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "narsinghpur",
+      "city": "Narsinghpur",
+      "zone": "Central",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nashik",
+      "city": "Nashik",
+      "zone": "West",
+      "pc1": 7.9507,
+      "pc2": 5.095,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "navi-mumbai",
+      "city": "Navi Mumbai",
+      "zone": "West",
+      "pc1": -0.225,
+      "pc2": -0.7435,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "navsari",
+      "city": "Navsari",
+      "zone": "West",
+      "pc1": 0.4268,
+      "pc2": 0.4048,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nawada",
+      "city": "Nawada",
+      "zone": "East",
+      "pc1": -0.8541,
+      "pc2": -0.2682,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "nawanshahr",
+      "city": "Nawanshahr",
+      "zone": "North",
+      "pc1": -0.4602,
+      "pc2": 0.2496,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "nayagarh",
+      "city": "Nayagarh",
+      "zone": "East",
+      "pc1": -0.7884,
+      "pc2": -0.7072,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "neemuch",
+      "city": "Neemuch",
+      "zone": "Central",
+      "pc1": -1.0891,
+      "pc2": -0.2654,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nellore",
+      "city": "Nellore",
+      "zone": "South",
+      "pc1": 0.9909,
+      "pc2": 0.5661,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "neyveli",
+      "city": "Neyveli",
+      "zone": "South",
+      "pc1": -1.5303,
+      "pc2": -0.692,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nilgiris",
+      "city": "Nilgiris",
+      "zone": "South",
+      "pc1": -1.3889,
+      "pc2": -0.3665,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "nirjuli",
+      "city": "Nirjuli",
+      "zone": "Northeast",
+      "pc1": -1.2888,
+      "pc2": -1.0278,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nizamabad",
+      "city": "Nizamabad",
+      "zone": "South",
+      "pc1": 0.9665,
+      "pc2": 0.3238,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "noida",
+      "city": "Noida",
+      "zone": "North",
+      "pc1": 1.4966,
+      "pc2": -1.5228,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nongstoin",
+      "city": "Nongstoin",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "north24parganas",
+      "city": "North 24 Parganas",
+      "zone": "East",
+      "pc1": 1.2476,
+      "pc2": 1.6503,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "northgoa",
+      "city": "North Goa",
+      "zone": "West",
+      "pc1": -0.8345,
+      "pc2": 0.0647,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "northtripura",
+      "city": "North Tripura",
+      "zone": "Northeast",
+      "pc1": -1.6507,
+      "pc2": -0.5085,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "nuapada",
+      "city": "Nuapada",
+      "zone": "East",
+      "pc1": -1.4428,
+      "pc2": -0.1652,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "ongole",
+      "city": "Ongole",
+      "zone": "South",
+      "pc1": -0.9443,
+      "pc2": -0.7635,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "ooty",
+      "city": "Ooty",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "orai",
+      "city": "Orai",
+      "zone": "North",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "osmanabad",
+      "city": "Osmanabad",
+      "zone": "West",
+      "pc1": 0.3892,
+      "pc2": 0.7793,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "padrauna",
+      "city": "Padrauna",
+      "zone": "North",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "pakur",
+      "city": "Pakur",
+      "zone": "East",
+      "pc1": -1.2975,
+      "pc2": -0.3209,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "palakkad",
+      "city": "Palakkad",
+      "zone": "South",
+      "pc1": 3.9692,
+      "pc2": 2.0565,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "palamu",
+      "city": "Palamu",
+      "zone": "East",
+      "pc1": -1.402,
+      "pc2": -0.4607,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "palanpur",
+      "city": "Palanpur",
+      "zone": "West",
+      "pc1": -1.63,
+      "pc2": -0.4803,
+      "dom_brand": "ather"
+    },
+    {
+      "city_slug": "pali",
+      "city": "Pali",
+      "zone": "North",
+      "pc1": 0.5784,
+      "pc2": 1.4549,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "palwal",
+      "city": "Palwal",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "panaji",
+      "city": "Panaji",
+      "zone": "West",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "panchkula",
+      "city": "Panchkula",
+      "zone": "North",
+      "pc1": -0.8263,
+      "pc2": -0.0387,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "panchmahal",
+      "city": "Panchmahal",
+      "zone": "West",
+      "pc1": -0.753,
+      "pc2": 0.3254,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "panipat",
+      "city": "Panipat",
+      "zone": "North",
+      "pc1": 0.3659,
+      "pc2": 0.3462,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "panjim",
+      "city": "Panjim",
+      "zone": "West",
+      "pc1": -1.1266,
+      "pc2": -1.0244,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "panna",
+      "city": "Panna",
+      "zone": "Central",
+      "pc1": -1.174,
+      "pc2": -0.0582,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "panvel",
+      "city": "Panvel",
+      "zone": "West",
+      "pc1": -1.3947,
+      "pc2": -0.6935,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "paontasahib",
+      "city": "Paonta Sahib",
+      "zone": "North",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "papumpare",
+      "city": "Papum pare",
+      "zone": "Northeast",
+      "pc1": -1.6774,
+      "pc2": -0.6463,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "parbhani",
+      "city": "Parbhani",
+      "zone": "West",
+      "pc1": -0.4523,
+      "pc2": 0.5242,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "pasighat",
+      "city": "Pasighat",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "patan",
+      "city": "Patan",
+      "zone": "West",
+      "pc1": -0.6667,
+      "pc2": 0.0822,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "pathalgaon",
+      "city": "Pathalgaon",
+      "zone": "Central",
+      "pc1": -1.6936,
+      "pc2": -0.6432,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "pathanamthitta",
+      "city": "Pathanamthitta",
+      "zone": "South",
+      "pc1": 0.9714,
+      "pc2": 0.7633,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "pathankot",
+      "city": "Pathankot",
+      "zone": "North",
+      "pc1": -0.7607,
+      "pc2": -0.4618,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "patiala",
+      "city": "Patiala",
+      "zone": "North",
+      "pc1": 2.8947,
+      "pc2": 1.5171,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "patna",
+      "city": "Patna",
+      "zone": "East",
+      "pc1": 5.2612,
+      "pc2": 1.5329,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "pattambi",
+      "city": "Pattambi",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "paurigarhwal",
+      "city": "Pauri Garhwal",
+      "zone": "North",
+      "pc1": -1.392,
+      "pc2": -0.2849,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "perambalur",
+      "city": "Perambalur",
+      "zone": "South",
+      "pc1": -1.2177,
+      "pc2": -0.5655,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "perinthalmanna",
+      "city": "Perintalmanna",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "perumbavoor",
+      "city": "Perumbavoor",
+      "zone": "South",
+      "pc1": -1.4659,
+      "pc2": -0.7304,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "phagwara",
+      "city": "Phagwara",
+      "zone": "North",
+      "pc1": -1.2499,
+      "pc2": -0.7289,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "phaltan",
+      "city": "Phaltan",
+      "zone": "West",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "pilibhit",
+      "city": "Pilibhit",
+      "zone": "North",
+      "pc1": -0.8576,
+      "pc2": 0.0039,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "pinjore-haryana",
+      "city": "Pinjore",
+      "zone": "North",
+      "pc1": -1.2888,
+      "pc2": -1.0278,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "pithoragarh",
+      "city": "Pithoragarh",
+      "zone": "North",
+      "pc1": -1.302,
+      "pc2": -0.5803,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "pollachi",
+      "city": "Pollachi",
+      "zone": "South",
+      "pc1": -1.4,
+      "pc2": -0.4157,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "pondicherry",
+      "city": "Pondicherry",
+      "zone": "South",
+      "pc1": 0.7129,
+      "pc2": -0.799,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "porbandar",
+      "city": "Porbandar",
+      "zone": "West",
+      "pc1": -0.7221,
+      "pc2": -0.2312,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "prakasam",
+      "city": "Prakasam",
+      "zone": "South",
+      "pc1": -0.1794,
+      "pc2": 1.2545,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "pratapgarh-rajasthan",
+      "city": "Pratapgarh (Rajasthan)",
+      "zone": "North",
+      "pc1": -0.1127,
+      "pc2": 1.0431,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "pratapgarh-uttarpradesh",
+      "city": "Pratapgarh (Uttar Pradesh)",
+      "zone": "North",
+      "pc1": 0.8218,
+      "pc2": 0.7082,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "prayagraj",
+      "city": "Prayagraj",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "pudukkottai",
+      "city": "Pudukkottai",
+      "zone": "South",
+      "pc1": -0.5396,
+      "pc2": 0.696,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "pulwama",
+      "city": "Pulwama",
+      "zone": "North",
+      "pc1": -1.7017,
+      "pc2": -0.5453,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "pune",
+      "city": "Pune",
+      "zone": "West",
+      "pc1": 24.6209,
+      "pc2": 2.902,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "puri",
+      "city": "Puri",
+      "zone": "East",
+      "pc1": -0.5512,
+      "pc2": 1.5012,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "purnea",
+      "city": "Purnea",
+      "zone": "East",
+      "pc1": 0.2771,
+      "pc2": -1.1797,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "purnia",
+      "city": "Purnia",
+      "zone": "East",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "purulia",
+      "city": "Purulia",
+      "zone": "East",
+      "pc1": -0.3314,
+      "pc2": 0.4035,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rae-bareli",
+      "city": "Rae Bareli",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "raebareli",
+      "city": "Rae Bareli",
+      "zone": "North",
+      "pc1": 0.6936,
+      "pc2": -0.563,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "raichur",
+      "city": "Raichur",
+      "zone": "South",
+      "pc1": 0.1004,
+      "pc2": 0.6505,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "raigad",
+      "city": "Raigad",
+      "zone": "West",
+      "pc1": -0.3984,
+      "pc2": 0.3762,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "raiganj",
+      "city": "Raiganj",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "raigarh",
+      "city": "Raigarh",
+      "zone": "Central",
+      "pc1": -0.2653,
+      "pc2": 0.4433,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "raipur",
+      "city": "Raipur",
+      "zone": "Central",
+      "pc1": 3.3809,
+      "pc2": 1.4034,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "raisen",
+      "city": "Raisen",
+      "zone": "Central",
+      "pc1": -0.7666,
+      "pc2": 0.2737,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "rajahmundry",
+      "city": "Rajahmundry",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "rajahumundry",
+      "city": "Rajahmundry",
+      "zone": "South",
+      "pc1": -1.1844,
+      "pc2": -0.8359,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "rajgarh",
+      "city": "Rajgarh",
+      "zone": "Central",
+      "pc1": -1.0453,
+      "pc2": 0.5026,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "rajkot",
+      "city": "Rajkot",
+      "zone": "West",
+      "pc1": 3.6477,
+      "pc2": 1.4497,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rajnandgaon",
+      "city": "Rajnandgaon",
+      "zone": "Central",
+      "pc1": -0.3698,
+      "pc2": 0.296,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rajouri",
+      "city": "Rajouri",
+      "zone": "North",
+      "pc1": -1.4694,
+      "pc2": -0.303,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "rajsamand",
+      "city": "Rajsamand",
+      "zone": "North",
+      "pc1": -0.523,
+      "pc2": -0.2317,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ramagundam",
+      "city": "Ramagundam",
+      "zone": "South",
+      "pc1": -1.5303,
+      "pc2": -0.692,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ramanagara",
+      "city": "Ramanagara",
+      "zone": "South",
+      "pc1": -1.0336,
+      "pc2": -0.4865,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "ramanathapuram",
+      "city": "Ramanathapuram",
+      "zone": "South",
+      "pc1": 0.0067,
+      "pc2": -0.2704,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "ramgarh",
+      "city": "Ramgarh",
+      "zone": "East",
+      "pc1": -1.0963,
+      "pc2": -0.5854,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "rampur",
+      "city": "Rampur",
+      "zone": "North",
+      "pc1": -1.6148,
+      "pc2": -0.3305,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rampur-himachalpradesh",
+      "city": "Rampur (Himachal Pradesh)",
+      "zone": "North",
+      "pc1": -1.2847,
+      "pc2": -0.1649,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "rampur-uttarpradesh",
+      "city": "Rampur (Uttar Pradesh)",
+      "zone": "North",
+      "pc1": -0.8374,
+      "pc2": -0.3781,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "ranchi",
+      "city": "Ranchi",
+      "zone": "East",
+      "pc1": 4.0839,
+      "pc2": 0.4579,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rangareddy",
+      "city": "Ranga Reddy",
+      "zone": "South",
+      "pc1": 0.7243,
+      "pc2": 0.4544,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "ratlam",
+      "city": "Ratlam",
+      "zone": "Central",
+      "pc1": -0.4465,
+      "pc2": 0.2495,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "ratnagiri",
+      "city": "Ratnagiri",
+      "zone": "West",
+      "pc1": 0.1297,
+      "pc2": 0.7279,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rayagada",
+      "city": "Rayagada",
+      "zone": "East",
+      "pc1": -1.0336,
+      "pc2": -0.1973,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "rewa",
+      "city": "Rewa",
+      "zone": "Central",
+      "pc1": -0.2524,
+      "pc2": 0.7478,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rewari",
+      "city": "Rewari",
+      "zone": "North",
+      "pc1": -0.8329,
+      "pc2": 0.0789,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "rishikesh",
+      "city": "Rishikesh",
+      "zone": "North",
+      "pc1": -1.5146,
+      "pc2": -0.6155,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "rohtak",
+      "city": "Rohtak",
+      "zone": "North",
+      "pc1": 1.0008,
+      "pc2": 0.0305,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "rohtas",
+      "city": "Rohtas",
+      "zone": "East",
+      "pc1": -0.3955,
+      "pc2": -0.4095,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "roorkee",
+      "city": "Roorkee",
+      "zone": "North",
+      "pc1": -1.4,
+      "pc2": -0.4157,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "ropar",
+      "city": "Ropar",
+      "zone": "North",
+      "pc1": -1.4142,
+      "pc2": -0.6607,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "rourkela",
+      "city": "Rourkela",
+      "zone": "East",
+      "pc1": -1.0904,
+      "pc2": -0.3265,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "rudraprayag",
+      "city": "Rudraprayag",
+      "zone": "North",
+      "pc1": -1.6345,
+      "pc2": -0.5116,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "rudrapur",
+      "city": "Rudrapur",
+      "zone": "North",
+      "pc1": -1.2368,
+      "pc2": -0.3308,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "rupnagar",
+      "city": "Rupnagar",
+      "zone": "North",
+      "pc1": -0.5302,
+      "pc2": 0.4942,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sabarkantha",
+      "city": "Sabarkantha",
+      "zone": "West",
+      "pc1": -0.3457,
+      "pc2": 1.0888,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "sabroom",
+      "city": "Sabroom",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sagar",
+      "city": "Sagar",
+      "zone": "Central",
+      "pc1": 0.1022,
+      "pc2": 1.8625,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "saharanpur",
+      "city": "Saharanpur",
+      "zone": "North",
+      "pc1": 1.4443,
+      "pc2": 0.3139,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "saharsa",
+      "city": "Saharsa",
+      "zone": "East",
+      "pc1": -0.837,
+      "pc2": -0.4965,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "sahibganj",
+      "city": "Sahibganj",
+      "zone": "East",
+      "pc1": -1.436,
+      "pc2": -0.5567,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "salem",
+      "city": "Salem",
+      "zone": "South",
+      "pc1": 4.954,
+      "pc2": 1.2612,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "samastipur",
+      "city": "Samastipur",
+      "zone": "East",
+      "pc1": 0.5797,
+      "pc2": 1.3812,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sambalpur",
+      "city": "Sambalpur",
+      "zone": "East",
+      "pc1": 0.5775,
+      "pc2": -0.612,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sangamner",
+      "city": "Sangamner",
+      "zone": "West",
+      "pc1": -1.4642,
+      "pc2": -0.717,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "sangareddy",
+      "city": "Sangareddy",
+      "zone": "South",
+      "pc1": -1.63,
+      "pc2": -0.4803,
+      "dom_brand": "ather"
+    },
+    {
+      "city_slug": "sangli",
+      "city": "Sangli",
+      "zone": "West",
+      "pc1": 3.8008,
+      "pc2": 1.9644,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sangrur",
+      "city": "Sangrur",
+      "zone": "North",
+      "pc1": 0.2837,
+      "pc2": 1.3902,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "santkabirnagar",
+      "city": "Sant Kabir Nagar",
+      "zone": "North",
+      "pc1": -1.6079,
+      "pc2": -0.3737,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "santravidasnagar",
+      "city": "Sant Ravidas Nagar",
+      "zone": "North",
+      "pc1": -0.9607,
+      "pc2": 0.1387,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "saran",
+      "city": "Saran",
+      "zone": "East",
+      "pc1": -0.7621,
+      "pc2": 0.1783,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sasaram",
+      "city": "Sasaram",
+      "zone": "East",
+      "pc1": -1.4433,
+      "pc2": -0.5323,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "satara",
+      "city": "Satara",
+      "zone": "West",
+      "pc1": 1.5888,
+      "pc2": 1.3736,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "satna",
+      "city": "Satna",
+      "zone": "Central",
+      "pc1": 0.7444,
+      "pc2": 0.2544,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sawai-madhopur",
+      "city": "Sawai Madhopur",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sawaimadhopur",
+      "city": "Sawai Madhopur",
+      "zone": "North",
+      "pc1": -0.781,
+      "pc2": -0.2984,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "secunderabad",
+      "city": "Secunderabad",
+      "zone": "South",
+      "pc1": -1.0419,
+      "pc2": -1.2792,
+      "dom_brand": "jawa"
+    },
+    {
+      "city_slug": "sehore",
+      "city": "Sehore",
+      "zone": "Central",
+      "pc1": -0.4615,
+      "pc2": 0.2857,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "seoni",
+      "city": "Seoni",
+      "zone": "Central",
+      "pc1": 0.348,
+      "pc2": 0.8848,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "seraikelakharsawan",
+      "city": "Seraikela-kharsawan",
+      "zone": "East",
+      "pc1": -1.3184,
+      "pc2": -0.3456,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "shahdol",
+      "city": "Shahdol",
+      "zone": "Central",
+      "pc1": -0.7649,
+      "pc2": -0.1114,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "shahjahanpur",
+      "city": "Shahjahanpur",
+      "zone": "North",
+      "pc1": -0.3996,
+      "pc2": 0.5545,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "shajapur",
+      "city": "Shajapur",
+      "zone": "Central",
+      "pc1": -0.7081,
+      "pc2": 0.696,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sheikhpura",
+      "city": "Sheikhpura",
+      "zone": "East",
+      "pc1": -1.6507,
+      "pc2": -0.5085,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sheohar",
+      "city": "Sheohar",
+      "zone": "East",
+      "pc1": -1.4875,
+      "pc2": -0.5572,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sheopur",
+      "city": "Sheopur",
+      "zone": "Central",
+      "pc1": -1.5223,
+      "pc2": -0.2608,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "shillong",
+      "city": "Shillong",
+      "zone": "Northeast",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "shimla",
+      "city": "Shimla",
+      "zone": "North",
+      "pc1": -0.9317,
+      "pc2": -0.3856,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "shimoga",
+      "city": "Shimoga",
+      "zone": "South",
+      "pc1": 0.7887,
+      "pc2": 0.0297,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "shivamogga",
+      "city": "Shivamogga",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "shivpuri",
+      "city": "Shivpuri",
+      "zone": "Central",
+      "pc1": -0.4719,
+      "pc2": 0.6121,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "shrirampur",
+      "city": "Shrirampur",
+      "zone": "East",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "sibsagar",
+      "city": "Sibsagar",
+      "zone": "Northeast",
+      "pc1": -1.1075,
+      "pc2": -0.0511,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "siddharthnagar",
+      "city": "Siddharthnagar",
+      "zone": "North",
+      "pc1": -0.9033,
+      "pc2": 0.0745,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "siddipet",
+      "city": "Siddipet",
+      "zone": "South",
+      "pc1": -1.4137,
+      "pc2": 0.1023,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sidhi",
+      "city": "Sidhi",
+      "zone": "Central",
+      "pc1": -0.9288,
+      "pc2": -0.3083,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sikar",
+      "city": "Sikar",
+      "zone": "North",
+      "pc1": 0.8406,
+      "pc2": 0.905,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "silchar",
+      "city": "Silchar",
+      "zone": "Northeast",
+      "pc1": -0.6541,
+      "pc2": -0.8983,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "siliguri",
+      "city": "Siliguri",
+      "zone": "East",
+      "pc1": 0.4435,
+      "pc2": -0.9804,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "simdega",
+      "city": "Simdega",
+      "zone": "East",
+      "pc1": -1.6224,
+      "pc2": -0.6063,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "sindhdurg",
+      "city": "Sindhdurg",
+      "zone": "West",
+      "pc1": -0.7725,
+      "pc2": 0.5523,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "sirmaur",
+      "city": "Sirmaur",
+      "zone": "North",
+      "pc1": -1.236,
+      "pc2": -0.3736,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "sirohi",
+      "city": "Sirohi",
+      "zone": "North",
+      "pc1": -1.4713,
+      "pc2": -0.2239,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "sirsa",
+      "city": "Sirsa",
+      "zone": "North",
+      "pc1": 0.5462,
+      "pc2": -0.0199,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sitamarhi",
+      "city": "Sitamarhi",
+      "zone": "East",
+      "pc1": -0.0525,
+      "pc2": 1.0177,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sitapur",
+      "city": "Sitapur",
+      "zone": "North",
+      "pc1": -0.2349,
+      "pc2": 0.704,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sivagangai",
+      "city": "Sivagangai",
+      "zone": "South",
+      "pc1": -0.3649,
+      "pc2": 0.2242,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "sivakasi",
+      "city": "Sivakasi",
+      "zone": "South",
+      "pc1": -1.3288,
+      "pc2": -0.3788,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "sivasagar",
+      "city": "Sivasagar",
+      "zone": "Northeast",
+      "pc1": -1.7013,
+      "pc2": -0.5636,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "siwan",
+      "city": "Siwan",
+      "zone": "East",
+      "pc1": 1.8229,
+      "pc2": 0.2275,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "solan",
+      "city": "Solan",
+      "zone": "North",
+      "pc1": 0.3995,
+      "pc2": -0.7,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "solapur",
+      "city": "Solapur",
+      "zone": "West",
+      "pc1": 5.8486,
+      "pc2": 2.8789,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sonapur",
+      "city": "Sonapur",
+      "zone": "Northeast",
+      "pc1": -1.25,
+      "pc2": -0.3142,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sonbhadra",
+      "city": "Sonbhadra",
+      "zone": "North",
+      "pc1": -0.517,
+      "pc2": -0.0353,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sonepat",
+      "city": "Sonepat",
+      "zone": "North",
+      "pc1": -1.5435,
+      "pc2": -0.2473,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sonipat",
+      "city": "Sonipat",
+      "zone": "North",
+      "pc1": 0.3114,
+      "pc2": -0.1869,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sonitpur",
+      "city": "Sonitpur",
+      "zone": "Northeast",
+      "pc1": -1.1551,
+      "pc2": -0.4373,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "southgoa",
+      "city": "South Goa",
+      "zone": "West",
+      "pc1": -0.7384,
+      "pc2": 0.1786,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "southtripura",
+      "city": "South Tripura",
+      "zone": "Northeast",
+      "pc1": -1.4359,
+      "pc2": -0.4002,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "sravasti",
+      "city": "Sravasti",
+      "zone": "North",
+      "pc1": -1.565,
+      "pc2": -0.239,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sriganganagar",
+      "city": "Sriganganagar",
+      "zone": "North",
+      "pc1": -0.5765,
+      "pc2": -1.3814,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "srikakulam",
+      "city": "Srikakulam",
+      "zone": "South",
+      "pc1": 0.0034,
+      "pc2": -0.3796,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "srinagar",
+      "city": "Srinagar",
+      "zone": "North",
+      "pc1": -0.3035,
+      "pc2": -0.4095,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "sultanpur",
+      "city": "Sultanpur",
+      "zone": "North",
+      "pc1": 0.3563,
+      "pc2": 1.0712,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "sundargarh",
+      "city": "Sundargarh",
+      "zone": "East",
+      "pc1": -1.5003,
+      "pc2": -0.1307,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "sundergarh",
+      "city": "Sundergarh",
+      "zone": "East",
+      "pc1": -1.2696,
+      "pc2": -0.0546,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "supaul",
+      "city": "Supaul",
+      "zone": "East",
+      "pc1": -1.2369,
+      "pc2": 0.2765,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "surat",
+      "city": "Surat",
+      "zone": "West",
+      "pc1": 9.1394,
+      "pc2": 0.6893,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "surendranagar",
+      "city": "Surendranagar",
+      "zone": "West",
+      "pc1": -0.0549,
+      "pc2": 0.7368,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "surguja",
+      "city": "Surguja",
+      "zone": "Central",
+      "pc1": -0.4822,
+      "pc2": 0.1966,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "suryapet",
+      "city": "Suryapet",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "tarntaran",
+      "city": "Tarn Taran",
+      "zone": "North",
+      "pc1": -0.7838,
+      "pc2": -0.1779,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "tawang",
+      "city": "Tawang",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "tehrigarhwal",
+      "city": "Tehri Garhwal",
+      "zone": "North",
+      "pc1": -1.5876,
+      "pc2": -0.3737,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "tenali",
+      "city": "Tenali",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "tezpur",
+      "city": "Tezpur",
+      "zone": "Northeast",
+      "pc1": -0.7632,
+      "pc2": -1.3295,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "thane",
+      "city": "Thane",
+      "zone": "West",
+      "pc1": 8.0032,
+      "pc2": 2.7609,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "thanjavur",
+      "city": "Thanjavur",
+      "zone": "South",
+      "pc1": 1.2676,
+      "pc2": 1.44,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "theni",
+      "city": "Theni",
+      "zone": "South",
+      "pc1": -0.0608,
+      "pc2": 0.0891,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "thiruvalla",
+      "city": "Thiruvalla",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "thiruvallur",
+      "city": "Thiruvallur",
+      "zone": "South",
+      "pc1": 1.098,
+      "pc2": 0.5253,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "thiruvananthapuram",
+      "city": "Thiruvananthapuram",
+      "zone": "South",
+      "pc1": 6.1214,
+      "pc2": 2.816,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "thiruvarur",
+      "city": "Thiruvarur",
+      "zone": "South",
+      "pc1": -0.9515,
+      "pc2": -0.0636,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "thodupuzha",
+      "city": "Thodupuzha",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "thoubal",
+      "city": "Thoubal",
+      "zone": "Northeast",
+      "pc1": -1.4472,
+      "pc2": -0.5144,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "thrissur",
+      "city": "Thrissur",
+      "zone": "South",
+      "pc1": 6.6226,
+      "pc2": 1.0307,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "tikamgarh",
+      "city": "Tikamgarh",
+      "zone": "Central",
+      "pc1": -1.0891,
+      "pc2": 0.5771,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "tinsukia",
+      "city": "Tinsukia",
+      "zone": "Northeast",
+      "pc1": 0.7545,
+      "pc2": -0.7383,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "tiptur",
+      "city": "Tiptur",
+      "zone": "South",
+      "pc1": -1.3931,
+      "pc2": -0.6468,
+      "dom_brand": "suzuki"
+    },
+    {
+      "city_slug": "tiruchengode",
+      "city": "Tiruchengode",
+      "zone": "South",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "tiruchirappalli",
+      "city": "Tiruchirappalli",
+      "zone": "South",
+      "pc1": 3.1665,
+      "pc2": -0.0633,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "tirunelveli",
+      "city": "Tirunelveli",
+      "zone": "South",
+      "pc1": 2.1044,
+      "pc2": 0.0482,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "tirupati",
+      "city": "Tirupati",
+      "zone": "South",
+      "pc1": -0.5244,
+      "pc2": -0.5487,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "tiruppur",
+      "city": "Tiruppur",
+      "zone": "South",
+      "pc1": 0.2395,
+      "pc2": -0.4479,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "tirur",
+      "city": "Tirur",
+      "zone": "South",
+      "pc1": -0.9153,
+      "pc2": -1.1317,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "tiruvannamalai",
+      "city": "Tiruvannamalai",
+      "zone": "South",
+      "pc1": 0.7965,
+      "pc2": 1.1428,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "tonk",
+      "city": "Tonk",
+      "zone": "North",
+      "pc1": -0.5685,
+      "pc2": 0.4066,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "tuensang",
+      "city": "Tuensang",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "tumkur",
+      "city": "Tumkur",
+      "zone": "South",
+      "pc1": 0.3775,
+      "pc2": 1.7191,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "tura",
+      "city": "Tura",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "tuticorin",
+      "city": "Tuticorin",
+      "zone": "South",
+      "pc1": 0.2014,
+      "pc2": 0.0005,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "udaipur",
+      "city": "Udaipur",
+      "zone": "North",
+      "pc1": 3.1511,
+      "pc2": 1.1684,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "udaipur-tripura",
+      "city": "Udaipur (Tripura)",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "udgir",
+      "city": "Udgir",
+      "zone": "West",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "udhampur",
+      "city": "Udhampur",
+      "zone": "North",
+      "pc1": -0.6042,
+      "pc2": -1.0278,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "udhamsinghnagar",
+      "city": "Udham Singh Nagar",
+      "zone": "North",
+      "pc1": 0.2307,
+      "pc2": 0.6543,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "udumalpet",
+      "city": "Udumalpet",
+      "zone": "South",
+      "pc1": -1.5578,
+      "pc2": -0.732,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "udupi",
+      "city": "Udupi",
+      "zone": "South",
+      "pc1": 0.8006,
+      "pc2": 1.0327,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "ujjain",
+      "city": "Ujjain",
+      "zone": "Central",
+      "pc1": 0.7038,
+      "pc2": 0.8938,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "ulhasnagar",
+      "city": "Ulhasnagar",
+      "zone": "West",
+      "pc1": -0.9956,
+      "pc2": -0.7173,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "umaria",
+      "city": "Umaria",
+      "zone": "Central",
+      "pc1": -1.1765,
+      "pc2": -0.1924,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "una",
+      "city": "Una",
+      "zone": "North",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "una-himachalpradesh",
+      "city": "Una (HP)",
+      "zone": "North",
+      "pc1": -0.7743,
+      "pc2": -0.1227,
+      "dom_brand": "bajaj"
+    },
+    {
+      "city_slug": "unnao",
+      "city": "Unnao",
+      "zone": "North",
+      "pc1": -0.1521,
+      "pc2": 0.8633,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "uttardinajpur",
+      "city": "Uttar Dinajpur",
+      "zone": "East",
+      "pc1": -0.4299,
+      "pc2": 0.5556,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "uttarkannada",
+      "city": "Uttar Kannada",
+      "zone": "South",
+      "pc1": 0.1513,
+      "pc2": 0.7727,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "uttarkashi",
+      "city": "Uttarkashi",
+      "zone": "North",
+      "pc1": -1.6589,
+      "pc2": -0.4106,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "vadodara",
+      "city": "Vadodara",
+      "zone": "West",
+      "pc1": 6.1439,
+      "pc2": 1.2687,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "vaishali",
+      "city": "Vaishali",
+      "zone": "East",
+      "pc1": -0.5671,
+      "pc2": 0.2014,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "valsad",
+      "city": "Valsad",
+      "zone": "West",
+      "pc1": -0.1801,
+      "pc2": 0.5059,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "vapi",
+      "city": "Vapi",
+      "zone": "West",
+      "pc1": -0.8357,
+      "pc2": -1.107,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "varanasi",
+      "city": "Varanasi",
+      "zone": "North",
+      "pc1": 3.7849,
+      "pc2": 1.221,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "vasai",
+      "city": "Vasai",
+      "zone": "West",
+      "pc1": -0.4225,
+      "pc2": -1.3458,
+      "dom_brand": "jawa"
+    },
+    {
+      "city_slug": "vasco-da-gama",
+      "city": "Vasco da Gama",
+      "zone": "West",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "vellore",
+      "city": "Vellore",
+      "zone": "South",
+      "pc1": 3.6979,
+      "pc2": 0.6433,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "veraval",
+      "city": "Veraval",
+      "zone": "West",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "vidisha",
+      "city": "Vidisha",
+      "zone": "Central",
+      "pc1": -0.169,
+      "pc2": 0.3807,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "vijayapura",
+      "city": "Vijayapura",
+      "zone": "South",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "vijayawada",
+      "city": "Vijayawada",
+      "zone": "South",
+      "pc1": 0.4712,
+      "pc2": -0.8491,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "villupuram",
+      "city": "Villupuram",
+      "zone": "South",
+      "pc1": 0.4771,
+      "pc2": 0.582,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "viramgam",
+      "city": "Viramgam",
+      "zone": "West",
+      "pc1": -1.6509,
+      "pc2": -0.665,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "virudhunagar",
+      "city": "Virudhunagar",
+      "zone": "South",
+      "pc1": -0.0727,
+      "pc2": 0.6582,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "visakhapatnam",
+      "city": "Visakhapatnam",
+      "zone": "South",
+      "pc1": 4.7302,
+      "pc2": 2.4319,
+      "dom_brand": "royal-enfield"
+    },
+    {
+      "city_slug": "vizianagaram",
+      "city": "Vizianagaram",
+      "zone": "South",
+      "pc1": -0.6167,
+      "pc2": 0.4037,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "waidhan",
+      "city": "Waidhan",
+      "zone": "Central",
+      "pc1": -1.6498,
+      "pc2": -0.7337,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "warangal",
+      "city": "Warangal",
+      "zone": "South",
+      "pc1": 1.037,
+      "pc2": 0.9408,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "wardha",
+      "city": "Wardha",
+      "zone": "West",
+      "pc1": -0.5916,
+      "pc2": 0.7017,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "washim",
+      "city": "Washim",
+      "zone": "West",
+      "pc1": -0.6983,
+      "pc2": -0.6173,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "wayanad",
+      "city": "Wayanad",
+      "zone": "South",
+      "pc1": 0.1478,
+      "pc2": -0.1495,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "westgarohills",
+      "city": "West Garo Hills",
+      "zone": "Northeast",
+      "pc1": -1.6589,
+      "pc2": -0.4106,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "westgodavari",
+      "city": "West Godavari",
+      "zone": "South",
+      "pc1": 0.0389,
+      "pc2": 0.7976,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "westsiang",
+      "city": "West Siang",
+      "zone": "Northeast",
+      "pc1": -1.6733,
+      "pc2": -0.6432,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "westsinghbhum",
+      "city": "West Singhbhum",
+      "zone": "East",
+      "pc1": -1.0208,
+      "pc2": -0.3724,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "westtripura",
+      "city": "West Tripura",
+      "zone": "Northeast",
+      "pc1": -1.5448,
+      "pc2": -0.2389,
+      "dom_brand": "yamaha"
+    },
+    {
+      "city_slug": "wokha",
+      "city": "Wokha",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "yadagir",
+      "city": "Yadgir",
+      "zone": "South",
+      "pc1": -1.341,
+      "pc2": -0.0553,
+      "dom_brand": "honda"
+    },
+    {
+      "city_slug": "yamunanagar",
+      "city": "Yamunanagar",
+      "zone": "North",
+      "pc1": 0.2363,
+      "pc2": 0.8632,
+      "dom_brand": "hero"
+    },
+    {
+      "city_slug": "yavatmal",
+      "city": "Yavatmal",
+      "zone": "West",
+      "pc1": 0.6058,
+      "pc2": 2.3461,
+      "dom_brand": "ola-electric"
+    },
+    {
+      "city_slug": "ziro",
+      "city": "Ziro",
+      "zone": "Northeast",
+      "pc1": -1.7446,
+      "pc2": -0.6801,
+      "dom_brand": "hero"
+    }
+  ],
+  "n_cities": 769,
+  "ev_note": "SC columns for ola-electric and ather set to 0 (no BikeWale data)"
+}

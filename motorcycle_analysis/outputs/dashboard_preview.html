@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Design Options — Dark Minimal</title>
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #09090b; color: #e4e4e7; }
+
+/* ── selector nav ── */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: #09090b;
+  border-bottom: 1px solid #27272a;
+  display: flex; align-items: center; gap: 0;
+  padding: 0 40px;
+}
+.nav-label { font-size: 11px; color: #71717a; letter-spacing: 1.5px; text-transform: uppercase; margin-right: 24px; white-space: nowrap; }
+.nav-btn {
+  padding: 16px 28px;
+  font-size: 13px; font-weight: 500;
+  color: #71717a;
+  border: none; background: none; cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.nav-btn:hover { color: #e4e4e7; }
+.nav-btn.active { color: #e4e4e7; border-bottom-color: #e4e4e7; }
+.nav-btn.active.gold  { color: #f59e0b; border-bottom-color: #f59e0b; }
+.nav-btn.active.cyan  { color: #06b6d4; border-bottom-color: #06b6d4; }
+.nav-btn.active.green { color: #22c55e; border-bottom-color: #22c55e; }
+.nav-preview-tag {
+  margin-left: auto;
+  font-size: 10px; color: #52525b;
+  letter-spacing: 1px; text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1px solid #27272a;
+  border-radius: 4px;
+}
+
+/* ── option panels ── */
+.option { display: none; }
+.option.visible { display: block; }
+
+/* ── hero ── */
+.hero {
+  padding: 56px 60px 44px;
+  border-bottom: 1px solid;
+}
+.hero-eyebrow { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 14px; }
+.hero-title { font-size: 36px; font-weight: 700; line-height: 1.2; margin-bottom: 6px; }
+.hero-meta { font-size: 13px; opacity: 0.4; margin-bottom: 36px; }
+
+.kpi-strip { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: #27272a; border: 1px solid #27272a; }
+.kpi { padding: 20px 22px; }
+.kpi-label { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.45; margin-bottom: 8px; }
+.kpi-val { font-size: 28px; font-weight: 700; line-height: 1; }
+.kpi-sub { font-size: 11px; opacity: 0.4; margin-top: 5px; }
+
+/* ── section ── */
+.section { padding: 40px 60px; border-bottom: 1px solid #18181b; }
+.s-label { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; opacity: 0.35; margin-bottom: 6px; }
+.s-title { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+.s-desc  { font-size: 12px; opacity: 0.4; margin-bottom: 24px; line-height: 1.6; }
+
+/* ── grid ── */
+.g2  { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.g31 { display: grid; grid-template-columns: 3fr 1fr; gap: 16px; }
+.g13 { display: grid; grid-template-columns: 1fr 3fr; gap: 16px; }
+
+/* ── chart card ── */
+.ccard { border-radius: 6px; padding: 20px; }
+.ctitle { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; opacity: 0.4; margin-bottom: 14px; }
+
+/* ── insight ── */
+.insight {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* ── footer ── */
+.footer { padding: 24px 60px; font-size: 11px; opacity: 0.3; border-top: 1px solid #27272a; }
+
+/* ════════════════════════════════════
+   OPTION A — Gold on Black
+════════════════════════════════════ */
+#optA .hero { background: #0a0a0a; border-color: #1c1c1e; }
+#optA .hero-eyebrow { color: #f59e0b; }
+#optA .hero-title   { color: #fafafa; }
+#optA .kpi          { background: #0f0f0f; }
+#optA .kpi-val      { color: #fafafa; }
+#optA .kpi-val.acc  { color: #f59e0b; }
+#optA .kpi-val.warn { color: #ef4444; }
+#optA .section      { border-color: #1c1c1e; }
+#optA .ccard        { background: #0f0f0f; border: 1px solid #1c1c1e; }
+#optA .insight      { background: #1a1500; border-left: 3px solid #f59e0b; color: #fbbf24; }
+
+/* ════════════════════════════════════
+   OPTION B — Cyan on Slate
+════════════════════════════════════ */
+#optB { background: #0f172a; }
+#optB .hero { background: #0f172a; border-color: #1e293b; }
+#optB .hero-eyebrow { color: #06b6d4; }
+#optB .hero-title   { color: #f1f5f9; }
+#optB .kpi          { background: #1e293b; }
+#optB .kpi-val      { color: #f1f5f9; }
+#optB .kpi-val.acc  { color: #06b6d4; }
+#optB .kpi-val.warn { color: #f87171; }
+#optB .section      { border-color: #1e293b; background: #0f172a; }
+#optB .ccard        { background: #1e293b; border: 1px solid #334155; }
+#optB .insight      { background: #0c1a2e; border-left: 3px solid #06b6d4; color: #7dd3fc; }
+
+/* ════════════════════════════════════
+   OPTION C — Green on Charcoal
+════════════════════════════════════ */
+#optC { background: #111113; }
+#optC .hero { background: #111113; border-color: #222225; }
+#optC .hero-eyebrow { color: #22c55e; }
+#optC .hero-title   { color: #fafafa; }
+#optC .kpi          { background: #18181b; }
+#optC .kpi-val      { color: #fafafa; }
+#optC .kpi-val.acc  { color: #22c55e; }
+#optC .kpi-val.warn { color: #f87171; }
+#optC .section      { border-color: #222225; background: #111113; }
+#optC .ccard        { background: #18181b; border: 1px solid #27272a; }
+#optC .insight      { background: #0d1f12; border-left: 3px solid #22c55e; color: #86efac; }
+
+/* ── shared plotly container sizing ── */
+.plot { width: 100%; }
+</style>
+</head>
+<body>
+
+<!-- ── nav ── -->
+<div class="nav">
+  <span class="nav-label">Design options</span>
+  <button class="nav-btn active gold" onclick="show('A',this)">A — Gold / Black</button>
+  <button class="nav-btn"             onclick="show('B',this)">B — Cyan / Slate</button>
+  <button class="nav-btn"             onclick="show('C',this)">C — Green / Charcoal</button>
+  <span class="nav-preview-tag">Preview — dummy data</span>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════
+     OPTION A — GOLD ON BLACK
+═══════════════════════════════════════════════════════ -->
+<div id="optA" class="option visible">
+
+  <div class="hero">
+    <div class="hero-eyebrow">IIM Sirmaur &middot; BMS 2025 &middot; Management Research</div>
+    <div class="hero-title">Indian Motorcycle Brand<br>Network Bottleneck Analysis</div>
+    <div class="hero-meta">11 brands &middot; 411 cities &middot; 6 zones &middot; Scraped June 2026 &middot; Source: BikeWale + FADA</div>
+    <div class="kpi-strip">
+      <div class="kpi"><div class="kpi-label">Brands</div><div class="kpi-val">11</div><div class="kpi-sub">Hero to Ather</div></div>
+      <div class="kpi"><div class="kpi-label">Cities</div><div class="kpi-val">411</div><div class="kpi-sub">6 zones</div></div>
+      <div class="kpi"><div class="kpi-label">Avg SC/SW Ratio</div><div class="kpi-val acc">0.84</div><div class="kpi-sub">Below parity</div></div>
+      <div class="kpi"><div class="kpi-label">Revenue Leakage</div><div class="kpi-val warn">Rs. 4,200 Cr</div><div class="kpi-sub">FY2024 est.</div></div>
+      <div class="kpi"><div class="kpi-label">Bottleneck Zones</div><div class="kpi-val warn">3 / 6</div><div class="kpi-sub">NE, Central, East</div></div>
+    </div>
+  </div>
+
+  <!-- s1: zone map -->
+  <div class="section">
+    <div class="s-label">01 &mdash; Geography</div>
+    <div class="s-title">Zone-Level Network Health</div>
+    <div class="s-desc">Average service-to-showroom ratio across all brands per zone. Below 1.0 means more showrooms than service centres.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Avg SC/SW Ratio by Zone</div>
+        <div id="A-zone" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">Brand × Zone Ratio Heatmap</div>
+        <div id="A-heat" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- s2: leakage + scatter -->
+  <div class="section">
+    <div class="s-label">02 &mdash; Revenue Impact</div>
+    <div class="s-title">Revenue Leakage &amp; Sales Correlation</div>
+    <div class="s-desc">Left: estimated lost revenue by brand from service gaps. Right: SC/SW ratio vs regional sales index — upward slope confirms the hypothesis.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Estimated Leakage by Brand (Rs. Crore)</div>
+        <div id="A-leak" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">SC/SW Ratio vs Regional Sales Index</div>
+        <div id="A-scat" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- s3: tier + neglect -->
+  <div class="section">
+    <div class="s-label">03 &mdash; Depth &amp; Priority</div>
+    <div class="s-title">Tier Split &amp; Neglect Scores</div>
+    <div class="s-desc">Left: how ratios degrade from Tier 1 to Tier 3 cities. Right: composite neglect score ranking brand-zone pairs most urgently underserved.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Avg SC/SW Ratio by City Tier</div>
+        <div id="A-tier" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">Top 10 Brand-Zone Neglect Scores</div>
+        <div id="A-neg" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Indian Motorcycle Brand Network Bottleneck Analysis &middot; IIM Sirmaur BMS 2025 &middot; Design Option A</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════
+     OPTION B — CYAN ON SLATE
+═══════════════════════════════════════════════════════ -->
+<div id="optB" class="option">
+
+  <div class="hero" style="background:#0f172a;">
+    <div class="hero-eyebrow">IIM Sirmaur &middot; BMS 2025 &middot; Management Research</div>
+    <div class="hero-title">Indian Motorcycle Brand<br>Network Bottleneck Analysis</div>
+    <div class="hero-meta">11 brands &middot; 411 cities &middot; 6 zones &middot; Scraped June 2026 &middot; Source: BikeWale + FADA</div>
+    <div class="kpi-strip" style="background:#334155;">
+      <div class="kpi"><div class="kpi-label">Brands</div><div class="kpi-val">11</div><div class="kpi-sub">Hero to Ather</div></div>
+      <div class="kpi"><div class="kpi-label">Cities</div><div class="kpi-val">411</div><div class="kpi-sub">6 zones</div></div>
+      <div class="kpi"><div class="kpi-label">Avg SC/SW Ratio</div><div class="kpi-val acc">0.84</div><div class="kpi-sub">Below parity</div></div>
+      <div class="kpi"><div class="kpi-label">Revenue Leakage</div><div class="kpi-val warn">Rs. 4,200 Cr</div><div class="kpi-sub">FY2024 est.</div></div>
+      <div class="kpi"><div class="kpi-label">Bottleneck Zones</div><div class="kpi-val warn">3 / 6</div><div class="kpi-sub">NE, Central, East</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="s-label">01 &mdash; Geography</div>
+    <div class="s-title">Zone-Level Network Health</div>
+    <div class="s-desc">Average service-to-showroom ratio across all brands per zone. Below 1.0 means more showrooms than service centres.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Avg SC/SW Ratio by Zone</div>
+        <div id="B-zone" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">Brand × Zone Ratio Heatmap</div>
+        <div id="B-heat" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="s-label">02 &mdash; Revenue Impact</div>
+    <div class="s-title">Revenue Leakage &amp; Sales Correlation</div>
+    <div class="s-desc">Left: estimated lost revenue by brand from service gaps. Right: SC/SW ratio vs regional sales index.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Estimated Leakage by Brand (Rs. Crore)</div>
+        <div id="B-leak" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">SC/SW Ratio vs Regional Sales Index</div>
+        <div id="B-scat" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="s-label">03 &mdash; Depth &amp; Priority</div>
+    <div class="s-title">Tier Split &amp; Neglect Scores</div>
+    <div class="s-desc">Left: how ratios degrade from Tier 1 to Tier 3 cities. Right: composite neglect score ranking brand-zone pairs most urgently underserved.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Avg SC/SW Ratio by City Tier</div>
+        <div id="B-tier" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">Top 10 Brand-Zone Neglect Scores</div>
+        <div id="B-neg" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Indian Motorcycle Brand Network Bottleneck Analysis &middot; IIM Sirmaur BMS 2025 &middot; Design Option B</div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════
+     OPTION C — GREEN ON CHARCOAL
+═══════════════════════════════════════════════════════ -->
+<div id="optC" class="option">
+
+  <div class="hero" style="background:#111113;">
+    <div class="hero-eyebrow">IIM Sirmaur &middot; BMS 2025 &middot; Management Research</div>
+    <div class="hero-title">Indian Motorcycle Brand<br>Network Bottleneck Analysis</div>
+    <div class="hero-meta">11 brands &middot; 411 cities &middot; 6 zones &middot; Scraped June 2026 &middot; Source: BikeWale + FADA</div>
+    <div class="kpi-strip" style="background:#27272a;">
+      <div class="kpi"><div class="kpi-label">Brands</div><div class="kpi-val">11</div><div class="kpi-sub">Hero to Ather</div></div>
+      <div class="kpi"><div class="kpi-label">Cities</div><div class="kpi-val">411</div><div class="kpi-sub">6 zones</div></div>
+      <div class="kpi"><div class="kpi-label">Avg SC/SW Ratio</div><div class="kpi-val acc">0.84</div><div class="kpi-sub">Below parity</div></div>
+      <div class="kpi"><div class="kpi-label">Revenue Leakage</div><div class="kpi-val warn">Rs. 4,200 Cr</div><div class="kpi-sub">FY2024 est.</div></div>
+      <div class="kpi"><div class="kpi-label">Bottleneck Zones</div><div class="kpi-val warn">3 / 6</div><div class="kpi-sub">NE, Central, East</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="s-label">01 &mdash; Geography</div>
+    <div class="s-title">Zone-Level Network Health</div>
+    <div class="s-desc">Average service-to-showroom ratio across all brands per zone. Below 1.0 means more showrooms than service centres.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Avg SC/SW Ratio by Zone</div>
+        <div id="C-zone" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">Brand × Zone Ratio Heatmap</div>
+        <div id="C-heat" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="s-label">02 &mdash; Revenue Impact</div>
+    <div class="s-title">Revenue Leakage &amp; Sales Correlation</div>
+    <div class="s-desc">Left: estimated lost revenue by brand from service gaps. Right: SC/SW ratio vs regional sales index.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Estimated Leakage by Brand (Rs. Crore)</div>
+        <div id="C-leak" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">SC/SW Ratio vs Regional Sales Index</div>
+        <div id="C-scat" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="s-label">03 &mdash; Depth &amp; Priority</div>
+    <div class="s-title">Tier Split &amp; Neglect Scores</div>
+    <div class="s-desc">Left: how ratios degrade from Tier 1 to Tier 3 cities. Right: composite neglect score ranking brand-zone pairs most urgently underserved.</div>
+    <div class="g2">
+      <div class="ccard">
+        <div class="ctitle">Avg SC/SW Ratio by City Tier</div>
+        <div id="C-tier" class="plot" style="height:300px;"></div>
+      </div>
+      <div class="ccard">
+        <div class="ctitle">Top 10 Brand-Zone Neglect Scores</div>
+        <div id="C-neg" class="plot" style="height:300px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Indian Motorcycle Brand Network Bottleneck Analysis &middot; IIM Sirmaur BMS 2025 &middot; Design Option C</div>
+</div>
+
+
+<script>
+// ── shared data ───────────────────────────────────────────────────────────
+const ZONES  = ["North","South","West","East","Central","Northeast"];
+const BRANDS = ["Hero","Honda","Bajaj","TVS","Royal Enfield","Yamaha","Suzuki","KTM","OLA","Ather","Jawa"];
+
+const zoneRatios = [0.92, 0.88, 0.95, 0.81, 0.68, 0.53];
+
+const heatZ = [
+  [0.95,0.88,0.93,0.79,0.66,0.51],
+  [0.91,0.85,0.97,0.83,0.71,0.58],
+  [1.02,0.90,1.05,0.88,0.75,0.62],
+  [0.89,0.92,0.88,0.77,0.69,0.55],
+  [1.07,0.96,1.25,1.00,0.67,0.50],
+  [0.88,0.83,0.91,0.80,0.70,0.54],
+  [0.94,0.87,0.96,0.82,0.68,0.57],
+  [1.10,0.99,1.08,0.91,0.78,0.63],
+  [0.72,0.68,0.75,0.62,0.54,0.44],
+  [0.80,0.74,0.82,0.70,0.58,0.46],
+  [0.85,0.79,0.88,0.74,0.63,0.49],
+];
+
+const leakBrands  = ["Royal Enfield","Hero","Honda","Bajaj","TVS","Yamaha","KTM","Suzuki","Ather","Jawa","OLA"];
+const leakValues  = [820,710,650,590,540,490,440,380,290,240,180];
+
+const negLabels = [
+  "OLA / Northeast","Ather / Northeast","OLA / Central",
+  "Ather / Central","Jawa / Northeast","OLA / East",
+  "Ather / East","Jawa / Central","TVS / Northeast","Yamaha / Northeast"
+];
+const negScores = [94,91,87,84,81,78,75,72,69,66];
+
+// ── theme configs ─────────────────────────────────────────────────────────
+const themes = {
+  A: {
+    bg:       '#0f0f0f',
+    paper:    '#0f0f0f',
+    font:     '#a1a1aa',
+    grid:     '#1c1c1e',
+    accent:   '#f59e0b',
+    danger:   '#ef4444',
+    ok:       '#22c55e',
+    warn:     '#f59e0b',
+    barOk:    '#22c55e',
+    barWarn:  '#f59e0b',
+    barBad:   '#ef4444',
+    heatHi:   '#f59e0b',
+    scatLine: '#f59e0b',
+    leakBar:  '#ef4444',
+    negBar:   '#f59e0b',
+    tierBars: ['#22c55e','#f59e0b','#ef4444'],
+  },
+  B: {
+    bg:       '#1e293b',
+    paper:    '#1e293b',
+    font:     '#94a3b8',
+    grid:     '#334155',
+    accent:   '#06b6d4',
+    danger:   '#f87171',
+    ok:       '#06b6d4',
+    warn:     '#fbbf24',
+    barOk:    '#06b6d4',
+    barWarn:  '#fbbf24',
+    barBad:   '#f87171',
+    heatHi:   '#06b6d4',
+    scatLine: '#06b6d4',
+    leakBar:  '#f87171',
+    negBar:   '#06b6d4',
+    tierBars: ['#06b6d4','#fbbf24','#f87171'],
+  },
+  C: {
+    bg:       '#18181b',
+    paper:    '#18181b',
+    font:     '#a1a1aa',
+    grid:     '#27272a',
+    accent:   '#22c55e',
+    danger:   '#ef4444',
+    ok:       '#22c55e',
+    warn:     '#fbbf24',
+    barOk:    '#22c55e',
+    barWarn:  '#fbbf24',
+    barBad:   '#ef4444',
+    heatHi:   '#22c55e',
+    scatLine: '#22c55e',
+    leakBar:  '#ef4444',
+    negBar:   '#22c55e',
+    tierBars: ['#22c55e','#fbbf24','#ef4444'],
+  },
+};
+
+// ── base layout helper ────────────────────────────────────────────────────
+function base(t) {
+  return {
+    paper_bgcolor: t.paper,
+    plot_bgcolor:  t.bg,
+    font:          { color: t.font, family: 'Segoe UI, Arial, sans-serif', size: 11 },
+    xaxis: { gridcolor: t.grid, zerolinecolor: t.grid, color: t.font },
+    yaxis: { gridcolor: t.grid, zerolinecolor: t.grid, color: t.font },
+    margin: { l: 10, r: 10, t: 10, b: 10 },
+    showlegend: false,
+  };
+}
+
+const cfg = { responsive: true, displayModeBar: false };
+
+// ── draw all themes ───────────────────────────────────────────────────────
+['A','B','C'].forEach(id => {
+  const t = themes[id];
+
+  // Zone bar
+  Plotly.newPlot(`${id}-zone`, [{
+    type: 'bar', orientation: 'h',
+    x: zoneRatios, y: ZONES,
+    marker: { color: zoneRatios.map(r => r>=1?t.barOk:r>=0.7?t.barWarn:t.barBad) },
+    text: zoneRatios.map(r => r.toFixed(2)),
+    textposition: 'outside',
+    textfont: { color: t.font, size: 11 },
+    cliponaxis: false,
+  }], {
+    ...base(t),
+    xaxis: { ...base(t).xaxis, range: [0, 1.18], title: { text:'SC / SW Ratio', font:{color:t.font,size:10} } },
+    yaxis: { ...base(t).yaxis, automargin: true },
+    margin: { l: 80, r: 50, t: 10, b: 35 },
+    shapes: [{ type:'line', x0:1, x1:1, y0:-0.5, y1:5.5, line:{color:t.font,dash:'dot',width:1} }],
+  }, cfg);
+
+  // Heatmap
+  Plotly.newPlot(`${id}-heat`, [{
+    type: 'heatmap',
+    z: heatZ, x: ZONES, y: BRANDS,
+    text: heatZ.map(row => row.map(v => v.toFixed(2))),
+    texttemplate: '%{text}',
+    textfont: { size: 9, color: '#ffffff' },
+    colorscale: [[0,'#991b1b'],[0.45,'#78350f'],[0.6,'#374151'],[1, t.heatHi]],
+    zmin: 0.4, zmax: 1.3,
+    showscale: false,
+  }], {
+    ...base(t),
+    xaxis: { ...base(t).xaxis, side:'bottom' },
+    yaxis: { ...base(t).yaxis, automargin: true },
+    margin: { l: 100, r: 10, t: 10, b: 40 },
+  }, cfg);
+
+  // Leakage
+  Plotly.newPlot(`${id}-leak`, [{
+    type: 'bar', orientation: 'h',
+    x: leakValues, y: leakBrands,
+    marker: { color: t.leakBar, opacity: 0.85 },
+    text: leakValues.map(v => `${v} Cr`),
+    textposition: 'outside',
+    textfont: { color: t.font, size: 10 },
+    cliponaxis: false,
+  }], {
+    ...base(t),
+    xaxis: { ...base(t).xaxis, range:[0,960], title:{text:'Rs. Crore',font:{color:t.font,size:10}} },
+    yaxis: { ...base(t).yaxis, automargin: true },
+    margin: { l: 110, r: 60, t: 10, b: 35 },
+  }, cfg);
+
+  // Scatter
+  const scX = zoneRatios;
+  const scY = scX.map(x => 35 + x*52 + (Math.random()-0.5)*10);
+  Plotly.newPlot(`${id}-scat`, [
+    {
+      type:'scatter', mode:'markers',
+      x: scX, y: scY,
+      marker: { size:10, color:t.accent, opacity:0.8, line:{color:t.bg,width:1} },
+      text: ZONES, hovertemplate:'%{text}<br>Ratio: %{x:.2f}<br>Sales idx: %{y:.0f}<extra></extra>',
+    },
+    {
+      type:'scatter', mode:'lines',
+      x:[0.45,1.1], y:[0.45*52+35, 1.1*52+35],
+      line:{color:t.scatLine,dash:'dash',width:1.5},
+    },
+  ], {
+    ...base(t),
+    xaxis: { ...base(t).xaxis, title:{text:'SC/SW Ratio',font:{color:t.font,size:10}}, range:[0.35,1.2] },
+    yaxis: { ...base(t).yaxis, title:{text:'Sales Index',font:{color:t.font,size:10}} },
+    margin: { l: 55, r: 20, t: 10, b: 45 },
+    annotations: [{
+      x:1.08, y:1.08*52+35,
+      text:'r = 0.67, p < 0.01',
+      showarrow:false, font:{size:9,color:t.accent},
+      bgcolor: t.bg, bordercolor:t.accent, borderwidth:1,
+      borderpad: 4,
+    }],
+  }, cfg);
+
+  // Tier
+  Plotly.newPlot(`${id}-tier`, [{
+    type:'bar',
+    x:['Tier 1','Tier 2','Tier 3'],
+    y:[1.02, 0.88, 0.71],
+    marker:{ color: t.tierBars },
+    text:['1.02','0.88','0.71'],
+    textposition:'outside',
+    textfont:{ color:t.font, size:11 },
+    cliponaxis: false,
+  }], {
+    ...base(t),
+    xaxis: { ...base(t).xaxis },
+    yaxis: { ...base(t).yaxis, range:[0,1.22], title:{text:'Avg SC/SW',font:{color:t.font,size:10}} },
+    margin: { l:55, r:20, t:10, b:40 },
+    shapes:[{type:'line',x0:-0.5,x1:2.5,y0:1,y1:1,line:{color:t.font,dash:'dot',width:1}}],
+  }, cfg);
+
+  // Neglect
+  Plotly.newPlot(`${id}-neg`, [{
+    type:'bar', orientation:'h',
+    x: negScores, y: negLabels,
+    marker:{ color: negScores.map(s => s>85?t.barBad:s>70?t.barWarn:t.negBar) },
+    text: negScores.map(s=>`${s}/100`),
+    textposition:'outside',
+    textfont:{ color:t.font, size:10 },
+    cliponaxis: false,
+  }], {
+    ...base(t),
+    xaxis: { ...base(t).xaxis, range:[0,115], title:{text:'Neglect Score',font:{color:t.font,size:10}} },
+    yaxis: { ...base(t).yaxis, automargin:true },
+    margin: { l:140, r:65, t:10, b:35 },
+  }, cfg);
+});
+
+// ── tab switcher ──────────────────────────────────────────────────────────
+function show(id, btn) {
+  document.querySelectorAll('.option').forEach(el => el.classList.remove('visible'));
+  document.getElementById('opt'+id).classList.add('visible');
+  document.querySelectorAll('.nav-btn').forEach(b => {
+    b.classList.remove('active','gold','cyan','green');
+  });
+  const colMap = {A:'gold',B:'cyan',C:'green'};
+  btn.classList.add('active', colMap[id]);
+  // Trigger Plotly resize so charts fill their new containers
+  setTimeout(() => window.dispatchEvent(new Event('resize')), 50);
+}
+</script>
+</body>
+</html>

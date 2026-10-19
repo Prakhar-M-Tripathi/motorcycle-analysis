@@ -1,0 +1,44 @@
+[
+  {
+    "zone": "Central",
+    "avg_ratio": 1.019,
+    "service_total": 753,
+    "showroom_total": 739,
+    "city_count": 78
+  },
+  {
+    "zone": "East",
+    "avg_ratio": 0.746,
+    "service_total": 1115,
+    "showroom_total": 1494,
+    "city_count": 143
+  },
+  {
+    "zone": "North",
+    "avg_ratio": 0.867,
+    "service_total": 2908,
+    "showroom_total": 3354,
+    "city_count": 232
+  },
+  {
+    "zone": "Northeast",
+    "avg_ratio": 0.966,
+    "service_total": 226,
+    "showroom_total": 234,
+    "city_count": 66
+  },
+  {
+    "zone": "South",
+    "avg_ratio": 0.755,
+    "service_total": 2525,
+    "showroom_total": 3343,
+    "city_count": 160
+  },
+  {
+    "zone": "West",
+    "avg_ratio": 0.776,
+    "service_total": 1493,
+    "showroom_total": 1924,
+    "city_count": 90
+  }
+]

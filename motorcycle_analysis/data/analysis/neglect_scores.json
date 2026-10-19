@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Hero / East",
+    "brand": "hero",
+    "zone": "East",
+    "score": 73.5,
+    "ratio": 0.332
+  },
+  {
+    "label": "Hero / Central",
+    "brand": "hero",
+    "zone": "Central",
+    "score": 70.9,
+    "ratio": 0.384
+  },
+  {
+    "label": "Hero / South",
+    "brand": "hero",
+    "zone": "South",
+    "score": 65.1,
+    "ratio": 0.349
+  },
+  {
+    "label": "Hero / Northeast",
+    "brand": "hero",
+    "zone": "Northeast",
+    "score": 61.6,
+    "ratio": 0.421
+  },
+  {
+    "label": "Hero / West",
+    "brand": "hero",
+    "zone": "West",
+    "score": 61.2,
+    "ratio": 0.388
+  },
+  {
+    "label": "Hero / North",
+    "brand": "hero",
+    "zone": "North",
+    "score": 58.7,
+    "ratio": 0.413
+  },
+  {
+    "label": "Yamaha / North",
+    "brand": "yamaha",
+    "zone": "North",
+    "score": 58.3,
+    "ratio": 0.417
+  },
+  {
+    "label": "Suzuki / West",
+    "brand": "suzuki",
+    "zone": "West",
+    "score": 49.1,
+    "ratio": 0.509
+  },
+  {
+    "label": "Suzuki / North",
+    "brand": "suzuki",
+    "zone": "North",
+    "score": 47.1,
+    "ratio": 0.529
+  },
+  {
+    "label": "Suzuki / South",
+    "brand": "suzuki",
+    "zone": "South",
+    "score": 45.0,
+    "ratio": 0.55
+  },
+  {
+    "label": "Yamaha / East",
+    "brand": "yamaha",
+    "zone": "East",
+    "score": 33.9,
+    "ratio": 0.692
+  },
+  {
+    "label": "Royal Enfield / Northeast",
+    "brand": "royal-enfield",
+    "zone": "Northeast",
+    "score": 33.6,
+    "ratio": 0.676
+  },
+  {
+    "label": "Jawa / North",
+    "brand": "jawa",
+    "zone": "North",
+    "score": 31.1,
+    "ratio": 0.689
+  },
+  {
+    "label": "Jawa / South",
+    "brand": "jawa",
+    "zone": "South",
+    "score": 29.7,
+    "ratio": 0.703
+  },
+  {
+    "label": "Royal Enfield / South",
+    "brand": "royal-enfield",
+    "zone": "South",
+    "score": 29.6,
+    "ratio": 0.704
+  },
+  {
+    "label": "Royal Enfield / East",
+    "brand": "royal-enfield",
+    "zone": "East",
+    "score": 22.1,
+    "ratio": 0.799
+  },
+  {
+    "label": "Royal Enfield / North",
+    "brand": "royal-enfield",
+    "zone": "North",
+    "score": 19.1,
+    "ratio": 0.809
+  },
+  {
+    "label": "Jawa / West",
+    "brand": "jawa",
+    "zone": "West",
+    "score": 18.0,
+    "ratio": 0.78
+  },
+  {
+    "label": "Jawa / East",
+    "brand": "jawa",
+    "zone": "East",
+    "score": 11.0,
+    "ratio": 0.839
+  },
+  {
+    "label": "Yamaha / South",
+    "brand": "yamaha",
+    "zone": "South",
+    "score": 7.5,
+    "ratio": 0.925
+  }
+]

@@ -1,0 +1,219 @@
+URL: https://www.bikewale.com/service-centers/royal-enfield/
+XHR log entries after click: 17
+
+[NON-JSON] [200] https://stb.aeplcdn.com/bikewale/min/ui/src/manage-adslot-container-bb7a727f5d.js
+[REQ] GET https://script.crazyegg.com/pages/data-scripts/0012/9477/site/www.bikewale.com.json?t=1
+[REQ] GET https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.bikewale.com
+[JSON] https://script.crazyegg.com/pages/data-scripts/0012/9477/site/www.bikewale.com.json?t=1
+  status: 200
+  keys: ['uid', 'dkey', 'updated_at', 'version', 'site_data_url_template', 'site_sampling_url_template', 'status_data_url', 'hud', 'survey_preview_dest', 'survey_launch_origins', 'addon_preview_dest', 'addon_launch_origins', 'ce_app_url', 'flow_preview_url', 'clock_url', 'common_script_url', 'status', 'counters_dest', 'data_url', 'sampling_data_url', 'tracking_script_url', 'trackingpagestate_script_url', 'thirdparty_script_url', 'remote_script_url', 'remote_host_url', 'sites', 'segments', 'global_ip_block_list', 'is_using_ip_blocking', 'transformations_script_url', 'page_views_limit_reached', 'v11_tracking_dest', 'recordings_dest', 'recordings_sampling_dest', 'ratio_v2_dest', 'page_states_tracking_url', 'assets_tracking_url', 'disable_recordings_masking', 'disable_recordings_email_masking', 'disable_recordings_mobile', 'recordings_number', 'recordings_activation', 'asset_collector_ignore', 'features', 'dnt', 'auto_identity', 'addons', 'tracking_key', 'explicit_agent', 'use_secure_cookies', 'public_tracking_api']
+  body: {"uid": 129477, "dkey": "006018a49aaa1cfdfa7aa791f9b3c031", "updated_at": 1780617821, "version": "11.5.523", "site_data_url_template": "https://script.crazyegg.com/pages/data-scripts/0012/9477/site/SITENAME.json", "site_sampling_url_template": "https://script.crazyegg.com/pages/data-scripts/0012/9477/sampling/SITENAME.json", "status_data_url": "https://script.crazyegg.com/pages/data-scripts/0012/9477/status.json", "hud": {"host": "https://hud.crazyegg.com", "script_url": "https://script.crazyegg.com/scripts/hud", "core_api_auth_key": "f97856a12528a8581fc48eaaae255348451154d905ba18acb58a27a9afe4e481", "launch_origins": ["https://core.crazyegg.com", "https://api.crazyegg.com"]}, "survey_preview_dest": "https://api.crazyegg.com/surveys/preview", "survey_launch_origins": ["https://app.crazyegg
+[REQ] GET https://script.crazyegg.com/pages/data-scripts/0012/9477/sampling/www.bikewale.com.json?t=1
+[JSON] https://script.crazyegg.com/pages/data-scripts/0012/9477/sampling/www.bikewale.com.json?t=1
+  status: 200
+  keys: ['version', 'sites_sampling']
+  body: {"version": "11.5.523", "sites_sampling": "%8&4!}%|%]!}$<$6$6$5$8$5$,!}&%%?&$%^!}$<!}%@%|%~%^&0%?&!%^$.%[&&&$!}$,!}&*%^%[&&&*%]%|&%%`%=&*%?&,%|&&!}$<$2$3$8$9$1$5$4$1$1&6%;"}
+[JSON] https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.bikewale.com
+  status: 200
+  keys: list
+  body: [["bikewale.com", null, "www.bikewale.com", null, null, ["1017752", "22100121508", "26001828"]], [[["1017752", null, 2]]], [[["22100121508", null, 1, null, [[1]]], ["26001828", null, 1, null, [[1]]]]], null, null, [["1017752", [["google.com", null, 1]]]], null, [[["1017752", 1], ["21976011065", 1], ["22100121508", 1], ["26001828", 1]]], null, null, null, [1]]
+[REQ] GET https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.bikewale.com%2Fservice-centers%2Froyal-enfield%2F
+[NON-JSON] [200] https://cm.g.doubleclick.net/partnerpixels?url=https%3A%2F%2Fwww.bikewale.com%2Fservice-centers%2Froyal-enfield%2F
+
+=== PAGE TEXT (first 3000 chars) ===
+BikeWale
+Select City
+Home Service Center Locator
+Bike Service Center Locator
+
+Looking for your bike service center near you? BikeWale's service center locator helps you find authorized service center near you for more than 25 motorcycle and scooter brands in India. We have got more than 7000 authorized service center located in 1000+ cities in India. Get contact information, full address and google map direction of the nearest service center around you.
+
+Search service centers
+
+Select a brand
+
+Select an Option
+
+Service center by brands
+Royal Enfield
+ 
+TVS
+ 
+Bajaj
+ 
+Honda
+ 
+Hero
+ 
+Yamaha
+ 
+KTM
+ 
+Suzuki
+ 
+Triumph
+ 
+Jawa
+
+View more brands
+
+Bike Care - Maintenance tips
+Top tips to maximise fuel efficiency of your sports bike
+22 January 2020Pratheek Kunder
+
+Sports bike are usually the coolest looking ones. The full fairing, the aggressive riding stance and the performance – all these aspects make the bike look aspirational, and that’s why most of the young India wants one. But once you have it, maintaining it is a difficult...
+
+Top tips to maximise fuel efficiency of your cruiser bike
+16 January 2020Pratheek Kunder
+
+Cruiser bikes are a bit different from other motorcycles. Cruisers are usually on the heavier side. It comes with a riding position that’s usually laid back. Plus, the seat height are the lowest compared to other genre of motorcycles.
+
+Top tips to maximise fuel efficiency of your scooter
+31 December 2019Pratheek Kunder
+
+Top tips to maximise fuel efficiency of your scooter
+
+Read all bike maintenance tips
+Most popular bikes
+Most Popular
+	
+New launches
+	
+Upcoming
+Royal Enfield Hunter 350
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 1,37,640 onwards
+
+Check on-road price
+Royal Enfield Classic 350
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 1,85,854 onwards
+
+Check on-road price
+Bajaj Pulsar N160
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 1,16,200 onwards
+
+Check on-road price
+TVS iQube
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 1,11,285 onwards
+
+Check on-road price
+Royal Enfield Bullet 350
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 1,64,423 onwards
+
+Check on-road price
+TVS Ronin
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 1,28,690 onwards
+
+Check on-road price
+Yamaha R15 V4
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 1,72,490 onwards
+
+Check on-road price
+TVS Raider 125
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 82,910 onwards
+
+Check on-road price
+Honda SP 125
+
+Specs Unavailable
+
+Ex-showroom, Mumbai
+
+₹ 89,078 onwards
+
+Check on-road price
+View all bikes
+Find used bikes
+Budget
+Upto
+₹ 35,000
+Between
+₹ 35,000 -  ₹ 80,000
+Above
+₹ 80,000
+View all used bikes
+Bike Troubleshooting - FAQs
+
+What to do if you have a puncture?
+
+What to do if your battery is weak and you have no kick start lever?
+
+What to do if your clutch cable breaks?
+
+Read all FAQs
+Home
+
+New Bikes
+
+New Scooters
+
+Electric Bikes
+Bike Loan
+Used Bikes
+
+Sell Bikes
+
+Reviews
+
+News, Videos & Tips
+
+EMI Calculator
+
+Download Mobile App
+
+Join us on
+
+Company
+
+About Us
+Sitemap
+
+Download Mobile App
+
+ask the expe
+[h1] Bike Service Center Locator
+[h2] Search service centers
+[h2] Service center by brands
+[h2] Bike Care - Maintenance tips
+[h2] Most popular bikes
+[h2] Find used bikes
+[h2] Bike Troubleshooting - FAQs

@@ -1,0 +1,486 @@
+{
+  "source": "dealers.heromotocorp.com + partsdistributors.heromotocorp.com (DashLoc sitemap)",
+  "scraped_date": "2026-06-11",
+  "total_sw": 800,
+  "total_sc": 0,
+  "sw_cities": 84,
+  "sc_cities": 0,
+  "showrooms_by_city": {
+    "katihar": 1,
+    "jaipur": 3,
+    "bhilwara": 15,
+    "singrauli": 5,
+    "betul": 7,
+    "karbi-anglong": 8,
+    "basti": 8,
+    "palakkad": 12,
+    "vijayawada": 6,
+    "jaunpur": 14,
+    "namakkal": 7,
+    "saran": 18,
+    "aligarh": 6,
+    "patiala": 9,
+    "anantapur": 10,
+    "varanasi": 7,
+    "fatehgarh-sahib": 14,
+    "howrah": 6,
+    "ganjam": 18,
+    "rajgarh": 10,
+    "samastipur": 6,
+    "bharatpur": 19,
+    "ariyalur": 9,
+    "keshkal": 10,
+    "jhunjhunu": 14,
+    "supaul": 12,
+    "bhubaneswar": 7,
+    "kollam": 6,
+    "madurai": 11,
+    "anugul": 13,
+    "nabha": 13,
+    "murshidabad": 13,
+    "bina": 8,
+    "khargone": 10,
+    "surajpur": 18,
+    "moradabad": 4,
+    "khorda": 5,
+    "himmatnagar": 3,
+    "tirunelveli": 12,
+    "neyveli": 8,
+    "imphal": 12,
+    "sangrur": 7,
+    "darbhanga": 14,
+    "ratlam": 16,
+    "hoshiarpur": 13,
+    "jalgaon": 7,
+    "hyderabad": 12,
+    "kangra": 12,
+    "madhubani": 10,
+    "munger": 9,
+    "arwal": 5,
+    "indore": 9,
+    "medak": 10,
+    "east-champaran": 21,
+    "giridih": 11,
+    "kanpur": 9,
+    "coimbatore": 8,
+    "bijnor": 9,
+    "churu": 7,
+    "bengaluru": 14,
+    "navi-mumbai": 10,
+    "yavatmal": 6,
+    "azamgarh": 12,
+    "siwan": 6,
+    "muzaffarpur": 13,
+    "bundi": 7,
+    "hosapete": 7,
+    "surguja": 8,
+    "malda": 6,
+    "purnia": 6,
+    "rohtas": 7,
+    "kolkata": 7,
+    "rahata": 5,
+    "ambikapur": 11,
+    "kishanganj": 7,
+    "udaipur": 12,
+    "deoghar": 7,
+    "rajauri": 12,
+    "belgaum": 10,
+    "bargarh": 9,
+    "gorakhpur": 8,
+    "kolhapur": 10,
+    "biswanath": 13,
+    "balaghat": 1
+  },
+  "service_by_city": {},
+  "by_city": {
+    "aligarh": {
+      "sw": 6,
+      "sc": 0
+    },
+    "ambikapur": {
+      "sw": 11,
+      "sc": 0
+    },
+    "anantapur": {
+      "sw": 10,
+      "sc": 0
+    },
+    "anugul": {
+      "sw": 13,
+      "sc": 0
+    },
+    "ariyalur": {
+      "sw": 9,
+      "sc": 0
+    },
+    "arwal": {
+      "sw": 5,
+      "sc": 0
+    },
+    "azamgarh": {
+      "sw": 12,
+      "sc": 0
+    },
+    "balaghat": {
+      "sw": 1,
+      "sc": 0
+    },
+    "bargarh": {
+      "sw": 9,
+      "sc": 0
+    },
+    "basti": {
+      "sw": 8,
+      "sc": 0
+    },
+    "belgaum": {
+      "sw": 10,
+      "sc": 0
+    },
+    "bengaluru": {
+      "sw": 14,
+      "sc": 0
+    },
+    "betul": {
+      "sw": 7,
+      "sc": 0
+    },
+    "bharatpur": {
+      "sw": 19,
+      "sc": 0
+    },
+    "bhilwara": {
+      "sw": 15,
+      "sc": 0
+    },
+    "bhubaneswar": {
+      "sw": 7,
+      "sc": 0
+    },
+    "bijnor": {
+      "sw": 9,
+      "sc": 0
+    },
+    "bina": {
+      "sw": 8,
+      "sc": 0
+    },
+    "biswanath": {
+      "sw": 13,
+      "sc": 0
+    },
+    "bundi": {
+      "sw": 7,
+      "sc": 0
+    },
+    "churu": {
+      "sw": 7,
+      "sc": 0
+    },
+    "coimbatore": {
+      "sw": 8,
+      "sc": 0
+    },
+    "darbhanga": {
+      "sw": 14,
+      "sc": 0
+    },
+    "deoghar": {
+      "sw": 7,
+      "sc": 0
+    },
+    "east-champaran": {
+      "sw": 21,
+      "sc": 0
+    },
+    "fatehgarh-sahib": {
+      "sw": 14,
+      "sc": 0
+    },
+    "ganjam": {
+      "sw": 18,
+      "sc": 0
+    },
+    "giridih": {
+      "sw": 11,
+      "sc": 0
+    },
+    "gorakhpur": {
+      "sw": 8,
+      "sc": 0
+    },
+    "himmatnagar": {
+      "sw": 3,
+      "sc": 0
+    },
+    "hosapete": {
+      "sw": 7,
+      "sc": 0
+    },
+    "hoshiarpur": {
+      "sw": 13,
+      "sc": 0
+    },
+    "howrah": {
+      "sw": 6,
+      "sc": 0
+    },
+    "hyderabad": {
+      "sw": 12,
+      "sc": 0
+    },
+    "imphal": {
+      "sw": 12,
+      "sc": 0
+    },
+    "indore": {
+      "sw": 9,
+      "sc": 0
+    },
+    "jaipur": {
+      "sw": 3,
+      "sc": 0
+    },
+    "jalgaon": {
+      "sw": 7,
+      "sc": 0
+    },
+    "jaunpur": {
+      "sw": 14,
+      "sc": 0
+    },
+    "jhunjhunu": {
+      "sw": 14,
+      "sc": 0
+    },
+    "kangra": {
+      "sw": 12,
+      "sc": 0
+    },
+    "kanpur": {
+      "sw": 9,
+      "sc": 0
+    },
+    "karbi-anglong": {
+      "sw": 8,
+      "sc": 0
+    },
+    "katihar": {
+      "sw": 1,
+      "sc": 0
+    },
+    "keshkal": {
+      "sw": 10,
+      "sc": 0
+    },
+    "khargone": {
+      "sw": 10,
+      "sc": 0
+    },
+    "khorda": {
+      "sw": 5,
+      "sc": 0
+    },
+    "kishanganj": {
+      "sw": 7,
+      "sc": 0
+    },
+    "kolhapur": {
+      "sw": 10,
+      "sc": 0
+    },
+    "kolkata": {
+      "sw": 7,
+      "sc": 0
+    },
+    "kollam": {
+      "sw": 6,
+      "sc": 0
+    },
+    "madhubani": {
+      "sw": 10,
+      "sc": 0
+    },
+    "madurai": {
+      "sw": 11,
+      "sc": 0
+    },
+    "malda": {
+      "sw": 6,
+      "sc": 0
+    },
+    "medak": {
+      "sw": 10,
+      "sc": 0
+    },
+    "moradabad": {
+      "sw": 4,
+      "sc": 0
+    },
+    "munger": {
+      "sw": 9,
+      "sc": 0
+    },
+    "murshidabad": {
+      "sw": 13,
+      "sc": 0
+    },
+    "muzaffarpur": {
+      "sw": 13,
+      "sc": 0
+    },
+    "nabha": {
+      "sw": 13,
+      "sc": 0
+    },
+    "namakkal": {
+      "sw": 7,
+      "sc": 0
+    },
+    "navi-mumbai": {
+      "sw": 10,
+      "sc": 0
+    },
+    "neyveli": {
+      "sw": 8,
+      "sc": 0
+    },
+    "palakkad": {
+      "sw": 12,
+      "sc": 0
+    },
+    "patiala": {
+      "sw": 9,
+      "sc": 0
+    },
+    "purnia": {
+      "sw": 6,
+      "sc": 0
+    },
+    "rahata": {
+      "sw": 5,
+      "sc": 0
+    },
+    "rajauri": {
+      "sw": 12,
+      "sc": 0
+    },
+    "rajgarh": {
+      "sw": 10,
+      "sc": 0
+    },
+    "ratlam": {
+      "sw": 16,
+      "sc": 0
+    },
+    "rohtas": {
+      "sw": 7,
+      "sc": 0
+    },
+    "samastipur": {
+      "sw": 6,
+      "sc": 0
+    },
+    "sangrur": {
+      "sw": 7,
+      "sc": 0
+    },
+    "saran": {
+      "sw": 18,
+      "sc": 0
+    },
+    "singrauli": {
+      "sw": 5,
+      "sc": 0
+    },
+    "siwan": {
+      "sw": 6,
+      "sc": 0
+    },
+    "supaul": {
+      "sw": 12,
+      "sc": 0
+    },
+    "surajpur": {
+      "sw": 18,
+      "sc": 0
+    },
+    "surguja": {
+      "sw": 8,
+      "sc": 0
+    },
+    "tirunelveli": {
+      "sw": 12,
+      "sc": 0
+    },
+    "udaipur": {
+      "sw": 12,
+      "sc": 0
+    },
+    "varanasi": {
+      "sw": 7,
+      "sc": 0
+    },
+    "vijayawada": {
+      "sw": 6,
+      "sc": 0
+    },
+    "yavatmal": {
+      "sw": 6,
+      "sc": 0
+    }
+  },
+  "sw_dealer_urls": [
+    "https://dealers.heromotocorp.com/locator/katihar/major-ashutosh-road/ashish-motors-hero-motocorp-in-major-ashutosh-road-katihar--KOZBaB/home",
+    "https://dealers.heromotocorp.com/locator/jaipur/sarna-doongar/poonia-motors-hero-motocorp-in-sarna-doongar-jaipur--344zVn/home",
+    "https://dealers.heromotocorp.com/locator/jaipur/sarna-doongar/poonia-motors-hero-motocorp-in-sarna-doongar-jaipur--344zVn/home",
+    "https://dealers.heromotocorp.com/locator/jaipur/sarna-doongar/poonia-motors-hero-motocorp-in-sarna-doongar-jaipur--344zVn/home",
+    "https://dealers.heromotocorp.com/locator/bhilwara/karoi/ms-bahediya-motors-hero-motocorp-in-karoi-bhilwara--4wfwMD/home",
+    "https://dealers.heromotocorp.com/locator/bhilwara/karoi/ms-bahediya-motors-hero-motocorp-in-karoi-bhilwara--4wfwMD/home",
+    "https://dealers.heromotocorp.com/locator/bhilwara/karoi/ms-bahediya-motors-hero-motocorp-in-karoi-bhilwara--4wfwMD/home",
+    "https://dealers.heromotocorp.com/locator/bhilwara/karoi/ms-bahediya-motors-hero-motocorp-in-karoi-bhilwara--4wfwMD/home",
+    "https://dealers.heromotocorp.com/locator/bhilwara/karoi/ms-bahediya-motors-hero-motocorp-in-karoi-bhilwara--4wfwMD/home",
+    "https://dealers.heromotocorp.com/locator/singrauli/sarai/yash-motors-hero-motocorp-in-sarai-singrauli--osteKg/home",
+    "https://dealers.heromotocorp.com/locator/singrauli/sarai/yash-motors-hero-motocorp-in-sarai-singrauli--osteKg/home",
+    "https://dealers.heromotocorp.com/locator/singrauli/sarai/yash-motors-hero-motocorp-in-sarai-singrauli--osteKg/home",
+    "https://dealers.heromotocorp.com/locator/singrauli/sarai/yash-motors-hero-motocorp-in-sarai-singrauli--osteKg/home",
+    "https://dealers.heromotocorp.com/locator/singrauli/sarai/yash-motors-hero-motocorp-in-sarai-singrauli--osteKg/home",
+    "https://dealers.heromotocorp.com/locator/betul/bagdona/aryans-enterprises-hero-motocorp-in-bagdona-betul--4zACr6/home",
+    "https://dealers.heromotocorp.com/locator/betul/bagdona/aryans-enterprises-hero-motocorp-in-bagdona-betul--4zACr6/home",
+    "https://dealers.heromotocorp.com/locator/betul/bagdona/aryans-enterprises-hero-motocorp-in-bagdona-betul--4zACr6/home",
+    "https://dealers.heromotocorp.com/locator/betul/bagdona/aryans-enterprises-hero-motocorp-in-bagdona-betul--4zACr6/home",
+    "https://dealers.heromotocorp.com/locator/betul/bagdona/aryans-enterprises-hero-motocorp-in-bagdona-betul--4zACr6/home",
+    "https://dealers.heromotocorp.com/locator/betul/bagdona/aryans-enterprises-hero-motocorp-in-bagdona-betul--4zACr6/home",
+    "https://dealers.heromotocorp.com/locator/betul/bagdona/aryans-enterprises-hero-motocorp-in-bagdona-betul--4zACr6/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/karbi-anglong/karbi-anglong/ms-karbi-automobiles-hero-motocorp-in-karbi-anglong-karbi-anglong--3QjlJ1/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/basti/station-road/sushil-automobiles-hero-motocorp-in-station-road-basti--4ieyHc/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/palakkad/chandranagar/premia-palakkad-ms-gayathry-motors-hero-motocorp-in-chandranagar-palakkad--6ONCjF/home",
+    "https://dealers.heromotocorp.com/locator/vijayawada/ntr-colony/rm-motors-pvt-ltd-hero-motocorp-in-ntr-colony-vijayawada--4PTFsq/home"
+  ],
+  "sc_dealer_urls": []
+}

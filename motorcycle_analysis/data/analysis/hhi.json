@@ -1,0 +1,81 @@
+{
+  "rankings": [
+    {
+      "brand": "yamaha",
+      "hhi_sc": 59.7,
+      "hhi_sw": 606.0,
+      "label_sc": "Dispersed",
+      "label_sw": "Dispersed",
+      "city_count": 457
+    },
+    {
+      "brand": "suzuki",
+      "hhi_sc": 122.7,
+      "hhi_sw": 395.4,
+      "label_sc": "Dispersed",
+      "label_sw": "Dispersed",
+      "city_count": 141
+    },
+    {
+      "brand": "jawa",
+      "hhi_sc": 89.6,
+      "hhi_sw": 190.7,
+      "label_sc": "Dispersed",
+      "label_sw": "Dispersed",
+      "city_count": 154
+    },
+    {
+      "brand": "honda",
+      "hhi_sc": 46.4,
+      "hhi_sw": 116.8,
+      "label_sc": "Dispersed",
+      "label_sw": "Dispersed",
+      "city_count": 500
+    },
+    {
+      "brand": "bajaj",
+      "hhi_sc": 31.3,
+      "hhi_sw": 105.8,
+      "label_sc": "Dispersed",
+      "label_sw": "Dispersed",
+      "city_count": 508
+    },
+    {
+      "brand": "ather",
+      "hhi_sc": null,
+      "hhi_sw": 101.9,
+      "label_sc": "N/A (no SC data)",
+      "label_sw": "Dispersed",
+      "city_count": 410
+    },
+    {
+      "brand": "hero",
+      "hhi_sc": 55.2,
+      "hhi_sw": 75.5,
+      "label_sc": "Dispersed",
+      "label_sw": "Dispersed",
+      "city_count": 412
+    },
+    {
+      "brand": "ola-electric",
+      "hhi_sc": null,
+      "hhi_sw": 51.8,
+      "label_sc": "N/A (no SC data)",
+      "label_sw": "Dispersed",
+      "city_count": 410
+    },
+    {
+      "brand": "royal-enfield",
+      "hhi_sc": 69.9,
+      "hhi_sw": 50.9,
+      "label_sc": "Dispersed",
+      "label_sw": "Dispersed",
+      "city_count": 459
+    }
+  ],
+  "scale": {
+    "dispersed": 1500,
+    "moderate": 2500
+  },
+  "methodology": "HHI = sum((city_share)^2) x 10000. City share = city count / brand total."
+}

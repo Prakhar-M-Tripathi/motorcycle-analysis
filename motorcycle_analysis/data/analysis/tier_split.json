@@ -1,0 +1,23 @@
+[
+  {
+    "tier": "Tier 1",
+    "avg_ratio": 0.483,
+    "service_count": 1854,
+    "showroom_count": 3842,
+    "city_count": 28
+  },
+  {
+    "tier": "Tier 2",
+    "avg_ratio": 0.923,
+    "service_count": 5495,
+    "showroom_count": 5956,
+    "city_count": 288
+  },
+  {
+    "tier": "Tier 3",
+    "avg_ratio": 1.295,
+    "service_count": 1671,
+    "showroom_count": 1290,
+    "city_count": 453
+  }
+]

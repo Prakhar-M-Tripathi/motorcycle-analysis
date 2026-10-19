@@ -1,0 +1,160 @@
+{
+  "ratio_threshold": 1.0,
+  "size_threshold": 2631.0,
+  "national": [
+    {
+      "brand": "bajaj",
+      "sc": 2654,
+      "sw": 830,
+      "ratio": 3.1976,
+      "size": 3484,
+      "quadrant": "Q1 \u2014 Leader",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "honda",
+      "sc": 2586,
+      "sw": 1875,
+      "ratio": 1.3792,
+      "size": 4461,
+      "quadrant": "Q1 \u2014 Leader",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "royal-enfield",
+      "sc": 1093,
+      "sw": 1372,
+      "ratio": 0.7966,
+      "size": 2465,
+      "quadrant": "Q4 \u2014 Struggling",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "jawa",
+      "sc": 179,
+      "sw": 238,
+      "ratio": 0.7521,
+      "size": 417,
+      "quadrant": "Q4 \u2014 Struggling",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "yamaha",
+      "sc": 1559,
+      "sw": 2125,
+      "ratio": 0.7336,
+      "size": 3684,
+      "quadrant": "Q2 \u2014 Overextended",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "suzuki",
+      "sc": 228,
+      "sw": 375,
+      "ratio": 0.608,
+      "size": 603,
+      "quadrant": "Q4 \u2014 Struggling",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "hero",
+      "sc": 721,
+      "sw": 1910,
+      "ratio": 0.3775,
+      "size": 2631,
+      "quadrant": "Q2 \u2014 Overextended",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "ola-electric",
+      "sc": 0,
+      "sw": 1877,
+      "ratio": 0.0,
+      "size": 1877,
+      "quadrant": "Q4 \u2014 Struggling",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    },
+    {
+      "brand": "ather",
+      "sc": 0,
+      "sw": 486,
+      "ratio": 0.0,
+      "size": 486,
+      "quadrant": "Q4 \u2014 Struggling",
+      "ratio_thresh": 1.0,
+      "size_thresh": 2631.0
+    }
+  ],
+  "zone_map": {
+    "hero": {
+      "North": "Q4 \u2014 Struggling",
+      "South": "Q4 \u2014 Struggling",
+      "West": "Q4 \u2014 Struggling",
+      "Central": "Q4 \u2014 Struggling",
+      "East": "Q4 \u2014 Struggling",
+      "Northeast": "Q4 \u2014 Struggling"
+    },
+    "honda": {
+      "North": "Q3 \u2014 Niche Strong",
+      "South": "Q3 \u2014 Niche Strong",
+      "West": "Q3 \u2014 Niche Strong",
+      "Central": "Q3 \u2014 Niche Strong",
+      "East": "Q3 \u2014 Niche Strong",
+      "Northeast": "Q3 \u2014 Niche Strong"
+    },
+    "bajaj": {
+      "North": "Q3 \u2014 Niche Strong",
+      "South": "Q3 \u2014 Niche Strong",
+      "West": "Q3 \u2014 Niche Strong",
+      "Central": "Q3 \u2014 Niche Strong",
+      "East": "Q3 \u2014 Niche Strong",
+      "Northeast": "Q3 \u2014 Niche Strong"
+    },
+    "royal-enfield": {
+      "North": "Q4 \u2014 Struggling",
+      "South": "Q4 \u2014 Struggling",
+      "West": "Q4 \u2014 Struggling",
+      "Central": "Q4 \u2014 Struggling",
+      "East": "Q4 \u2014 Struggling",
+      "Northeast": "Q4 \u2014 Struggling"
+    },
+    "yamaha": {
+      "North": "Q4 \u2014 Struggling",
+      "South": "Q4 \u2014 Struggling",
+      "West": "Q3 \u2014 Niche Strong",
+      "Central": "Q3 \u2014 Niche Strong",
+      "East": "Q4 \u2014 Struggling",
+      "Northeast": "Q3 \u2014 Niche Strong"
+    },
+    "suzuki": {
+      "North": "Q4 \u2014 Struggling",
+      "South": "Q4 \u2014 Struggling",
+      "West": "Q4 \u2014 Struggling",
+      "Central": "Q3 \u2014 Niche Strong",
+      "East": "Q3 \u2014 Niche Strong",
+      "Northeast": "No data"
+    },
+    "jawa": {
+      "North": "Q4 \u2014 Struggling",
+      "South": "Q4 \u2014 Struggling",
+      "West": "Q4 \u2014 Struggling",
+      "Central": "Q3 \u2014 Niche Strong",
+      "East": "Q4 \u2014 Struggling",
+      "Northeast": "Q3 \u2014 Niche Strong"
+    }
+  },
+  "quadrant_defs": {
+    "Q1": "Leader \u2014 balanced network at scale",
+    "Q2": "Overextended \u2014 more showrooms than can be serviced",
+    "Q3": "Niche Strong \u2014 balanced but small footprint",
+    "Q4": "Struggling \u2014 service-deficient and low scale"
+  }
+}
